@@ -1,203 +1,58 @@
-# Sistema de Gestión de Horarios UNSAAC
+# UNSAAC Horarios
 
-## Descripción del Proyecto
+Sistema web para la gestión de horarios académicos de la Universidad Nacional de San Antonio Abad del Cusco (UNSAAC).
 
-Sistema web para la gestión y generación de horarios académicos de la Universidad Nacional de San Antonio Abad del Cusco (UNSAAC). Permite a docentes y estudiantes consultar, generar y gestionar horarios de cursos con detección automática de cruces horarios.
+## Características
 
-## 🎯 Objetivos
+- Consulta de horarios por facultad y escuela
+- Generación de horarios personalizados
+- Detección automática de cruces horarios
+- Exportación a PDF
+- Interfaz responsive
 
-- **Extracción automatizada** de datos de horarios mediante web scraping
-- **Gestión centralizada** de horarios en base de datos
-- **Interfaz intuitiva** para selección de cursos
-- **Generación automática** de horarios personalizados
-- **Detección de conflictos** y cruces horarios
-- **Visualización clara** de horarios semanales
+## Instalación
 
-## 🚀 Cómo Empezar - Plan de Web Scraping
-
-### 📋 Análisis Previo y Reconocimiento
-
-Antes de implementar cualquier código, necesitamos realizar un análisis exhaustivo de las fuentes de datos de UNSAAC:
-
-#### 1. **Identificación de Fuentes de Datos**
-- **Portal Académico Principal**: `https://www.unsaac.edu.pe/`
-- **Sistema de Matrícula**: Identificar URLs específicas de cada facultad
-- **Páginas de Facultades**: Analizar estructura de cada escuela profesional
-- **Sistemas Internos**: Verificar si existen APIs públicas o endpoints accesibles
-
-#### 2. **Reconocimiento de Estructura Web**
-```
-Tareas de Análisis:
-├── Inspección manual de páginas objetivo
-├── Identificación de patrones HTML/CSS
-├── Análisis de JavaScript dinámico
-├── Detección de sistemas de autenticación
-├── Mapeo de rutas y endpoints
-└── Identificación de limitaciones (CAPTCHA, rate limits)
+1. Clona el repositorio:
+```bash
+git clone https://github.com/milith0kun/Unsaac-Horarios.git
+cd Unsaac-Horarios
 ```
 
-#### 3. **Estrategia de Extracción por Fases**
-
-**Fase 1: Reconocimiento Pasivo (1-2 días)**
-- Navegación manual de portales UNSAAC
-- Documentación de estructura de páginas
-- Identificación de tablas de horarios
-- Análisis de formularios de búsqueda
-- Mapeo de URLs por facultad/escuela
-
-**Fase 2: Análisis Técnico (2-3 días)**
-- Inspección de código fuente HTML
-- Identificación de selectores CSS/XPath
-- Análisis de requests de red (DevTools)
-- Detección de contenido dinámico (AJAX)
-- Evaluación de medidas anti-scraping
-
-**Fase 3: Prototipo de Extracción (3-4 días)**
-- Desarrollo de scraper básico para una facultad
-- Pruebas de extracción de datos
-- Validación de información obtenida
-- Optimización de selectores
-- Implementación de manejo de errores
-
-### 🎯 Metodología de Scraping
-
-#### **Enfoque Gradual y Respetuoso**
-
-1. **Análisis de robots.txt**
-   - Verificar políticas de scraping permitidas
-   - Respetar directivas de exclusión
-   - Identificar crawl-delay recomendado
-
-2. **Estrategia de Rate Limiting**
-   ```
-   Configuración Propuesta:
-   ├── Delay entre requests: 2-5 segundos
-   ├── Requests por minuto: máximo 10-15
-   ├── Horarios de scraping: 2:00 AM - 5:00 AM
-   ├── Rotación de User-Agents
-   └── Implementación de backoff exponencial
-   ```
-
-3. **Manejo de Contenido Dinámico**
-   - Uso de Puppeteer para JavaScript rendering
-   - Espera de elementos específicos
-   - Manejo de lazy loading
-   - Captura de requests AJAX
-
-#### **Estructura de Datos Objetivo**
-
-```javascript
-// Estructura esperada por curso
-{
-  codigo: "CS101",
-  nombre: "Introducción a la Programación",
-  creditos: 4,
-  facultad: "Ingeniería",
-  escuela: "Ingeniería Informática",
-  docente: "Dr. Juan Pérez",
-  horarios: [
-    {
-      dia: "Lunes",
-      horaInicio: "08:00",
-      horaFin: "10:00",
-      aula: "Lab-101",
-      tipo: "Teoría",
-      grupo: "A"
-    }
-  ],
-  semestre: "2024-I",
-  requisitos: ["MAT101"],
-  cupos: {
-    total: 30,
-    ocupados: 25,
-    disponibles: 5
-  }
-}
+2. Instala las dependencias:
+```bash
+npm install
 ```
 
-### 🛠️ Herramientas y Tecnologías
-
-#### **Stack de Scraping**
-- **Puppeteer**: Navegación automatizada y rendering de JavaScript
-- **Cheerio**: Parsing eficiente de HTML estático
-- **Axios**: Requests HTTP optimizados
-- **Playwright**: Alternativa robusta para sitios complejos
-- **Proxy-chain**: Rotación de IPs si es necesario
-
-#### **Almacenamiento y Procesamiento**
-- **PostgreSQL**: Base de datos principal para horarios
-- **Redis**: Cache temporal y queue de jobs
-- **Bull Queue**: Gestión de trabajos de scraping
-- **Winston**: Logging detallado de operaciones
-
-#### **Monitoreo y Alertas**
-- **Prometheus + Grafana**: Métricas de scraping
-- **Sentry**: Tracking de errores
-- **Nodemailer**: Notificaciones por email
-- **Slack/Discord Webhooks**: Alertas en tiempo real
-
-### 📊 Plan de Validación
-
-#### **Verificación de Datos**
-1. **Validación Cruzada**
-   - Comparación con fuentes oficiales
-   - Verificación manual de muestras aleatorias
-   - Detección de inconsistencias
-
-2. **Métricas de Calidad**
-   ```
-   KPIs de Scraping:
-   ├── Tasa de éxito de extracción: >95%
-   ├── Tiempo promedio por página: <10s
-   ├── Datos únicos extraídos por día: >1000
-   ├── Errores por cada 100 requests: <2
-   └── Cobertura de facultades: 100%
-   ```
-
-3. **Detección de Cambios**
-   - Monitoreo de estructura de páginas
-   - Alertas por cambios en selectores
-   - Versionado de configuraciones de scraping
-
-### 🔄 Cronograma de Implementación
-
-```
-Semana 1: Análisis y Reconocimiento
-├── Días 1-2: Exploración manual de portales
-├── Días 3-4: Análisis técnico detallado
-├── Días 5-7: Documentación de hallazgos
-
-Semana 2: Desarrollo del Scraper
-├── Días 1-3: Implementación de scraper básico
-├── Días 4-5: Pruebas y refinamiento
-├── Días 6-7: Integración con base de datos
-
-Semana 3: Optimización y Escalabilidad
-├── Días 1-3: Implementación de rate limiting
-├── Días 4-5: Sistema de monitoreo
-├── Días 6-7: Pruebas de carga y estabilidad
+3. Configura las variables de entorno:
+```bash
+cp .env.example .env
+# Edita .env con tus credenciales de base de datos
 ```
 
-### ⚠️ Consideraciones Éticas y Legales
+4. Inicia el servidor de desarrollo:
+```bash
+npm run dev
+```
 
-- **Respeto a términos de servicio** de UNSAAC
-- **Minimización de carga** en servidores universitarios
-- **Uso responsable** de datos extraídos
-- **Cumplimiento de GDPR/LOPD** para datos personales
-- **Transparencia** con la institución sobre el proyecto
+5. Inicia el servidor backend:
+```bash
+npm run server
+```
 
-### 🎯 Próximos Pasos
+## Tecnologías
 
-1. **Realizar reconocimiento manual** de portales UNSAAC
-2. **Documentar estructura** de páginas objetivo
-3. **Identificar patrones** de datos de horarios
-4. **Evaluar complejidad técnica** de cada fuente
-5. **Definir prioridades** de implementación por facultad
+- **Frontend**: React, Vite, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Base de datos**: PostgreSQL (Supabase)
+- **Scraping**: Puppeteer, Cheerio
 
-## 🏗️ Arquitectura del Sistema
+## Despliegue
 
-### Frontend
-- **React 18+** - Interfaz de usuario moderna y reactiva
+El proyecto está configurado para desplegarse en Vercel. Asegúrate de configurar las variables de entorno `DATABASE_URL` y `DIRECT_URL` en el panel de Vercel.
+
+## Licencia
+
+MIT
 - **TypeScript** - Tipado estático para mayor robustez
 - **Tailwind CSS** - Diseño responsive y moderno
 - **React Router** - Navegación SPA
