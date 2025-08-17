@@ -33,7 +33,7 @@ export const generarArchivoICS = (cursos) => {
     'DO': 'SU'
   };
 
-  cursos.forEach((curso, index) => {
+  cursos.forEach((curso) => {
     if (curso.horarios && curso.horarios.length > 0) {
       curso.horarios.forEach((horario, horarioIndex) => {
         const uid = `curso-${curso.id}-${horarioIndex}-${timestamp}@unsaac.edu.pe`;

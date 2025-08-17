@@ -1,9 +1,9 @@
 {
+  "env": {
+    "SUPABASE_URL": "https://yfqlaqegbuidjcdbqkwe.supabase.co",
+    "SUPABASE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlmcWxhcWVnYnVpZGpjZGJxa3dlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU0MDAzNTEsImV4cCI6MjA3MDk3NjM1MX0.O6YK1N1bbog2iYvgYQuGKTodViZaWfa78DhLNs214cA"
+  },
   "rewrites": [
-    {
-      "source": "/api/datos-iniciales",
-      "destination": "/api/datos-iniciales.js"
-    },
     {
       "source": "/api/(.*)",
       "destination": "/api/index.js"

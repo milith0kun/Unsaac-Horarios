@@ -4,7 +4,7 @@ import HorarioApp from './components/HorarioApp'
 import FacultySchoolSelector from './components/FacultySchoolSelector'
 import CourseSelector from './components/CourseSelector'
 import { useApiData } from './hooks/useApiData'
-import { useHorarios } from './hooks/usePrismaData'
+import { useHorarios } from './hooks/useSupabaseData'
 
 const App = React.memo(() => {
   // API data management

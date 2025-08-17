@@ -1,41 +1,47 @@
 import { useState, useEffect, useCallback } from 'react';
-import { ApiService } from '../services/prismaService';
+import { ApiService } from '../services/supabaseService';
 
 /**
- * Hook personalizado para manejar datos de la base de datos usando Prisma
+ * Hook personalizado para manejar datos de la base de datos usando Supabase
  */
-export function usePrismaData() {
+export function useSupabaseData() {
   const [facultades, setFacultades] = useState([]);
   const [escuelas, setEscuelas] = useState([]);
   const [cursos, setCursos] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  // Cargar facultades al inicializar
+  // Cargar facultades al inicializar (sin dependencia para evitar loops)
   useEffect(() => {
     cargarFacultades();
-  }, []);
+  }, [cargarFacultades]);
 
   const cargarFacultades = useCallback(async () => {
+    // Evitar cargas duplicadas
+    if (loading) return;
+    
     try {
       setLoading(true);
       setError(null);
       const facultades = await ApiService.obtenerFacultades();
-       setFacultades(facultades);
+      setFacultades(facultades);
     } catch (err) {
       setError('Error cargando facultades: ' + err.message);
       console.error('Error cargando facultades:', err);
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [loading]);
 
   const cargarEscuelasPorFacultad = useCallback(async (facultadId) => {
+    // Evitar cargas duplicadas
+    if (loading) return;
+    
     try {
       setLoading(true);
       setError(null);
-      const escuelas = await ApiService.obtenerEscuelasPorFacultad(facultadId);
-       setEscuelas(escuelas);
+      const escuelas = await ApiService.obtenerEscuelas(facultadId);
+      setEscuelas(escuelas);
       setCursos([]); // Limpiar cursos cuando cambia la facultad
     } catch (err) {
       setError('Error cargando escuelas: ' + err.message);
@@ -43,21 +49,24 @@ export function usePrismaData() {
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [loading]);
 
   const cargarCursosPorEscuela = useCallback(async (escuelaId) => {
+    // Evitar cargas duplicadas
+    if (loading) return;
+    
     try {
       setLoading(true);
       setError(null);
-      const cursos = await ApiService.obtenerCursosPorEscuela(escuelaId);
-       setCursos(cursos);
+      const cursos = await ApiService.obtenerCursos(escuelaId);
+      setCursos(cursos);
     } catch (err) {
       setError('Error cargando cursos: ' + err.message);
       console.error('Error cargando cursos:', err);
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [loading]);
 
   const buscarCursos = useCallback(async (texto, escuelaId = null) => {
     try {
@@ -143,7 +152,17 @@ export function useHorarios() {
       }
       
       const nuevoCurso = cursosData[0];
-      const nuevaSeleccion = [...cursosSeleccionados, nuevoCurso];
+      
+      // Cargar horarios específicos del curso
+      const horariosData = await ApiService.obtenerHorarios(cursoId);
+      
+      // Agregar horarios al objeto del curso
+      const cursoConHorarios = {
+        ...nuevoCurso,
+        horarios: horariosData || []
+      };
+      
+      const nuevaSeleccion = [...cursosSeleccionados, cursoConHorarios];
 
       // Actualizar estado inmediatamente para respuesta visual instantánea
       setCursosSeleccionados(nuevaSeleccion);
@@ -206,4 +225,4 @@ export function useHorarios() {
   };
 }
 
-export default usePrismaData;
+export default useSupabaseData;

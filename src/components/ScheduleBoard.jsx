@@ -1,6 +1,16 @@
 import React, { useCallback, useMemo } from 'react';
 import './ScheduleBoard.css';
-import { convertirAMinutos, verificarSolapamiento } from '../utils/timeUtils';
+// import { convertirAMinutos } from '../utils/timeUtils'; // No utilizado
+import { verificarSolapamiento } from '../utils/timeUtils';
+
+// const convertirAMinutos = (hora) => {
+//   const [horas, minutos] = hora.split(':').map(Number);
+//   return horas * 60 + minutos;
+// };
+
+// const isEmpty = (obj) => {
+//   return Object.keys(obj).length === 0;
+// };
 
 // Configuración estática del tablero
 const BOARD_CONFIG = {
@@ -110,7 +120,7 @@ const ScheduleCell = React.memo(({ dia, hora, cursos = [], onCellClick }) => {
   };
 
   const hasConflict = cursos.length > 1;
-  const isEmpty = cursos.length === 0;
+  // const isEmpty = cursos.length === 0;
   const singleCourse = cursos.length === 1;
 
   return (
@@ -231,7 +241,7 @@ const ScheduleBoard = React.memo(({ cursos = [], onCellClick, className = '' }) 
   const memoizedCursos = useMemo(() => cursos, [cursos]);
   
   // Solo mostrar log en desarrollo para mejor rendimiento
-  if (process.env.NODE_ENV === 'development') {
+  if (import.meta.env.DEV) {
     console.log('🎯 ScheduleBoard recibió', cursos.length, 'cursos:', cursos.map(c => c.codigo));
   }
   

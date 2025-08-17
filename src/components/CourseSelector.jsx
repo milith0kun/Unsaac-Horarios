@@ -12,7 +12,6 @@ const CourseSelector = memo(({
   onCursoToggle,
   onLimpiarSeleccion,
   loading = false,
-  error = null,
   disabled = false,
   position = { x: 20, y: 100 },
   onPositionChange
@@ -26,12 +25,27 @@ const CourseSelector = memo(({
   
   const cursosSectionRef = useRef(null);
 
-  // Filtrar cursos basado en el término de búsqueda y excluir los ya seleccionados
+  // Filtrar cursos: excluir seleccionados y aplicar búsqueda
   const cursosFiltrados = useMemo(() => {
-    return cursos.filter(curso => {
+    if (!cursos || cursos.length === 0) {
+      console.log('📊 [CourseSelector] No hay cursos disponibles');
+      return [];
+    }
+    
+    console.log(`📊 [CourseSelector] Total cursos recibidos: ${cursos.length}`);
+    console.log(`📊 [CourseSelector] Cursos seleccionados: ${cursosSeleccionados.length}`);
+    
+    // Crear Set de IDs de cursos seleccionados para búsqueda rápida
+    const idsSeleccionados = new Set(cursosSeleccionados.map(curso => 
+      typeof curso === 'object' ? curso.id : curso
+    ));
+    
+    const filtrados = cursos.filter(curso => {
       // Excluir cursos ya seleccionados
-      const yaSeleccionado = cursosSeleccionados.some(c => c.id === curso.id);
-      if (yaSeleccionado) return false;
+      const cursoId = typeof curso === 'object' ? curso.id : curso;
+      if (idsSeleccionados.has(cursoId)) {
+        return false;
+      }
       
       // Filtrar por término de búsqueda
       if (!searchTerm) return true;
@@ -39,7 +53,12 @@ const CourseSelector = memo(({
       return curso.codigo?.toLowerCase().includes(termino) || 
              curso.nombre?.toLowerCase().includes(termino);
     });
-  }, [cursos, cursosSeleccionados, searchTerm]);
+    
+    console.log(`🔍 [CourseSelector] Cursos disponibles (no seleccionados): ${filtrados.length}`);
+    console.log(`🔎 [CourseSelector] Término de búsqueda: "${searchTerm}"`);
+    
+    return filtrados;
+  }, [cursos, searchTerm, cursosSeleccionados]);
 
   const handleSearchChange = useCallback((e) => {
     const value = e.target.value;
@@ -167,9 +186,9 @@ const CourseSelector = memo(({
         if (e.cancelable) {
           e.preventDefault();
         }
-      } catch (error) {
-        // Ignorar errores
-      }
+      } catch {
+         // Ignorar errores
+       }
     }
     
     if (!isDragging && !hasMoved) return;
@@ -178,9 +197,9 @@ const CourseSelector = memo(({
       if (e.cancelable) {
         e.preventDefault();
       }
-    } catch (error) {
-      // Ignorar errores
-    }
+    } catch {
+         // Ignorar errores
+       }
     
     const newX = touch.clientX - dragOffset.x;
     const newY = touch.clientY - dragOffset.y;
@@ -206,9 +225,9 @@ const CourseSelector = memo(({
         if (e.cancelable) {
           e.preventDefault();
         }
-      } catch (error) {
-        // Ignorar errores
-      }
+      } catch {
+         // Ignorar errores
+       }
     }
     
     setIsDragging(false);
@@ -265,14 +284,23 @@ const CourseSelector = memo(({
       </div>
       
       <label onClick={handleToggleList} className="course-selector-label">
-        Cursos Disponibles {showCursosList ? '▼' : '▶'}
+        <div>
+          <span>Cursos Disponibles {showCursosList ? '▼' : '▶'}</span>
+          <div className="course-count">
+            Mostrando {cursosFiltrados.length} de {cursos?.length || 0} cursos
+          </div>
+        </div>
         {cursosSeleccionados.length > 0 && (
           <span className="selected-count">({cursosSeleccionados.length})</span>
         )}
       </label>
       
-      {loading && <div className="loading-message">Cargando cursos...</div>}
-      {error && <div className="error-message">Error: {error}</div>}
+      {loading && (
+        <div className="loading-message">
+          <div className="loading-spinner"></div>
+          <span>Cargando cursos...</span>
+        </div>
+      )}
       
       {/* Buscador de cursos */}
       <div className={`search-container ${showCursosList ? 'show' : ''}`}>
@@ -326,13 +354,17 @@ const CourseSelector = memo(({
                 )}
               </div>
               <div className="curso-checkbox">
-                <input
-                  type="checkbox"
-                  checked={cursosSeleccionados.some(c => c.id === curso.id)}
-                  onChange={() => handleCourseToggle(curso)}
-                  disabled={loading || disabled}
-                  aria-label={`Seleccionar curso ${curso.codigo}`}
-                />
+                {loading ? (
+                  <div className="checkbox-loading">⏳</div>
+                ) : (
+                  <input
+                    type="checkbox"
+                    checked={cursosSeleccionados.some(c => c.id === curso.id)}
+                    onChange={() => handleCourseToggle(curso)}
+                    disabled={loading || disabled}
+                    aria-label={`Seleccionar curso ${curso.codigo}`}
+                  />
+                )}
               </div>
             </div>
           ))

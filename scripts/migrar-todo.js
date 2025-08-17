@@ -1,11 +1,25 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { PrismaClient } from '@prisma/client';
+import { createClient } from '@supabase/supabase-js';
+import dotenv from 'dotenv';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const prisma = new PrismaClient();
+
+// Cargar variables de entorno
+dotenv.config({ path: path.join(__dirname, '..', '.env') });
+
+// Configurar cliente de Supabase
+const supabaseUrl = process.env.SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_KEY;
+
+if (!supabaseUrl || !supabaseKey) {
+    console.error('❌ Error: Variables de entorno SUPABASE_URL y SUPABASE_KEY son requeridas');
+    process.exit(1);
+}
+
+const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Cargar mapeo de facultades y escuelas
 let mapeoFacultadEscuela = null;
@@ -255,18 +269,18 @@ async function consolidarDatos(carreras) {
     return consolidado;
 }
 
-// Función para migrar datos usando Prisma adaptada al nuevo schema
+// Función para migrar datos usando Supabase
 async function migrarDatos(consolidado) {
-    console.log('🔧 Migrando datos usando Prisma...');
+    console.log('🔧 Migrando datos usando Supabase...');
     
     try {
         // Eliminamos todos los datos existentes para hacer una migración limpia
         console.log('🗑️ Eliminando datos existentes...');
-        await prisma.horario.deleteMany({});
-        await prisma.curso.deleteMany({});
-        await prisma.aula.deleteMany({});
-        await prisma.escuela.deleteMany({});
-        await prisma.facultad.deleteMany({});
+        await supabase.from('horarios').delete().neq('id', 0);
+        await supabase.from('cursos').delete().neq('id', 0);
+        await supabase.from('aulas').delete().neq('id', 0);
+        await supabase.from('escuelas').delete().neq('id', 0);
+        await supabase.from('facultades').delete().neq('id', 0);
         console.log('✅ Datos existentes eliminados');
         
         console.log('🔄 Migrando datos limpios...');
@@ -284,14 +298,18 @@ async function migrarDatos(consolidado) {
             codigo: f.codigo
         }));
         
-        await prisma.facultad.createMany({
-            data: facultadesData
-        });
+        const { data: facultadesCreadas, error: errorFacultades } = await supabase
+            .from('facultades')
+            .insert(facultadesData)
+            .select();
+            
+        if (errorFacultades) {
+            throw new Error(`Error insertando facultades: ${errorFacultades.message}`);
+        }
         
         // Obtener IDs de facultades creadas
-        const facultadesDB = await prisma.facultad.findMany();
         for (const [key, facultad] of consolidado.facultades.entries()) {
-            const facultadDB = facultadesDB.find(f => f.codigo === facultad.codigo);
+            const facultadDB = facultadesCreadas.find(f => f.codigo === facultad.codigo);
             if (facultadDB) {
                 facultadIds.set(key, facultadDB.id);
                 console.log(`   ✅ Facultad: ${facultad.nombre}`);
@@ -307,17 +325,21 @@ async function migrarDatos(consolidado) {
             duracion: escuela.duracion || null,
             modalidad: escuela.modalidad || 'Presencial',
             grados: escuela.grados ? JSON.stringify(escuela.grados) : JSON.stringify(['Bachiller', 'Título Profesional']),
-            facultadId: facultadIds.get(escuela.facultadKey || 'default')
+            facultad_id: facultadIds.get(escuela.facultadKey || 'default')
         }));
         
-        await prisma.escuela.createMany({
-            data: escuelasData
-        });
+        const { data: escuelasCreadas, error: errorEscuelas } = await supabase
+            .from('escuelas')
+            .insert(escuelasData)
+            .select();
+            
+        if (errorEscuelas) {
+            throw new Error(`Error insertando escuelas: ${errorEscuelas.message}`);
+        }
         
         // Obtener IDs de escuelas creadas
-        const escuelasDB = await prisma.escuela.findMany();
         for (const [key, escuela] of consolidado.escuelas.entries()) {
-            const escuelaDB = escuelasDB.find(e => e.codigo === escuela.codigo);
+            const escuelaDB = escuelasCreadas.find(e => e.codigo === escuela.codigo);
             if (escuelaDB) {
                 escuelaIds.set(key, escuelaDB.id);
                 console.log(`   ✅ Escuela: ${escuela.nombre}`);
@@ -332,22 +354,26 @@ async function migrarDatos(consolidado) {
             tipo: aula.tipo,
             capacidad: aula.capacidad,
             edificio: aula.edificio,
-            facultadId: facultadIds.get(aula.facultadKey || 'default'),
+            facultad_id: facultadIds.get(aula.facultadKey || 'default'),
             piso: 1,
             equipamiento: null,
-            softwareInstalado: null,
+            software_instalado: null,
             estado: 'Disponible',
             responsable: null
         }));
         
-        await prisma.aula.createMany({
-            data: aulasData
-        });
+        const { data: aulasCreadas, error: errorAulas } = await supabase
+            .from('aulas')
+            .insert(aulasData)
+            .select();
+            
+        if (errorAulas) {
+            throw new Error(`Error insertando aulas: ${errorAulas.message}`);
+        }
         
         // Obtener IDs de aulas creadas
-        const aulasDB = await prisma.aula.findMany();
         for (const [key, aula] of consolidado.aulas.entries()) {
-            const aulaDB = aulasDB.find(a => a.codigo === aula.codigo);
+            const aulaDB = aulasCreadas.find(a => a.codigo === aula.codigo);
             if (aulaDB) {
                 aulaIds.set(key, aulaDB.id);
             }
@@ -368,7 +394,7 @@ async function migrarDatos(consolidado) {
                      creditos: curso.creditos,
                      semestre: curso.semestre,
                      requisitos: curso.requisitos.length > 0 ? JSON.stringify(curso.requisitos) : null,
-                     escuelaId: escuelaIds.get(curso.escuelaKey || 'default')
+                     escuela_id: escuelaIds.get(curso.escuelaKey || 'default')
                  });
              }
          }
@@ -379,62 +405,72 @@ async function migrarDatos(consolidado) {
              creditos: curso.creditos,
              semestre: curso.semestre,
              requisitos: curso.requisitos,
-             escuelaId: curso.escuelaId
+             escuela_id: curso.escuela_id
          }));
          
-         await prisma.curso.createMany({
-             data: cursosData
-         });
+         const { data: cursosCreados, error: errorCursos } = await supabase
+             .from('cursos')
+             .insert(cursosData)
+             .select();
+             
+         if (errorCursos) {
+             throw new Error(`Error insertando cursos: ${errorCursos.message}`);
+         }
         
         // Obtener IDs de cursos creados
-         const cursosDB = await prisma.curso.findMany();
          for (const [key, curso] of consolidado.cursos.entries()) {
-             const cursoDB = cursosDB.find(c => c.codigo === curso.codigo);
+             const cursoDB = cursosCreados.find(c => c.codigo === curso.codigo);
              if (cursoDB) {
                  cursoIds.set(key, cursoDB.id);
              }
          }
          console.log(`   ✅ ${cursosUnicos.size} cursos únicos migrados (de ${consolidado.cursos.size} totales)`);
         
-        // Migrar horarios
-        console.log('⏰ Migrando horarios...');
+        // Migrar horarios (filtrar por cursos válidos)
+        console.log('📅 Migrando horarios...');
+        const horariosValidos = [];
         
-        const horariosData = consolidado.horarios
-            .filter(horario => {
-                const cursoId = cursoIds.get(horario.cursoKey);
-                if (!cursoId) {
-                    console.warn(`⚠️ Curso no encontrado para horario: ${horario.cursoKey}`);
-                    return false;
-                }
-                return true;
-            })
-            .map(horario => ({
-                cursoId: cursoIds.get(horario.cursoKey),
-                aulaId: horario.aulaKey ? aulaIds.get(horario.aulaKey) : null,
-                dia: horario.dia,
-                horaInicio: horario.horaInicio,
-                horaFin: horario.horaFin,
-                tipo: horario.tipo,
-                grupo: horario.grupo,
-                modalidad: horario.modalidad,
-                semestre: horario.semestre
-            }));
+        for (const horario of consolidado.horarios) {
+            const cursoId = cursoIds.get(horario.cursoKey);
+            const aulaId = aulaIds.get(horario.aulaKey);
+            
+            if (cursoId && aulaId) {
+                horariosValidos.push({
+                    curso_id: cursoId,
+                    aula_id: aulaId,
+                    dia: horario.dia,
+                    hora_inicio: horario.horaInicio,
+                    hora_fin: horario.horaFin,
+                    tipo: horario.tipo,
+                    grupo: horario.grupo,
+                    docente: horario.docente,
+                    semestre: horario.semestre,
+                    ciclo: horario.ciclo
+                });
+            }
+        }
         
-        await prisma.horario.createMany({
-            data: horariosData
-        });
+        const { data: horariosCreados, error: errorHorarios } = await supabase
+            .from('horarios')
+            .insert(horariosValidos)
+            .select();
+            
+        if (errorHorarios) {
+            throw new Error(`Error insertando horarios: ${errorHorarios.message}`);
+        }
         
-        const horariosCreados = horariosData.length;
+        console.log(`   ✅ ${horariosValidos.length} horarios migrados (de ${consolidado.horarios.length} totales)`);
         
         console.log('✅ Migración completada exitosamente!');
         
         // Mostrar estadísticas
+        const { data: statsData } = await supabase.rpc('get_table_counts');
         const stats = {
-            facultades: await prisma.facultad.count(),
-            escuelas: await prisma.escuela.count(),
-            aulas: await prisma.aula.count(),
-            cursos: await prisma.curso.count(),
-            horarios: await prisma.horario.count()
+            facultades: (await supabase.from('facultades').select('*', { count: 'exact', head: true })).count,
+            escuelas: (await supabase.from('escuelas').select('*', { count: 'exact', head: true })).count,
+            aulas: (await supabase.from('aulas').select('*', { count: 'exact', head: true })).count,
+            cursos: (await supabase.from('cursos').select('*', { count: 'exact', head: true })).count,
+            horarios: (await supabase.from('horarios').select('*', { count: 'exact', head: true })).count
         };
         
         console.log('\n📊 Estadísticas finales:');
@@ -459,7 +495,10 @@ async function main() {
     try {
         // Verificar conexión a la base de datos
         console.log('🔌 Verificando conexión a la base de datos...');
-        await prisma.$connect();
+        const { data, error } = await supabase.from('facultades').select('count', { count: 'exact', head: true });
+        if (error) {
+            throw new Error(`Error conectando a Supabase: ${error.message}`);
+        }
         console.log('✅ Conexión establecida\n');
         
         // Leer archivos de carreras
@@ -497,8 +536,7 @@ async function main() {
         console.error('Stack trace:', error.stack);
         process.exit(1);
     } finally {
-        await prisma.$disconnect();
-        console.log('\n🔌 Conexión a la base de datos cerrada');
+        console.log('\n🔌 Operación completada');
     }
 }
 

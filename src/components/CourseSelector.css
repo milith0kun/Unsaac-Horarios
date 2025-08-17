@@ -367,11 +367,71 @@
   transform: none;
 }
 
+/* Loading Indicators */
+.loading-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  color: #6c757d;
+  font-size: 13px;
+  gap: 8px;
+}
+
+.loading-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #e9ecef;
+  border-top: 2px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.checkbox-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.error-message {
+  padding: 12px 16px;
+  background: #f8d7da;
+  color: #721c24;
+  border-bottom: 1px solid #f5c6cb;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Course selecting animation */
+.curso-item.course-selecting {
+  transform: scale(0.98);
+  background: #e3f2fd;
+  transition: all 0.3s ease;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .course-selector {
     min-width: 300px;
-    max-width: 350px;
+    max-width: 90vw;
     max-height: 70vh;
   }
   
@@ -379,12 +439,20 @@
     padding: 10px 12px;
   }
   
-  .search-input-wrapper {
-    padding: 10px 12px;
+  .curso-codigo {
+    font-size: 11px;
   }
   
   .curso-nombre {
-    -webkit-line-clamp: 1;
+    font-size: 12px;
+  }
+  
+  .curso-creditos, .curso-semestre {
+    font-size: 10px;
+  }
+  
+  .search-input {
+    font-size: 14px;
   }
 }
 
