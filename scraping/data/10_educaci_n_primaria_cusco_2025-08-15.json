@@ -1,0 +1,7206 @@
+{
+  "informacionGeneral": {
+    "numero": 10,
+    "nombre": "EDUCACIÓN PRIMARIA-CUSCO",
+    "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquPPqWpsFXhbFxmW*",
+    "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquPPqWpsFXhbFxmW*",
+    "tipoArchivo": "html",
+    "fechaExtraccion": "2025-08-15T09:02:30.549Z",
+    "totalCursos": 154,
+    "tipoExtraccion": "real",
+    "estrategiaExtraccion": "tabla_estructurada",
+    "titulo": ".::Centro de Computo Unsaac::.",
+    "facultadHTML": "",
+    "escuelaHTML": "",
+    "facultad": "FACULTAD DE EDUCACIÓN",
+    "codigoFacultad": "FED",
+    "escuela": "ESCUELA PROFESIONAL DE EDUCACIÓN PRIMARIA",
+    "codigoEscuela": "EPEP",
+    "area": "D",
+    "fuenteInfo": "mapeo_oficial"
+  },
+  "cursos": [
+    {
+      "id": "DEG01AEU_1",
+      "codigo": "DEG01AEU",
+      "nombre": "CONSTITUCIÓN POLÍTICA Y DD.HH.",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "DEG01BEU_2",
+      "codigo": "DEG01BEU",
+      "nombre": "CONSTITUCIÓN POLÍTICA Y DD.HH.",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "DEG01CEU_3",
+      "codigo": "DEG01CEU",
+      "nombre": "CONSTITUCIÓN POLÍTICA Y DD.HH.",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FPG03AEU_4",
+      "codigo": "FPG03AEU",
+      "nombre": "DESARROLLO PERSONAL Y SOCIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FPG03BEU_5",
+      "codigo": "FPG03BEU",
+      "nombre": "DESARROLLO PERSONAL Y SOCIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FPG03CEU_6",
+      "codigo": "FPG03CEU",
+      "nombre": "DESARROLLO PERSONAL Y SOCIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EDG01AEU_7",
+      "codigo": "EDG01AEU",
+      "nombre": "ESTRATEGIAS DE APRENDIZAJE AUTÓNOMO",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "EGUIA-ALARCON-MARTHA ALEJANDRINA"
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EDG01BEU_8",
+      "codigo": "EDG01BEU",
+      "nombre": "ESTRATEGIAS DE APRENDIZAJE AUTÓNOMO",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "MENDOZA-ALARCON-ELIAS ANTONIO"
+      ],
+      "aulas": [
+        "D-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EDG01CEU_9",
+      "codigo": "EDG01CEU",
+      "nombre": "ESTRATEGIAS DE APRENDIZAJE AUTÓNOMO",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FP901ZEU_10",
+      "codigo": "FP901ZEU",
+      "nombre": "FILOSOFIA Y ETICA",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "FPG02AEU_11",
+      "codigo": "FPG02AEU",
+      "nombre": "FILOSOFÍA Y ÉTICA",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FPG02BEU_12",
+      "codigo": "FPG02BEU",
+      "nombre": "FILOSOFÍA Y ÉTICA",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FPG02CEU_13",
+      "codigo": "FPG02CEU",
+      "nombre": "FILOSOFÍA Y ÉTICA",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "HIG01AEU_14",
+      "codigo": "HIG01AEU",
+      "nombre": "HISTORIA CRÍTICA DEL PERÚ E IDENTIDAD NACIONAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "HIG01BEU_15",
+      "codigo": "HIG01BEU",
+      "nombre": "HISTORIA CRÍTICA DEL PERÚ E IDENTIDAD NACIONAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "HIG01CEU_16",
+      "codigo": "HIG01CEU",
+      "nombre": "HISTORIA CRÍTICA DEL PERÚ E IDENTIDAD NACIONAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME901ZEU_17",
+      "codigo": "ME901ZEU",
+      "nombre": "MATEMATICA I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG05AEU_18",
+      "codigo": "MEG05AEU",
+      "nombre": "MATEMÁTICA I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG05BEU_19",
+      "codigo": "MEG05BEU",
+      "nombre": "MATEMÁTICA I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG05CEU_20",
+      "codigo": "MEG05CEU",
+      "nombre": "MATEMÁTICA I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ASG02AEU_21",
+      "codigo": "ASG02AEU",
+      "nombre": "REALIDAD NACIONAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "MARTINEZ-QUIROZ-NICANOR ROLANDO"
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ASG02BEU_22",
+      "codigo": "ASG02BEU",
+      "nombre": "REALIDAD NACIONAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "SOLIS-MORA-JESUS JOSE"
+      ],
+      "aulas": [
+        "D-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ASG02CEU_23",
+      "codigo": "ASG02CEU",
+      "nombre": "REALIDAD NACIONAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "AS901AEU_24",
+      "codigo": "AS901AEU",
+      "nombre": "SOCIEDAD Y CULTURA",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "TU-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "CBG02AEU_25",
+      "codigo": "CBG02AEU",
+      "nombre": "ECOLOGÍA Y MEDIO AMBIENTE",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-104"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "CBG02BEU_26",
+      "codigo": "CBG02BEU",
+      "nombre": "ECOLOGÍA Y MEDIO AMBIENTE",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "CBG02CEU_27",
+      "codigo": "CBG02CEU",
+      "nombre": "ECOLOGÍA Y MEDIO AMBIENTE",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "CBG02DEU_28",
+      "codigo": "CBG02DEU",
+      "nombre": "ECOLOGÍA Y MEDIO AMBIENTE",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG03AEU_29",
+      "codigo": "MEG03AEU",
+      "nombre": "ESTADÍSTICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-104"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG03BEU_30",
+      "codigo": "MEG03BEU",
+      "nombre": "ESTADÍSTICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG03CEU_31",
+      "codigo": "MEG03CEU",
+      "nombre": "ESTADÍSTICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG03DEU_32",
+      "codigo": "MEG03DEU",
+      "nombre": "ESTADÍSTICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EDG02AEU_33",
+      "codigo": "EDG02AEU",
+      "nombre": "HISTORIA DE LA EDUCACIÓN PERUANA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "GAMARRA-MOSCOSO-MANUEL ALBERTO"
+      ],
+      "aulas": [
+        "D-104"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EDG02BEU_34",
+      "codigo": "EDG02BEU",
+      "nombre": "HISTORIA DE LA EDUCACIÓN PERUANA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "YEPEZ-QUISPE-ALFREDO ALEXIS"
+      ],
+      "aulas": [
+        "D-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EDG02CEU_35",
+      "codigo": "EDG02CEU",
+      "nombre": "HISTORIA DE LA EDUCACIÓN PERUANA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EDG02DEU_36",
+      "codigo": "EDG02DEU",
+      "nombre": "HISTORIA DE LA EDUCACIÓN PERUANA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-104"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED118AEU_37",
+      "codigo": "ED118AEU",
+      "nombre": "INTRODUCCIÓN A LAS CIENCIAS DE LA EDUCACIÓN",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "ED118BEU_38",
+      "codigo": "ED118BEU",
+      "nombre": "INTRODUCCIÓN A LAS CIENCIAS DE LA EDUCACIÓN",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "EDG03AEU_39",
+      "codigo": "EDG03AEU",
+      "nombre": "INTRODUCCIÓN A LAS CIENCIAS DE LA EDUCACIÓN",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CORDOVA-HUAMANI-MAXIMO"
+      ],
+      "aulas": [
+        "D-104"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EDG03BEU_40",
+      "codigo": "EDG03BEU",
+      "nombre": "INTRODUCCIÓN A LAS CIENCIAS DE LA EDUCACIÓN",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CANAL-APAZA-EPIFANIO LUIS"
+      ],
+      "aulas": [
+        "D-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EDG03CEU_41",
+      "codigo": "EDG03CEU",
+      "nombre": "INTRODUCCIÓN A LAS CIENCIAS DE LA EDUCACIÓN",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ARIAS-MUÑOZ-NERY CELINA"
+      ],
+      "aulas": [
+        "D-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EDG03DEU_42",
+      "codigo": "EDG03DEU",
+      "nombre": "INTRODUCCIÓN A LAS CIENCIAS DE LA EDUCACIÓN",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-104"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "LCG01AEU_43",
+      "codigo": "LCG01AEU",
+      "nombre": "LINGÜÍSTICA Y COMUNICACIÓN HUMANA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-104"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "LCG01BEU_44",
+      "codigo": "LCG01BEU",
+      "nombre": "LINGÜÍSTICA Y COMUNICACIÓN HUMANA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "LCG01CEU_45",
+      "codigo": "LCG01CEU",
+      "nombre": "LINGÜÍSTICA Y COMUNICACIÓN HUMANA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[19-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 20,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_19_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "LCG01DEU_46",
+      "codigo": "LCG01DEU",
+      "nombre": "LINGÜÍSTICA Y COMUNICACIÓN HUMANA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[19-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 20,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_19_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IFG01AEU_47",
+      "codigo": "IFG01AEU",
+      "nombre": "PENSAMIENTO COMPUTACIONAL E INTELIGENCIA ARTIFICIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-104"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IFG01BEU_48",
+      "codigo": "IFG01BEU",
+      "nombre": "PENSAMIENTO COMPUTACIONAL E INTELIGENCIA ARTIFICIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IFG01CEU_49",
+      "codigo": "IFG01CEU",
+      "nombre": "PENSAMIENTO COMPUTACIONAL E INTELIGENCIA ARTIFICIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IFG01DEU_50",
+      "codigo": "IFG01DEU",
+      "nombre": "PENSAMIENTO COMPUTACIONAL E INTELIGENCIA ARTIFICIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IF902ZEU_51",
+      "codigo": "IF902ZEU",
+      "nombre": "TECNOLOGIAS DE LA INFORMACIÓN Y LA COMUNICACIÓN",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "ED302AEU_52",
+      "codigo": "ED302AEU",
+      "nombre": "EDUCACIÓN Y SALUD",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "MONTES-PEDRAZA-ROSA MARIA"
+      ],
+      "aulas": [
+        "D-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED302BEU_53",
+      "codigo": "ED302BEU",
+      "nombre": "EDUCACIÓN Y SALUD",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED302CEU_54",
+      "codigo": "ED302CEU",
+      "nombre": "EDUCACIÓN Y SALUD",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "BOBADILLA-CONDE-LUCILA"
+      ],
+      "aulas": [
+        "D-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED304AEU_55",
+      "codigo": "ED304AEU",
+      "nombre": "GESTIÓN CURRICULAR",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CHOCCECHANCA-CUADRO-ANGEL"
+      ],
+      "aulas": [
+        "D-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED304BEU_56",
+      "codigo": "ED304BEU",
+      "nombre": "GESTIÓN CURRICULAR",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ZELA-VERA-EDILBERTO"
+      ],
+      "aulas": [
+        "D-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED304CEU_57",
+      "codigo": "ED304CEU",
+      "nombre": "GESTIÓN CURRICULAR",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CHILE-LETONA-ALEJANDRO"
+      ],
+      "aulas": [
+        "D-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED303AEU_58",
+      "codigo": "ED303AEU",
+      "nombre": "PSICOLOGÍA EDUCATIVA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "AGUIRRE-ESPINOZA-EDWARDS JESUS"
+      ],
+      "aulas": [
+        "D-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED303BEU_59",
+      "codigo": "ED303BEU",
+      "nombre": "PSICOLOGÍA EDUCATIVA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED303CEU_60",
+      "codigo": "ED303CEU",
+      "nombre": "PSICOLOGÍA EDUCATIVA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED305AEU_61",
+      "codigo": "ED305AEU",
+      "nombre": "RECURSOS TIC PARA LA ENSEÑANZA Y APRENDIZAJE",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-311"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED305BEU_62",
+      "codigo": "ED305BEU",
+      "nombre": "RECURSOS TIC PARA LA ENSEÑANZA Y APRENDIZAJE",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "MENDOZA-ALARCON-ELIAS ANTONIO"
+      ],
+      "aulas": [
+        "D-104"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED305CEU_63",
+      "codigo": "ED305CEU",
+      "nombre": "RECURSOS TIC PARA LA ENSEÑANZA Y APRENDIZAJE",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[19-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 20,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_19_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "FERNANDEZ-SUTTA-FEDERICO UBALDO"
+      ],
+      "aulas": [
+        "D-104"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED301AEU_64",
+      "codigo": "ED301AEU",
+      "nombre": "SOCIOLOGÍA DE LA EDUCACIÓN",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ALTAMIRANO-VEGA-HUGO"
+      ],
+      "aulas": [
+        "D-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED301BEU_65",
+      "codigo": "ED301BEU",
+      "nombre": "SOCIOLOGÍA DE LA EDUCACIÓN",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CANAL-APAZA-EPIFANIO LUIS"
+      ],
+      "aulas": [
+        "D-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED301CEU_66",
+      "codigo": "ED301CEU",
+      "nombre": "SOCIOLOGÍA DE LA EDUCACIÓN",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED403AEU_67",
+      "codigo": "ED403AEU",
+      "nombre": "Evaluación de los aprendizajes",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[12-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 13,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_12_13",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "SOLLASI-FERRO-FERMIN URBANO"
+      ],
+      "aulas": [
+        "D-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED403BEU_68",
+      "codigo": "ED403BEU",
+      "nombre": "Evaluación de los aprendizajes",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ARREDONDO-HUAMAN-MARCELINA"
+      ],
+      "aulas": [
+        "D-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED403CEU_69",
+      "codigo": "ED403CEU",
+      "nombre": "Evaluación de los aprendizajes",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ENRIQUEZ-ROMERO-RICARDO"
+      ],
+      "aulas": [
+        "D-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED120AEU_70",
+      "codigo": "ED120AEU",
+      "nombre": "GESTION DE LA EDUCACION",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "ED404AEU_71",
+      "codigo": "ED404AEU",
+      "nombre": "Gestión de la Educación",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "SOLLASI-FERRO-FERMIN URBANO"
+      ],
+      "aulas": [
+        "D-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED404BEU_72",
+      "codigo": "ED404BEU",
+      "nombre": "Gestión de la Educación",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "DUEÑAS-PAREJA-ELIZABETH"
+      ],
+      "aulas": [
+        "D-303",
+        "D-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED404CEU_73",
+      "codigo": "ED404CEU",
+      "nombre": "Gestión de la Educación",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "MONTES-PEDRAZA-ROSA MARIA"
+      ],
+      "aulas": [
+        "D-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED401AEU_74",
+      "codigo": "ED401AEU",
+      "nombre": "Investigación Educativa",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "HUAMAN-AUCCAPURI-ALAN ALAIN"
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED401BEU_75",
+      "codigo": "ED401BEU",
+      "nombre": "Investigación Educativa",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ALTAMIRANO-VEGA-HUGO"
+      ],
+      "aulas": [
+        "D-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED401CEU_76",
+      "codigo": "ED401CEU",
+      "nombre": "Investigación Educativa",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CHILE-LETONA-LEONARDO"
+      ],
+      "aulas": [
+        "D-211"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED402AEU_77",
+      "codigo": "ED402AEU",
+      "nombre": "Neurociencia Aplicada a la Educación",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "EGUIA-ALARCON-MARTHA ALEJANDRINA"
+      ],
+      "aulas": [
+        "D-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED402BEU_78",
+      "codigo": "ED402BEU",
+      "nombre": "Neurociencia Aplicada a la Educación",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "AUCCA-MARÍN-JAIME"
+      ],
+      "aulas": [
+        "D-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED402CEU_79",
+      "codigo": "ED402CEU",
+      "nombre": "Neurociencia Aplicada a la Educación",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ESTRADA-CHACON-LID HAYDEE"
+      ],
+      "aulas": [
+        "D-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED125AEU_80",
+      "codigo": "ED125AEU",
+      "nombre": "DIVERSIDAD E INCLUSIÓN EDUCATIVA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "VIGORIA-VALLE-GLORIA"
+      ],
+      "aulas": [
+        "D-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED125BEU_81",
+      "codigo": "ED125BEU",
+      "nombre": "DIVERSIDAD E INCLUSIÓN EDUCATIVA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "VISA-QUISPE-SOFIA"
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED125CEU_82",
+      "codigo": "ED125CEU",
+      "nombre": "DIVERSIDAD E INCLUSIÓN EDUCATIVA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "RADO-CUCHILLS-MAXWEL SAMUEL"
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED127AEU_83",
+      "codigo": "ED127AEU",
+      "nombre": "EVALUACIÓN DE LOS APRENDIZAJES",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CHOCCECHANCA-CUADRO-ANGEL"
+      ],
+      "aulas": [
+        "D-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED127BEU_84",
+      "codigo": "ED127BEU",
+      "nombre": "EVALUACIÓN DE LOS APRENDIZAJES",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ZELA-VERA-EDILBERTO"
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED127CEU_85",
+      "codigo": "ED127CEU",
+      "nombre": "EVALUACIÓN DE LOS APRENDIZAJES",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CORDOVA-HUAMANI-MAXIMO"
+      ],
+      "aulas": [
+        "D-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED134AEU_86",
+      "codigo": "ED134AEU",
+      "nombre": "FILOSOFÍA EDUCATIVA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "YEPEZ-QUISPE-ALFREDO ALEXIS"
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED134BEU_87",
+      "codigo": "ED134BEU",
+      "nombre": "FILOSOFÍA EDUCATIVA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "AGUIRRE-ESPINOZA-EDWARDS JESUS"
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED134CEU_88",
+      "codigo": "ED134CEU",
+      "nombre": "FILOSOFÍA EDUCATIVA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED132AEU_89",
+      "codigo": "ED132AEU",
+      "nombre": "EDUCACIÓN Y SALUD",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "SOLIS-QUISPE-JORGE ALBERTO"
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED132BEU_90",
+      "codigo": "ED132BEU",
+      "nombre": "EDUCACIÓN Y SALUD",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "DIAZ-ANCCO-FERNANDO"
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED132CEU_91",
+      "codigo": "ED132CEU",
+      "nombre": "EDUCACIÓN Y SALUD",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED133AEU_92",
+      "codigo": "ED133AEU",
+      "nombre": "SOCIOLOGÍA DE LA EDUCACIÓN",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "SUYO-CONDORCCAHUA-KILDER"
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED133BEU_93",
+      "codigo": "ED133BEU",
+      "nombre": "SOCIOLOGÍA DE LA EDUCACIÓN",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "TEJADA-AUCCACUSI-ROSALYNN"
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED133CEU_94",
+      "codigo": "ED133CEU",
+      "nombre": "SOCIOLOGÍA DE LA EDUCACIÓN",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "AUCCA-MARÍN-JAIME"
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED137AEU_95",
+      "codigo": "ED137AEU",
+      "nombre": "TALLER DE REDACCION CIENTIFICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "EGUIA-ALARCON-MARTHA ALEJANDRINA"
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED137BEU_96",
+      "codigo": "ED137BEU",
+      "nombre": "TALLER DE REDACCION CIENTIFICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED137CEU_97",
+      "codigo": "ED137CEU",
+      "nombre": "TALLER DE REDACCION CIENTIFICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "GAMARRA-MOSCOSO-MANUEL ALBERTO"
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED138AEU_98",
+      "codigo": "ED138AEU",
+      "nombre": "ACTIVIDADES DE RESPONSABILIDAD SOCIAL",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[13-14]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 14,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_13_14",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED128AEU_99",
+      "codigo": "ED128AEU",
+      "nombre": "GESTIÓN DE PROYECTOS DE INNOVACIÓN Y DESARROLLO EDUCATIVO.",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED128BEU_100",
+      "codigo": "ED128BEU",
+      "nombre": "GESTIÓN DE PROYECTOS DE INNOVACIÓN Y DESARROLLO EDUCATIVO.",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "BEDOYA-MENDOZA-JAIME"
+      ],
+      "aulas": [
+        "D-308"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED128CEU_101",
+      "codigo": "ED128CEU",
+      "nombre": "GESTIÓN DE PROYECTOS DE INNOVACIÓN Y DESARROLLO EDUCATIVO.",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED129AEU_102",
+      "codigo": "ED129AEU",
+      "nombre": "INVESTIGACIÓN EDUCATIVA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED129BEU_103",
+      "codigo": "ED129BEU",
+      "nombre": "INVESTIGACIÓN EDUCATIVA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "BEDOYA-MENDOZA-JUAN DE LA CRUZ"
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED129CEU_104",
+      "codigo": "ED129CEU",
+      "nombre": "INVESTIGACIÓN EDUCATIVA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CORDOVA-HUAMANI-MAXIMO"
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED139AEU_105",
+      "codigo": "ED139AEU",
+      "nombre": "ACTIVIDADES DEPORTIVAS Y RECREATIVAS",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "S-02"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME135AEU_106",
+      "codigo": "ME135AEU",
+      "nombre": "ESTADÍSTICA EDUCATIVA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[12-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 13,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_12_13",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-208"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME135BEU_107",
+      "codigo": "ME135BEU",
+      "nombre": "ESTADÍSTICA EDUCATIVA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[13-14]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 14,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_13_14",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-208"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME135CEU_108",
+      "codigo": "ME135CEU",
+      "nombre": "ESTADÍSTICA EDUCATIVA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-208"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EN163AEU_109",
+      "codigo": "EN163AEU",
+      "nombre": "PRIMEROS AUXILIOS",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EN163BEU_110",
+      "codigo": "EN163BEU",
+      "nombre": "PRIMEROS AUXILIOS",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED130AEU_111",
+      "codigo": "ED130AEU",
+      "nombre": "SEMINARIO DE INVESTIGACIÓN I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "SOLIS-QUISPE-JORGE ALBERTO"
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED130BEU_112",
+      "codigo": "ED130BEU",
+      "nombre": "SEMINARIO DE INVESTIGACIÓN I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED130CEU_113",
+      "codigo": "ED130CEU",
+      "nombre": "SEMINARIO DE INVESTIGACIÓN I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "CC141AEU_114",
+      "codigo": "CC141AEU",
+      "nombre": "TALLER DE ORATORIA",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED140AEU_115",
+      "codigo": "ED140AEU",
+      "nombre": "ACTIVIDADES ARTISTICAS (DANZA, TEATRO, MUSICA)",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "DEL POZO-AEDO-MITZY"
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED136AEU_116",
+      "codigo": "ED136AEU",
+      "nombre": "NEUROCIENCIA APLICADA A LA EDUCACION",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "MENDOZA-ALARCON-ELIAS ANTONIO"
+      ],
+      "aulas": [
+        "D-208"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED136BEU_117",
+      "codigo": "ED136BEU",
+      "nombre": "NEUROCIENCIA APLICADA A LA EDUCACION",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "GAMARRA-MOSCOSO-MANUEL ALBERTO"
+      ],
+      "aulas": [
+        "D-208"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED136CEU_118",
+      "codigo": "ED136CEU",
+      "nombre": "NEUROCIENCIA APLICADA A LA EDUCACION",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "HUAMAN-AUCCAPURI-ALAN ALAIN"
+      ],
+      "aulas": [
+        "D-208"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED131AEU_119",
+      "codigo": "ED131AEU",
+      "nombre": "SEMINARIO DE INVESTIGACION II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "OLIVARES-TORRES-LUCILA"
+      ],
+      "aulas": [
+        "D-208"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED131BEU_120",
+      "codigo": "ED131BEU",
+      "nombre": "SEMINARIO DE INVESTIGACION II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ARREDONDO-HUAMAN-MARCELINA"
+      ],
+      "aulas": [
+        "D-211"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED131CEU_121",
+      "codigo": "ED131CEU",
+      "nombre": "SEMINARIO DE INVESTIGACION II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "GONZALES-QUISPE-FREDDY FRANK"
+      ],
+      "aulas": [
+        "D-211"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "LC271AEU_122",
+      "codigo": "LC271AEU",
+      "nombre": "QUECHUA",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[12-14]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 14,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_12_14",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED316AEU_123",
+      "codigo": "ED316AEU",
+      "nombre": "DESARROLLO DE LA COMUNICACIÓN EN EDUCACIÓN PRIMARIA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[12-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 13,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_12_13",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-211"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED147AEU_124",
+      "codigo": "ED147AEU",
+      "nombre": "Desarrollo de la Comunicación en Educación Primaria II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "VARGAS-FERNANDEZ-MERCEDES"
+      ],
+      "aulas": [
+        "D-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED146AEU_125",
+      "codigo": "ED146AEU",
+      "nombre": "Desarrollo de la Matemática en Educación Primaria I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ENRIQUEZ-ROMERO-RICARDO"
+      ],
+      "aulas": [
+        "D-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED663AEU_126",
+      "codigo": "ED663AEU",
+      "nombre": "LECTURA Y ESCRITURA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "ED145AEU_127",
+      "codigo": "ED145AEU",
+      "nombre": "Lengua Quechua",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CORNEJO-VERGARA-GREGORIO"
+      ],
+      "aulas": [
+        "D-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED667AEU_128",
+      "codigo": "ED667AEU",
+      "nombre": "DIDÁCTICA DE LA COMUNICACIÓN I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "OLIVARES-TORRES-LUCILA"
+      ],
+      "aulas": [
+        "D-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED665AEU_129",
+      "codigo": "ED665AEU",
+      "nombre": "DIDÁCTICA PARA EL DESARROLLO DEL CANTO, MÚSICA Y DANZA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "CUSI-ARRIAGA-MERCEDES"
+      ],
+      "aulas": [
+        "D-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED666AEU_130",
+      "codigo": "ED666AEU",
+      "nombre": "MATEMÁTICA EN EDUCACIÓN PRIMARIA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[12-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 13,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_12_13",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CAHUANA-FERNANDEZ-LUZ MARIA"
+      ],
+      "aulas": [
+        "D-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED670AEU_131",
+      "codigo": "ED670AEU",
+      "nombre": "DIDÁCTICA DE LA COMUNICACIÓN II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "OLIVARES-TORRES-LUCILA"
+      ],
+      "aulas": [
+        "D-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED671AEU_132",
+      "codigo": "ED671AEU",
+      "nombre": "DIDÁCTICA DE LA EDUCACIÓN PSICOMOTRIZ",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED669AEU_133",
+      "codigo": "ED669AEU",
+      "nombre": "DIDÁCTICA DE LA MATEMATICA I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-208"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED672AEU_134",
+      "codigo": "ED672AEU",
+      "nombre": "PROGRAMACIÓN Y EVALUACIÓN CURRICULAR EN EDUCACIÓN PRIMARIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CJUNO-TACCA-MILAGROS BERTHA"
+      ],
+      "aulas": [
+        "D-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED668AEU_135",
+      "codigo": "ED668AEU",
+      "nombre": "ADAPTABILIDAD Y ESTRATEGIAS PARA EL APRENDIZAJE DIFERENCIADO",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CJUNO-TACCA-MILAGROS BERTHA"
+      ],
+      "aulas": [
+        "D-211"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED674AEU_136",
+      "codigo": "ED674AEU",
+      "nombre": "DIDÁCTICA DE LA CIENCIA Y TECNOLOGÍA I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "BOBADILLA-CONDE-LUCILA"
+      ],
+      "aulas": [
+        "D-211"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED673AEU_137",
+      "codigo": "ED673AEU",
+      "nombre": "DIDÁCTICA DE LA MATEMÁTICA II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED168AEU_138",
+      "codigo": "ED168AEU",
+      "nombre": "DIDÁCTICA PARA LA ENSEÑANZA DE PERSONAL SOCIAL I EN EDUCACIÓN PRIMARIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-208"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED800AEU_139",
+      "codigo": "ED800AEU",
+      "nombre": "PRÁCTICA PRE PROFESIONAL I",
+      "creditos": 3,
+      "tipo": "Prácticas Pre Profesionales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-117",
+        "D-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED800BEU_140",
+      "codigo": "ED800BEU",
+      "nombre": "PRÁCTICA PRE PROFESIONAL I",
+      "creditos": 3,
+      "tipo": "Prácticas Pre Profesionales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-117",
+        "D-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED677AEU_141",
+      "codigo": "ED677AEU",
+      "nombre": "DIDÁCTICA DE LAS CIENCIAS Y TECNOLOGÍA II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "CUSI-ARRIAGA-MERCEDES"
+      ],
+      "aulas": [
+        "D-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED676AEU_142",
+      "codigo": "ED676AEU",
+      "nombre": "DIDÁCTICA PARA LA ENSEÑANZA DE PERSONAL SOCIAL II EN EDUCACIÓN PRIMARIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "CUSI-ARRIAGA-MERCEDES"
+      ],
+      "aulas": [
+        "D-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED675AEU_143",
+      "codigo": "ED675AEU",
+      "nombre": "EDUCACIÓN INTERCULTURAL BILINGÜE",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CORNEJO-VERGARA-GREGORIO"
+      ],
+      "aulas": [
+        "D-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED801AEU_144",
+      "codigo": "ED801AEU",
+      "nombre": "PRÁCTICA PRE PROFESIONAL II",
+      "creditos": 4,
+      "tipo": "Prácticas Pre Profesionales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-302",
+        "D-117"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED801BEU_145",
+      "codigo": "ED801BEU",
+      "nombre": "PRÁCTICA PRE PROFESIONAL II",
+      "creditos": 4,
+      "tipo": "Prácticas Pre Profesionales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-117",
+        "S-02"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED678AEU_146",
+      "codigo": "ED678AEU",
+      "nombre": "DIDACTICA DE LA EDUCACION INTERCULTURAL BILINGÜE",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "VARGAS-FERNANDEZ-MERCEDES"
+      ],
+      "aulas": [
+        "D-211"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED802AEU_147",
+      "codigo": "ED802AEU",
+      "nombre": "PRACTICA PRE PROFESIONAL III",
+      "creditos": 5,
+      "tipo": "Prácticas Pre Profesionales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "D-117",
+        "I.E. 1"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED802BEU_148",
+      "codigo": "ED802BEU",
+      "nombre": "PRACTICA PRE PROFESIONAL III",
+      "creditos": 5,
+      "tipo": "Prácticas Pre Profesionales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CJUNO-TACCA-MILAGROS BERTHA"
+      ],
+      "aulas": [
+        "D-117"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED680AEU_149",
+      "codigo": "ED680AEU",
+      "nombre": "PROBLEMAS DE APRENDIZAJE EDUCATIVO",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ATASI-VALENCIA-GLORIA"
+      ],
+      "aulas": [
+        "D-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED679AEU_150",
+      "codigo": "ED679AEU",
+      "nombre": "TALLER DE ELABORACION DE RECURSOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "VARGAS-FERNANDEZ-MERCEDES"
+      ],
+      "aulas": [
+        "D-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED681AEU_151",
+      "codigo": "ED681AEU",
+      "nombre": "EDUCACION PARA EL TRABAJO Y EMPRENDIMIENTO",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "D-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED803AEU_152",
+      "codigo": "ED803AEU",
+      "nombre": "PRACTICA PRE PROFESIONAL IV",
+      "creditos": 5,
+      "tipo": "Prácticas Pre Profesionales",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ESTRADA-CHACON-LID HAYDEE"
+      ],
+      "aulas": [
+        "D-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED803BEU_153",
+      "codigo": "ED803BEU",
+      "nombre": "PRACTICA PRE PROFESIONAL IV",
+      "creditos": 5,
+      "tipo": "Prácticas Pre Profesionales",
+      "esObligatorio": true,
+      "duracionSemanal": 6,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "CORNEJO-VERGARA-GREGORIO"
+      ],
+      "aulas": [
+        "D-117",
+        "D-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ED682AEU_154",
+      "codigo": "ED682AEU",
+      "nombre": "SEMINARIO DE INVESTIGACION III EN EDUCACION PRIMARIA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ATASI-VALENCIA-GLORIA"
+      ],
+      "aulas": [
+        "D-302"
+      ],
+      "prioridad": 100
+    }
+  ],
+  "metadatos": {
+    "htmlGuardado": false,
+    "rutaHTML": null,
+    "estrategiaExtraccion": "tabla_estructurada",
+    "timestamp": 1755248550549,
+    "datosCatalogo": {
+      "numero": 10,
+      "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquPPqWpsFXhbFxmW*",
+      "tipoArchivo": "html"
+    },
+    "configuracion": {
+      "timeout": 60000,
+      "maxRetries": 2,
+      "tiempoEspera": 3000
+    },
+    "estadisticas": {
+      "estrategiasIntentadas": [
+        {
+          "nombre": "tabla_estructurada",
+          "exito": true,
+          "cursosEncontrados": 154,
+          "tiempo": 19
+        }
+      ],
+      "tiempoTotal": 19,
+      "cursosEncontrados": 154
+    }
+  }
+}

@@ -1,0 +1,555 @@
+{
+  "informacionGeneral": {
+    "fechaEjecucion": "2025-08-15T08:58:09.400Z",
+    "tiempoTotal": 1650964,
+    "tiempoTotalFormateado": "27m 30s",
+    "configuracion": {
+      "headless": true,
+      "timeout": 60000,
+      "maxRetries": 2,
+      "cleanupHTML": true,
+      "saveHTML": false,
+      "verbose": true,
+      "batchSize": 1,
+      "delayBetweenBatches": 20000,
+      "delayBetweenCarreras": 8000,
+      "reiniciarBrowserCada": 5
+    }
+  },
+  "estadisticas": {
+    "totalCarreras": 52,
+    "procesadas": 52,
+    "exitosas": 51,
+    "fallidas": 1,
+    "tiempoInicio": "2025-08-15T08:58:09.400Z",
+    "tiempoFin": "2025-08-15T09:25:40.364Z",
+    "tiempoTotal": 1650964
+  },
+  "resultadosExitosos": [
+    {
+      "numero": 2,
+      "nombre": "ARQUEOLOGÍA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqOP6qWpsFXhbFxs**",
+      "totalCursos": 75,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 5955,
+      "timestamp": "2025-08-15T08:58:15.672Z"
+    },
+    {
+      "numero": 1,
+      "nombre": "ANTROPOLOGÍA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqO09qWpsFXhbFxs**",
+      "totalCursos": 50,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3389,
+      "timestamp": "2025-08-15T08:58:47.091Z"
+    },
+    {
+      "numero": 3,
+      "nombre": "ARQUITECTURA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqOPuqWpsFXhbFxs**",
+      "totalCursos": 140,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3528,
+      "timestamp": "2025-08-15T08:59:18.631Z"
+    },
+    {
+      "numero": 4,
+      "nombre": "BIOLOGÍA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqOQRqWpsFXhbFxs**",
+      "totalCursos": 130,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3446,
+      "timestamp": "2025-08-15T08:59:50.107Z"
+    },
+    {
+      "numero": 6,
+      "nombre": "CIENCIAS DE LA COMUNICACIÓN",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqObXqWpsFXhbFxs**",
+      "totalCursos": 68,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3327,
+      "timestamp": "2025-08-15T09:00:21.441Z"
+    },
+    {
+      "numero": 5,
+      "nombre": "CIENCIAS ADMINISTRATIVAS",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqO0PqWpsFXhbFxs**",
+      "totalCursos": 133,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 5891,
+      "timestamp": "2025-08-15T09:00:55.820Z"
+    },
+    {
+      "numero": 7,
+      "nombre": "CONTABILIDAD",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqObrqWpsFXhbFxs**",
+      "totalCursos": 168,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3680,
+      "timestamp": "2025-08-15T09:01:27.518Z"
+    },
+    {
+      "numero": 8,
+      "nombre": "DERECHO",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqu6BqWpsFXhbFxs**",
+      "totalCursos": 114,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3477,
+      "timestamp": "2025-08-15T09:01:59.012Z"
+    },
+    {
+      "numero": 10,
+      "nombre": "EDUCACIÓN PRIMARIA-CUSCO",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquPPqWpsFXhbFxmW*",
+      "totalCursos": 154,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3538,
+      "timestamp": "2025-08-15T09:02:30.561Z"
+    },
+    {
+      "numero": 9,
+      "nombre": "ECONOMÍA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqu0rqWpsFXhbFxs**",
+      "totalCursos": 124,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3508,
+      "timestamp": "2025-08-15T09:03:02.081Z"
+    },
+    {
+      "numero": 12,
+      "nombre": "EDUCACIÓN SECUNDARIA ESPECIALIDAD CIENCIAS SOCIALES-CUSCO",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquPPqWpsFXhbFxmO*",
+      "totalCursos": 152,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 6005,
+      "timestamp": "2025-08-15T09:03:36.542Z"
+    },
+    {
+      "numero": 11,
+      "nombre": "EDUCACIÓN SECUNDARIA ESPECIALIDAD CIENCIAS NATURALES-CUSCO",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquPPqWpsFXhbFxmn*",
+      "totalCursos": 151,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3680,
+      "timestamp": "2025-08-15T09:04:08.235Z"
+    },
+    {
+      "numero": 13,
+      "nombre": "EDUCACIÓN SECUNDARIA ESPECIALIDAD EDUCACIÓN FÍSICA-CUSCO",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquPPqWpsFXhbFxm0*",
+      "totalCursos": 147,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3639,
+      "timestamp": "2025-08-15T09:04:39.888Z"
+    },
+    {
+      "numero": 14,
+      "nombre": "EDUCACIÓN SECUNDARIA ESPECIALIDAD LENGUA Y LITERATURA-CUSCO",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquPPqWpsFXhbFxmf*",
+      "totalCursos": 153,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3585,
+      "timestamp": "2025-08-15T09:05:11.492Z"
+    },
+    {
+      "numero": 16,
+      "nombre": "ENFERMERÍA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqu09qWpsFXhbFxs**",
+      "totalCursos": 98,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3388,
+      "timestamp": "2025-08-15T09:05:42.906Z"
+    },
+    {
+      "numero": 15,
+      "nombre": "EDUCACIÓN SECUNDARIA ESPECIALIDAD MATEMÁTICA Y FÍSICA-CUSCO",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquPPqWpsFXhbFxmA*",
+      "totalCursos": 147,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 5870,
+      "timestamp": "2025-08-15T09:06:17.279Z"
+    },
+    {
+      "numero": 18,
+      "nombre": "FILOSOFÍA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquQEqWpsFXhbFxs**",
+      "totalCursos": 59,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3469,
+      "timestamp": "2025-08-15T09:06:48.754Z"
+    },
+    {
+      "numero": 17,
+      "nombre": "FARMACIA Y BIOQUÍMICA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvq00gqWpsFXhbFxs**",
+      "totalCursos": 78,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3347,
+      "timestamp": "2025-08-15T09:07:20.117Z"
+    },
+    {
+      "numero": 20,
+      "nombre": "HISTORIA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqhnRqWpsFXhbFxs**",
+      "totalCursos": 61,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3342,
+      "timestamp": "2025-08-15T09:07:51.479Z"
+    },
+    {
+      "numero": 19,
+      "nombre": "FÍSICA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquQRqWpsFXhbFxs**",
+      "totalCursos": 69,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3357,
+      "timestamp": "2025-08-15T09:08:22.853Z"
+    },
+    {
+      "numero": 22,
+      "nombre": "INGENIERÍA DE MINAS",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvql0RqWpsFXhbFxs**",
+      "totalCursos": 79,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 5841,
+      "timestamp": "2025-08-15T09:08:57.171Z"
+    },
+    {
+      "numero": 21,
+      "nombre": "INGENIERÍA CIVIL",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqObRqWpsFXhbFxs**",
+      "totalCursos": 129,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3414,
+      "timestamp": "2025-08-15T09:09:28.598Z"
+    },
+    {
+      "numero": 24,
+      "nombre": "INGENIERÍA ELECTRÓNICA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqlnRqWpsFXhbFxs**",
+      "totalCursos": 129,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3476,
+      "timestamp": "2025-08-15T09:10:00.092Z"
+    },
+    {
+      "numero": 23,
+      "nombre": "INGENIERÍA ELÉCTRICA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqu0RqWpsFXhbFxs**",
+      "totalCursos": 131,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3458,
+      "timestamp": "2025-08-15T09:10:31.561Z"
+    },
+    {
+      "numero": 26,
+      "nombre": "INGENIERÍA INFORMÁTICA Y DE SISTEMAS",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqh09qWpsFXhbFxs**",
+      "totalCursos": 110,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3436,
+      "timestamp": "2025-08-15T09:11:03.019Z"
+    },
+    {
+      "numero": 25,
+      "nombre": "INGENIERÍA GEOLÓGICA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqubRqWpsFXhbFxs**",
+      "totalCursos": 69,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 5953,
+      "timestamp": "2025-08-15T09:11:37.455Z"
+    },
+    {
+      "numero": 28,
+      "nombre": "INGENIERÍA METALÚRGICA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqlPuqWpsFXhbFxs**",
+      "totalCursos": 67,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3431,
+      "timestamp": "2025-08-15T09:12:08.901Z"
+    },
+    {
+      "numero": 27,
+      "nombre": "INGENIERÍA MECÁNICA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvql0XqWpsFXhbFxs**",
+      "totalCursos": 92,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3407,
+      "timestamp": "2025-08-15T09:12:40.322Z"
+    },
+    {
+      "numero": 30,
+      "nombre": "INGENIERÍA QUÍMICA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvq00RqWpsFXhbFxs**",
+      "totalCursos": 74,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3336,
+      "timestamp": "2025-08-15T09:13:11.672Z"
+    },
+    {
+      "numero": 29,
+      "nombre": "INGENIERÍA PETROQUÍMICA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvq066qWpsFXhbFxs**",
+      "totalCursos": 63,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3328,
+      "timestamp": "2025-08-15T09:13:43.026Z"
+    },
+    {
+      "numero": 32,
+      "nombre": "MEDICINA HUMANA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvql0uqWpsFXhbFxs**",
+      "totalCursos": 92,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 5813,
+      "timestamp": "2025-08-15T09:14:17.296Z"
+    },
+    {
+      "numero": 31,
+      "nombre": "MATEMÁTICA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvql0PqWpsFXhbFxs**",
+      "totalCursos": 109,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3575,
+      "timestamp": "2025-08-15T09:14:48.881Z"
+    },
+    {
+      "numero": 34,
+      "nombre": "PSICOLOGÍA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvq06XqWpsFXhbFxs**",
+      "totalCursos": 63,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3322,
+      "timestamp": "2025-08-15T09:15:20.221Z"
+    },
+    {
+      "numero": 33,
+      "nombre": "ODONTOLOGÍA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqlbuqWpsFXhbFxs**",
+      "totalCursos": 64,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3352,
+      "timestamp": "2025-08-15T09:15:51.602Z"
+    },
+    {
+      "numero": 36,
+      "nombre": "TURISMO",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqP6PqWpsFXhbFxs**",
+      "totalCursos": 130,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3403,
+      "timestamp": "2025-08-15T09:16:23.008Z"
+    },
+    {
+      "numero": 35,
+      "nombre": "QUÍMICA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvq00cqWpsFXhbFxs**",
+      "totalCursos": 60,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 5785,
+      "timestamp": "2025-08-15T09:16:57.275Z"
+    },
+    {
+      "numero": 38,
+      "nombre": "ZOOTECNIA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqdQrqWpsFXhbFxs**",
+      "totalCursos": 92,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3444,
+      "timestamp": "2025-08-15T09:17:28.735Z"
+    },
+    {
+      "numero": 37,
+      "nombre": "AGRONOMÍA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqO0rqWpsFXhbFxs**",
+      "totalCursos": 79,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3387,
+      "timestamp": "2025-08-15T09:18:00.133Z"
+    },
+    {
+      "numero": 40,
+      "nombre": "OBSTETRICIA",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqlcXqWpsFXhbFxs**",
+      "totalCursos": 70,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3333,
+      "timestamp": "2025-08-15T09:18:31.485Z"
+    },
+    {
+      "numero": 39,
+      "nombre": "INGENIERÍA AGROPECUARIA (ANDAHUAYLAS) (Andahuaylas)",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqhPBqWpsFXhbFxs**",
+      "totalCursos": 69,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3324,
+      "timestamp": "2025-08-15T09:19:02.829Z"
+    },
+    {
+      "numero": 41,
+      "nombre": "INGENIERIA DEL MEDIO AMBIENTE Y RECURSOS NATURALES (SEDE CURAHUASI)",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvq0Q9qWpsFXhbFxs**",
+      "totalCursos": 4,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3253,
+      "timestamp": "2025-08-15T09:20:12.512Z"
+    },
+    {
+      "numero": 44,
+      "nombre": "INGENIERÍA AGROINDUSTRIAL",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqh06qWpsFXhbFxs**",
+      "totalCursos": 67,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3334,
+      "timestamp": "2025-08-15T09:20:43.859Z"
+    },
+    {
+      "numero": 43,
+      "nombre": "INGENIERÍA AGROPECUARIA (SANTO TOMAS) (Santo Tomas)",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqh0XqWpsFXhbFxs**",
+      "totalCursos": 70,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3346,
+      "timestamp": "2025-08-15T09:21:15.222Z"
+    },
+    {
+      "numero": 46,
+      "nombre": "INGENIERÍA FORESTAL",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquQrqWpsFXhbFxs**",
+      "totalCursos": 61,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3312,
+      "timestamp": "2025-08-15T09:21:46.559Z"
+    },
+    {
+      "numero": 45,
+      "nombre": "MEDICINA VETERINARIA (SICUANI)",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqPRXqWpsFXhbFxs**",
+      "totalCursos": 71,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 5802,
+      "timestamp": "2025-08-15T09:22:20.868Z"
+    },
+    {
+      "numero": 48,
+      "nombre": "EDUCACIÓN PRIMARIA-CANAS",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquPRqWpsFXhbFxmn*",
+      "totalCursos": 92,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3423,
+      "timestamp": "2025-08-15T09:22:52.303Z"
+    },
+    {
+      "numero": 47,
+      "nombre": "EDUCACIÓN INICIAL-CANAS",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvquPRqWpsFXhbFxmA*",
+      "totalCursos": 88,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3359,
+      "timestamp": "2025-08-15T09:23:23.678Z"
+    },
+    {
+      "numero": 50,
+      "nombre": "EDUCACIÓN SECUNDARIA ESPECIALIDAD CIENCIAS NATURALES-ESPINAR",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqu0PqWpsFXhbFxmA*",
+      "totalCursos": 83,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3384,
+      "timestamp": "2025-08-15T09:23:55.087Z"
+    },
+    {
+      "numero": 49,
+      "nombre": "EDUCACIÓN PRIMARIA-ESPINAR",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqu0PqWpsFXhbFxmW*",
+      "totalCursos": 84,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3408,
+      "timestamp": "2025-08-15T09:24:26.509Z"
+    },
+    {
+      "numero": 52,
+      "nombre": "MEDICINA VETERINARIA (ESPINAR)",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqPQPqWpsFXhbFxs**",
+      "totalCursos": 76,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 5784,
+      "timestamp": "2025-08-15T09:25:00.726Z"
+    },
+    {
+      "numero": 51,
+      "nombre": "EDUCACIÓN SECUNDARIA ESPECIALIDAD MATEMÁTICA Y FÍSICA-ESPINAR",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqu0PqWpsFXhbFxmn*",
+      "totalCursos": 85,
+      "tipoExtraccion": "real",
+      "estrategiaExtraccion": "tabla_estructurada",
+      "tiempoProceso": 3462,
+      "timestamp": "2025-08-15T09:25:32.205Z"
+    }
+  ],
+  "resultadosFallidos": [
+    {
+      "numero": 42,
+      "nombre": "AGRONOMIA TROPICAL",
+      "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqPn6qWpsFXhbFxs**",
+      "error": "No se encontraron cursos en la página después de análisis completo",
+      "tiempoProceso": 9934,
+      "timestamp": "2025-08-15T09:19:41.248Z"
+    }
+  ],
+  "resumen": {
+    "tasaExito": "98.08%",
+    "tasaFallo": "1.92%",
+    "tiempoPromedioPorCarrera": "31749ms"
+  }
+}

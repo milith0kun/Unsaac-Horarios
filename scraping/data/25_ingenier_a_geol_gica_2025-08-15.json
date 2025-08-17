@@ -1,0 +1,2899 @@
+{
+  "informacionGeneral": {
+    "numero": 25,
+    "nombre": "INGENIERÍA GEOLÓGICA",
+    "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqubRqWpsFXhbFxs**",
+    "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqubRqWpsFXhbFxs**",
+    "tipoArchivo": "html",
+    "fechaExtraccion": "2025-08-15T09:11:37.445Z",
+    "totalCursos": 69,
+    "tipoExtraccion": "real",
+    "estrategiaExtraccion": "tabla_estructurada",
+    "titulo": ".::Centro de Computo Unsaac::.",
+    "facultadHTML": "",
+    "escuelaHTML": "",
+    "facultad": "FACULTAD DE INGENIERÍA GEOLÓGICA, MINAS Y METALÚRGICA",
+    "codigoFacultad": "FIGMM",
+    "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA GEOLÓGICA",
+    "codigoEscuela": "EPIG",
+    "area": "A",
+    "fuenteInfo": "mapeo_oficial"
+  },
+  "cursos": [
+    {
+      "id": "GO918AGI_1",
+      "codigo": "GO918AGI",
+      "nombre": "COSTOS Y PRESUPUESTOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GO718AGI_2",
+      "codigo": "GO718AGI",
+      "nombre": "GEOINFORMATICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MA",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-312"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO915AGI_3",
+      "codigo": "GO915AGI",
+      "nombre": "GEOLOGIA DEL CUATERNARIO",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-312"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO817AGI_4",
+      "codigo": "GO817AGI",
+      "nombre": "GEOTECNIA DE CIMENTACIONES Y CANTERAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[08-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 10,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_8_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-403",
+        "LAB-4"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ML259AGI_5",
+      "codigo": "ML259AGI",
+      "nombre": "METALURGIA GENERAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GO816ZGI_6",
+      "codigo": "GO816ZGI",
+      "nombre": "MINERAGRAFIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GO719AGI_7",
+      "codigo": "GO719AGI",
+      "nombre": "MODELAMIENTO GEOLÓGICO",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[20-21]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 20,
+          "horaFin": 21,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_20_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MA",
+          "horario": "[19-21]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[19-21]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "IG-212"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO916ZGI_8",
+      "codigo": "GO916ZGI",
+      "nombre": "MODELAMIENTO GEOLOGICO MINERO",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GO819AGI_9",
+      "codigo": "GO819AGI",
+      "nombre": "PETROLOGIA SEDIMENTARIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GO820AGI_10",
+      "codigo": "GO820AGI",
+      "nombre": "YACIMIENTOS DE MINERALES NO METALICOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IN310",
+        "IG-214"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG01AGI_11",
+      "codigo": "MEG01AGI",
+      "nombre": "ÁLGEBRA Y GEOMETRÍA ANALÍTICA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG02AGI_12",
+      "codigo": "MEG02AGI",
+      "nombre": "CÁLCULO I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "CBG01AGI_13",
+      "codigo": "CBG01AGI",
+      "nombre": "ECOLOGÍA Y MEDIO AMBIENTE",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FIG01AGI_14",
+      "codigo": "FIG01AGI",
+      "nombre": "FÍSICA I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[12-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 13,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_12_13",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "HIG01AGI_15",
+      "codigo": "HIG01AGI",
+      "nombre": "HISTORIA CRÍTICA DEL PERÚ E IDENTIDAD NACIONAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "QUG01AGI_16",
+      "codigo": "QUG01AGI",
+      "nombre": "QUÍMICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG04AGI_17",
+      "codigo": "MEG04AGI",
+      "nombre": "CÁLCULO II",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GOG02AGI_18",
+      "codigo": "GOG02AGI",
+      "nombre": "CRISTALOGRAFIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-212",
+        "IG-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG03AGI_19",
+      "codigo": "MEG03AGI",
+      "nombre": "ESTADÍSTICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[19-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 20,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_19_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "IG-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GOG01AGI_20",
+      "codigo": "GOG01AGI",
+      "nombre": "GEOLOGIA GENERAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIQ-307",
+        "IG-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "LCG01AGI_21",
+      "codigo": "LCG01AGI",
+      "nombre": "LINGÜÍSTICA Y COMUNICACIÓN HUMANA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "IG-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IFG01AGI_22",
+      "codigo": "IFG01AGI",
+      "nombre": "PENSAMIENTO COMPUTACIONAL E INTELIGENCIA ARTIFICIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 6,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-18]",
+          "tipo": "L",
+          "grupo": "A",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "L",
+          "grupo": "B",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-202",
+        "IN312",
+        "IN310"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME103AGI_23",
+      "codigo": "ME103AGI",
+      "nombre": "ANALISIS MATEMATICO II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "FIF03AGI_24",
+      "codigo": "FIF03AGI",
+      "nombre": "FISICA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "QU416AGI_25",
+      "codigo": "QU416AGI",
+      "nombre": "FISICOQUIMICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GO303AGI_26",
+      "codigo": "GO303AGI",
+      "nombre": "GEOMORFOLOGIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "SA",
+          "horario": "[08-10]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 10,
+          "duracion": 2,
+          "diaNumerico": 6,
+          "bloqueHorario": "SA_8_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-212"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO302AGI_27",
+      "codigo": "GO302AGI",
+      "nombre": "MINERALOGIA DESCRIPTIVA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-404",
+        "IG-212"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO301AGI_28",
+      "codigo": "GO301AGI",
+      "nombre": "TOPOGRAFIA GEOLOGICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[13-17]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 17,
+          "duracion": 4,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_13_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "LAB-4"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME419AGI_29",
+      "codigo": "ME419AGI",
+      "nombre": "ANALISIS MATEMATICO II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GO403AGI_30",
+      "codigo": "GO403AGI",
+      "nombre": "ESTRATIGRAFIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-312"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO411AGI_31",
+      "codigo": "GO411AGI",
+      "nombre": "ESTRATIGRAFIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "FI412AGI_32",
+      "codigo": "FI412AGI",
+      "nombre": "FISICA III",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "FIF07AGI_33",
+      "codigo": "FIF07AGI",
+      "nombre": "FISICA III (ELECTRICIDAD Y MAGNETISMO)",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "QU416BGI_34",
+      "codigo": "QU416BGI",
+      "nombre": "FISICOQUIMICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GO410AGI_35",
+      "codigo": "GO410AGI",
+      "nombre": "GEOMORFOLOGIA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 1,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO404AGI_36",
+      "codigo": "GO404AGI",
+      "nombre": "MINERALOGIA OPTICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-306",
+        "LAB-7"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO412AGI_37",
+      "codigo": "GO412AGI",
+      "nombre": "MINERALOGIA OPTICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GO405AGI_38",
+      "codigo": "GO405AGI",
+      "nombre": "PALEONTOLOGIA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-308",
+        "IN305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO402AGI_39",
+      "codigo": "GO402AGI",
+      "nombre": "PETROLOGIA IGNEA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "LAB-7",
+        "IG-212"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO401AGI_40",
+      "codigo": "GO401AGI",
+      "nombre": "PETROLOGIA SEDIMENTARIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[12-14]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 14,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_12_14",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-403",
+        "LAB-7"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO512AGI_41",
+      "codigo": "GO512AGI",
+      "nombre": "GEOESTADÍSTICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[08-10]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 10,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_8_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-212",
+        "PIQ-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO511AGI_42",
+      "codigo": "GO511AGI",
+      "nombre": "GEOLOGÍA ESTRUCTURAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO510AGI_43",
+      "codigo": "GO510AGI",
+      "nombre": "GEOTECTÓNICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIQ-307",
+        "IG-212"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO518AGI_44",
+      "codigo": "GO518AGI",
+      "nombre": "PALEONTOLOGÍA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GO517AGI_45",
+      "codigo": "GO517AGI",
+      "nombre": "PETROLOGIA IGNEA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GO513AGI_46",
+      "codigo": "GO513AGI",
+      "nombre": "SEDIMENTOLOGÍA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-115"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO610AGI_47",
+      "codigo": "GO610AGI",
+      "nombre": "GEOLOGÍA DEL PERÚ",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[13-14]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 14,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_13_14",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-312"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO612AGI_48",
+      "codigo": "GO612AGI",
+      "nombre": "GEOMECANICA DE ROCAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[13-14]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 14,
+          "duracion": 1,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_13_14",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-403",
+        "IN310"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO615AGI_49",
+      "codigo": "GO615AGI",
+      "nombre": "PETROGRAFÍA MICROSCÓPICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[12-14]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 14,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_12_14",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-212",
+        "LAB-7"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO614AGI_50",
+      "codigo": "GO614AGI",
+      "nombre": "PETROLOGÍA METAMÓRFICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "LAB-7",
+        "IG-403"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO613AGI_51",
+      "codigo": "GO613AGI",
+      "nombre": "PROSPECCIÓN GEOQUÍMICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-312"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO611AGI_52",
+      "codigo": "GO611AGI",
+      "nombre": "TELEDETECCIÓN",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "IG-312"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO715AGI_53",
+      "codigo": "GO715AGI",
+      "nombre": "ACTIVIDADES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GO712AGI_54",
+      "codigo": "GO712AGI",
+      "nombre": "GEOHIDROLOGIA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[13-15]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-403"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO710AGI_55",
+      "codigo": "GO710AGI",
+      "nombre": "GEOLOGIA AMBIENTAL Y DESARROLLO SOSTENIBLE",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-212",
+        "IG-403",
+        "IG-312"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO714AGI_56",
+      "codigo": "GO714AGI",
+      "nombre": "GEOMECANICA DE SUELOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-403",
+        "IN310"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO711AGI_57",
+      "codigo": "GO711AGI",
+      "nombre": "METALOGENIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[10-12]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-212"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO713AGI_58",
+      "codigo": "GO713AGI",
+      "nombre": "PROSPECCION GEOFISICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-212",
+        "V. EG GI 3"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO813AGI_59",
+      "codigo": "GO813AGI",
+      "nombre": "ALTERACIONES HIDROTERMALES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-403",
+        "LAB-7"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO812AGI_60",
+      "codigo": "GO812AGI",
+      "nombre": "CARTOGRAFIA GEOLOGICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GO811AGI_61",
+      "codigo": "GO811AGI",
+      "nombre": "EXPLORACION DE YACIMIENTOS MINERALES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-308"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO810AGI_62",
+      "codigo": "GO810AGI",
+      "nombre": "GESTION DE RIESGOS GEOLOGICOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-212"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO815AGI_63",
+      "codigo": "GO815AGI",
+      "nombre": "INVESTIGACION GEOLOGICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO814AGI_64",
+      "codigo": "GO814AGI",
+      "nombre": "YACIMIENTOS DE HIDROCARBUROS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[10-12]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-308"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO913AGI_65",
+      "codigo": "GO913AGI",
+      "nombre": "HIDROGEOLOGIA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-403"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO910AGI_66",
+      "codigo": "GO910AGI",
+      "nombre": "INGENIERIA GEOLOGICA DE OBRAS CIVILES",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[08-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 10,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_8_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-403",
+        "IN305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO912AGI_67",
+      "codigo": "GO912AGI",
+      "nombre": "PROYECTOS GEOLOGICOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "IG-212"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO911AGI_68",
+      "codigo": "GO911AGI",
+      "nombre": "YACIMIENTOS DE MINERALES METALICOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[12-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 13,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_12_13",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIQ-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GO920AGI_69",
+      "codigo": "GO920AGI",
+      "nombre": "PRE-TESIS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[13-14]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 14,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_13_14",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIQ-307"
+      ],
+      "prioridad": 100
+    }
+  ],
+  "metadatos": {
+    "htmlGuardado": false,
+    "rutaHTML": null,
+    "estrategiaExtraccion": "tabla_estructurada",
+    "timestamp": 1755249097445,
+    "datosCatalogo": {
+      "numero": 25,
+      "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqubRqWpsFXhbFxs**",
+      "tipoArchivo": "html"
+    },
+    "configuracion": {
+      "timeout": 60000,
+      "maxRetries": 2,
+      "tiempoEspera": 3000
+    },
+    "estadisticas": {
+      "estrategiasIntentadas": [
+        {
+          "nombre": "tabla_estructurada",
+          "exito": true,
+          "cursosEncontrados": 69,
+          "tiempo": 10
+        }
+      ],
+      "tiempoTotal": 10,
+      "cursosEncontrados": 69
+    }
+  }
+}

@@ -1,0 +1,5484 @@
+{
+  "informacionGeneral": {
+    "numero": 24,
+    "nombre": "INGENIERÍA ELECTRÓNICA",
+    "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqlnRqWpsFXhbFxs**",
+    "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqlnRqWpsFXhbFxs**",
+    "tipoArchivo": "html",
+    "fechaExtraccion": "2025-08-15T09:10:00.077Z",
+    "totalCursos": 129,
+    "tipoExtraccion": "real",
+    "estrategiaExtraccion": "tabla_estructurada",
+    "titulo": ".::Centro de Computo Unsaac::.",
+    "facultadHTML": "",
+    "escuelaHTML": "",
+    "facultad": "FACULTAD DE INGENIERÍA ELÉCTRICA, ELECTRÓNICA, INFORMÁTICA Y MECÁNICA",
+    "codigoFacultad": "FIEIM",
+    "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA ELECTRÓNICA",
+    "codigoEscuela": "EPIEL",
+    "area": "A",
+    "fuenteInfo": "mapeo_oficial"
+  },
+  "cursos": [
+    {
+      "id": "EL513ALI_1",
+      "codigo": "EL513ALI",
+      "nombre": "ANTENAS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ARIZACA-CUSICUNA-JORGE LUIS"
+      ],
+      "aulas": [
+        "EL-406"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL413ALI_2",
+      "codigo": "EL413ALI",
+      "nombre": "CONTROL III",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[19-21]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[19-21]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EL-406"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL612ALI_3",
+      "codigo": "EL612ALI",
+      "nombre": "INGENIERIA CLINICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[19-21]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[19-21]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EL-405"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL431ALI_4",
+      "codigo": "EL431ALI",
+      "nombre": "INTELIGENCIA ARTIFICIAL",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "COAQUIRA-CASTILLO-ROGER JESUS"
+      ],
+      "aulas": [
+        "EL-406"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL432ALI_5",
+      "codigo": "EL432ALI",
+      "nombre": "INTRODUCCION A LA ROBOTICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[19-21]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[19-21]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL422ZLI_6",
+      "codigo": "EL422ZLI",
+      "nombre": "LABORATORIO DE CONTROL II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 85
+    },
+    {
+      "id": "EL552ALI_7",
+      "codigo": "EL552ALI",
+      "nombre": "LABORATORIO DE TELECOMUNICACIONES II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ARIZACA-CUSICUNA-JORGE LUIS"
+      ],
+      "aulas": [
+        "EL-506"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL552BLI_8",
+      "codigo": "EL552BLI",
+      "nombre": "LABORATORIO DE TELECOMUNICACIONES II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-506"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL552CLI_9",
+      "codigo": "EL552CLI",
+      "nombre": "LABORATORIO DE TELECOMUNICACIONES II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[19-21]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EL-506"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL622ALI_10",
+      "codigo": "EL622ALI",
+      "nombre": "PROCESAMIENTO DIGITAL DE IMAGENES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-406"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL416ALI_11",
+      "codigo": "EL416ALI",
+      "nombre": "REDES INDUSTRIALES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-406"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL545ALI_12",
+      "codigo": "EL545ALI",
+      "nombre": "SISTEMAS DE COMUNICACION I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ARIZACA-CUSICUNA-JORGE LUIS"
+      ],
+      "aulas": [
+        "EL-406"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL546ALI_13",
+      "codigo": "EL546ALI",
+      "nombre": "SISTEMAS DE COMUNICACION II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[19-21]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[19-21]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EL-406"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL242ZLI_14",
+      "codigo": "EL242ZLI",
+      "nombre": "SISTEMAS ELECTRONICOS DE POTENCIA II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "EL544ALI_15",
+      "codigo": "EL544ALI",
+      "nombre": "TELEFONIA Y REDES MOVILES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "TAGLE-CARBAJAL-FERNANDO"
+      ],
+      "aulas": [
+        "EL-308"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL543ALI_16",
+      "codigo": "EL543ALI",
+      "nombre": "TRANSMISION DE DATOS Y REDES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "VELASQUEZ-CURO-MILTON JHON"
+      ],
+      "aulas": [
+        "EL-408"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG01ALI_17",
+      "codigo": "MEG01ALI",
+      "nombre": "ÁLGEBRA Y GEOMETRÍA ANALÍTICA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG02ALI_18",
+      "codigo": "MEG02ALI",
+      "nombre": "CÁLCULO I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "CBG01ALI_19",
+      "codigo": "CBG01ALI",
+      "nombre": "ECOLOGÍA Y MEDIO AMBIENTE",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FP901ZLI_20",
+      "codigo": "FP901ZLI",
+      "nombre": "FILOSOFIA Y ETICA",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "FIG01ALI_21",
+      "codigo": "FIG01ALI",
+      "nombre": "FÍSICA I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "HIG01ALI_22",
+      "codigo": "HIG01ALI",
+      "nombre": "HISTORIA CRÍTICA DEL PERÚ E IDENTIDAD NACIONAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "QUG01ALI_23",
+      "codigo": "QUG01ALI",
+      "nombre": "QUÍMICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME201ALI_24",
+      "codigo": "ME201ALI",
+      "nombre": "ALGEBRA LINEAL",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG04ALI_25",
+      "codigo": "MEG04ALI",
+      "nombre": "CÁLCULO II",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EL-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FI105ALI_26",
+      "codigo": "FI105ALI",
+      "nombre": "ELECTRICIDAD, MAGNETISMO Y CALOR",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[19-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 20,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_19_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EL-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG03ALI_27",
+      "codigo": "MEG03ALI",
+      "nombre": "ESTADÍSTICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FP902ZLI_28",
+      "codigo": "FP902ZLI",
+      "nombre": "LIDERAZGO Y HABILIDADES SOCIALES",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "LCG01ALI_29",
+      "codigo": "LCG01ALI",
+      "nombre": "LINGÜÍSTICA Y COMUNICACIÓN HUMANA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IFG01ALI_30",
+      "codigo": "IFG01ALI",
+      "nombre": "PENSAMIENTO COMPUTACIONAL E INTELIGENCIA ARTIFICIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 6,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "L",
+          "grupo": "A",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "B",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-205",
+        "LAB-1"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME203ALI_31",
+      "codigo": "ME203ALI",
+      "nombre": "CALCULO III",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME205ALI_32",
+      "codigo": "ME205ALI",
+      "nombre": "ECUACIONES DIFERENCIALES",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FI108ALI_33",
+      "codigo": "FI108ALI",
+      "nombre": "FÍSICA MODERNA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL151ALI_34",
+      "codigo": "EL151ALI",
+      "nombre": "FUNDAMENTOS DE CIRCUITOS ELECTRÓNICOS I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[13-14]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 14,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_13_14",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "UTRILLA-MEGO-LIMBERG WALTER"
+      ],
+      "aulas": [
+        "EL-206",
+        "EL-405"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME204ALI_35",
+      "codigo": "ME204ALI",
+      "nombre": "MATEMATICA DISCRETA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL309ALI_36",
+      "codigo": "EL309ALI",
+      "nombre": "PROGRAMACIÓN DE HARDWARE ELECTRÓNICO I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "QUISPE-MESCCO-ALEX JHON"
+      ],
+      "aulas": [
+        "EL-308"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IE151ALI_37",
+      "codigo": "IE151ALI",
+      "nombre": "ANALISIS DE CIRCUITOS ELECTRICOS I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-207"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME203BLI_38",
+      "codigo": "ME203BLI",
+      "nombre": "CALCULO III",
+      "creditos": 5,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 6,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[13-15]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-207"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL211ALI_39",
+      "codigo": "EL211ALI",
+      "nombre": "DISPOSITIVOS ELECTRÓNICOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[13-15]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[13-14]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 14,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_13_14",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME610ALI_40",
+      "codigo": "ME610ALI",
+      "nombre": "ESTADISTICA Y PROBABILIDADES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-207"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FI108BLI_41",
+      "codigo": "FI108BLI",
+      "nombre": "FÍSICA IV",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-207"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL152ALI_42",
+      "codigo": "EL152ALI",
+      "nombre": "FUNDAMENTOS DE CIRCUITOS ELECTRÓNICOS II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL500ALI_43",
+      "codigo": "EL500ALI",
+      "nombre": "FUNDAMENTOS DE SEÑALES Y SISTEMAS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL191ALI_44",
+      "codigo": "EL191ALI",
+      "nombre": "LABORATORIO DE FUNDAMENTOS DE CIRCUITOS ELECTRÓNICOS I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[19-21]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC271ALI_45",
+      "codigo": "MC271ALI",
+      "nombre": "MECANICA DEL CUERPO RIGIDO",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[13-15]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-207"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC273ALI_46",
+      "codigo": "MC273ALI",
+      "nombre": "MECÁNICA PARA INGENIERÍA ELECTRÓNICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IF112ALI_47",
+      "codigo": "IF112ALI",
+      "nombre": "MÉTODOS NUMÉRICOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL310ALI_48",
+      "codigo": "EL310ALI",
+      "nombre": "PROGRAMACIÓN DE HARDWARE ELECTRÓNICO II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[13-15]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "QUISPE-MESCCO-ALEX JHON"
+      ],
+      "aulas": [
+        "EL-308"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IF109ALI_49",
+      "codigo": "IF109ALI",
+      "nombre": "PROGRAMACIÓN DIGITAL II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-207"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IE152ALI_50",
+      "codigo": "IE152ALI",
+      "nombre": "ANALISIS DE CIRCUITOS ELECTRICOS II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC272ALI_51",
+      "codigo": "MC272ALI",
+      "nombre": "DINAMICA DE FLUIDOS",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME204BLI_52",
+      "codigo": "ME204BLI",
+      "nombre": "ECUACIONES DIFERENCIALES",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL211BLI_53",
+      "codigo": "EL211BLI",
+      "nombre": "FUNDAMENTOS DE LA ELECTRONICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IE191CLI_54",
+      "codigo": "IE191CLI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELECTRICOS I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIE-209"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IE191DLI_55",
+      "codigo": "IE191DLI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELECTRICOS I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIE-209"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL221ALI_56",
+      "codigo": "EL221ALI",
+      "nombre": "LABORATORIO DE FUNDAMENTOS DE ELECTRONICA",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "VELASQUEZ-CURO-MILTON JHON"
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL221CLI_57",
+      "codigo": "EL221CLI",
+      "nombre": "LABORATORIO DE FUNDAMENTOS DE ELECTRONICA",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "UTRILLA-MEGO-LIMBERG WALTER"
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME206ALI_58",
+      "codigo": "ME206ALI",
+      "nombre": "METODOS NUMERICOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FI109ALI_59",
+      "codigo": "FI109ALI",
+      "nombre": "TEORIA DE CAMPOS ELECTROMAGNETICOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL212ALI_60",
+      "codigo": "EL212ALI",
+      "nombre": "CIRCUITOS ELECTRÓNICOS I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL212BLI_61",
+      "codigo": "EL212BLI",
+      "nombre": "CIRCUITOS ELECTRÓNICOS I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[13-15]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[13-14]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 14,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_13_14",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-106"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL500BLI_62",
+      "codigo": "EL500BLI",
+      "nombre": "FUNDAMENTOS DE SEÑALES Y SISTEMAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "TAGLE-CARBAJAL-FERNANDO"
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL500CLI_63",
+      "codigo": "EL500CLI",
+      "nombre": "FUNDAMENTOS DE SEÑALES Y SISTEMAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-207"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IE192ALI_64",
+      "codigo": "IE192ALI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELÉCTRICOS II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIE-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IE192BLI_65",
+      "codigo": "IE192BLI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELÉCTRICOS II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIE-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IE192CLI_66",
+      "codigo": "IE192CLI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELÉCTRICOS II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIE-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IE192DLI_67",
+      "codigo": "IE192DLI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELÉCTRICOS II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[07-09]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIE-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL222ALI_68",
+      "codigo": "EL222ALI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELECTRÓNICOS I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[19-21]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "UTRILLA-MEGO-LIMBERG WALTER"
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL222BLI_69",
+      "codigo": "EL222BLI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELECTRÓNICOS I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[19-21]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "UTRILLA-MEGO-LIMBERG WALTER"
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL222CLI_70",
+      "codigo": "EL222CLI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELECTRÓNICOS I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[19-21]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL222DLI_71",
+      "codigo": "EL222DLI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELECTRÓNICOS I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 85
+    },
+    {
+      "id": "IE356ALI_72",
+      "codigo": "IE356ALI",
+      "nombre": "LABORATORIO DE MÁQUINAS ELÉCTRICAS",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIE-213"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IE356BLI_73",
+      "codigo": "IE356BLI",
+      "nombre": "LABORATORIO DE MÁQUINAS ELÉCTRICAS",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIE-213"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IE356CLI_74",
+      "codigo": "IE356CLI",
+      "nombre": "LABORATORIO DE MÁQUINAS ELÉCTRICAS",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIE-213"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IE356DLI_75",
+      "codigo": "IE356DLI",
+      "nombre": "LABORATORIO DE MÁQUINAS ELÉCTRICAS",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "PIE-213"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IE355ALI_76",
+      "codigo": "IE355ALI",
+      "nombre": "MÁQUINAS ELÉCTRICAS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-106"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL511ALI_77",
+      "codigo": "EL511ALI",
+      "nombre": "PROPAGACIÓN ELECTROMAGNETICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL511BLI_78",
+      "codigo": "EL511BLI",
+      "nombre": "PROPAGACIÓN ELECTROMAGNETICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-106"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL311ALI_79",
+      "codigo": "EL311ALI",
+      "nombre": "SISTEMAS DIGITALES I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL311BLI_80",
+      "codigo": "EL311BLI",
+      "nombre": "SISTEMAS DIGITALES I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "HERRERA-LEVANO-JULIO CESAR"
+      ],
+      "aulas": [
+        "EL-106"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL213ALI_81",
+      "codigo": "EL213ALI",
+      "nombre": "CIRCUITOS ELECTRÓNICOS II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "VARGAS-MATEOS-WILLY"
+      ],
+      "aulas": [
+        "EL-405"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL213BLI_82",
+      "codigo": "EL213BLI",
+      "nombre": "CIRCUITOS ELECTRÓNICOS II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-107"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL411ALI_83",
+      "codigo": "EL411ALI",
+      "nombre": "CONTROL I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[13-14]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 14,
+          "duracion": 1,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_13_14",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "PALOMINO-QUISPE-FACUNDO"
+      ],
+      "aulas": [
+        "EL-405",
+        "EL-406"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL411BLI_84",
+      "codigo": "EL411BLI",
+      "nombre": "CONTROL I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[19-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 20,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_19_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EL-107"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL223ALI_85",
+      "codigo": "EL223ALI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELECTRÓNICOS II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "VARGAS-MATEOS-WILLY"
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL223BLI_86",
+      "codigo": "EL223BLI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELECTRÓNICOS II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[15-17]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "PALOMINO-QUISPE-FACUNDO"
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL321ALI_87",
+      "codigo": "EL321ALI",
+      "nombre": "LABORATORIO DE SISTEMAS DIGITALES I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-415"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL321CLI_88",
+      "codigo": "EL321CLI",
+      "nombre": "LABORATORIO DE SISTEMAS DIGITALES I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[19-21]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EL-415"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL551ALI_89",
+      "codigo": "EL551ALI",
+      "nombre": "LABORATORIO DE TELECOMUNICACIONES I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[17-19]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-506"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL551BLI_90",
+      "codigo": "EL551BLI",
+      "nombre": "LABORATORIO DE TELECOMUNICACIONES I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-506"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL551CLI_91",
+      "codigo": "EL551CLI",
+      "nombre": "LABORATORIO DE TELECOMUNICACIONES I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-506"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL501ALI_92",
+      "codigo": "EL501ALI",
+      "nombre": "SEÑALES Y SISTEMAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-405"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL312ALI_93",
+      "codigo": "EL312ALI",
+      "nombre": "SISTEMAS DIGITALES II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "VARGAS-MATEOS-WILLY"
+      ],
+      "aulas": [
+        "EL-405"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL312BLI_94",
+      "codigo": "EL312BLI",
+      "nombre": "SISTEMAS DIGITALES II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-107"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL541ALI_95",
+      "codigo": "EL541ALI",
+      "nombre": "TELECOMUNICACIONES I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-405"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL541BLI_96",
+      "codigo": "EL541BLI",
+      "nombre": "TELECOMUNICACIONES I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-107"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL313ALI_97",
+      "codigo": "EL313ALI",
+      "nombre": "ARQUITECTURA DE MICROPROCESADORES Y MICROCONTROLADORES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[19-21]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[19-21]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EL-107"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL214BLI_98",
+      "codigo": "EL214BLI",
+      "nombre": "CIRCUITOS ELECTRONICOS III",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-107"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL412BLI_99",
+      "codigo": "EL412BLI",
+      "nombre": "CONTROL II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-107"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL224ALI_100",
+      "codigo": "EL224ALI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELECTRÓNICOS III",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL224BLI_101",
+      "codigo": "EL224BLI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELECTRÓNICOS III",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL224CLI_102",
+      "codigo": "EL224CLI",
+      "nombre": "LABORATORIO DE CIRCUITOS ELECTRÓNICOS III",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL421ALI_103",
+      "codigo": "EL421ALI",
+      "nombre": "LABORATORIO DE CONTROL I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-412"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL421BLI_104",
+      "codigo": "EL421BLI",
+      "nombre": "LABORATORIO DE CONTROL I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-412"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL421CLI_105",
+      "codigo": "EL421CLI",
+      "nombre": "LABORATORIO DE CONTROL I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-412"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL322ALI_106",
+      "codigo": "EL322ALI",
+      "nombre": "LABORATORIO DE SISTEMAS DIGITALES II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-415"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL322BLI_107",
+      "codigo": "EL322BLI",
+      "nombre": "LABORATORIO DE SISTEMAS DIGITALES II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-415"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL322CLI_108",
+      "codigo": "EL322CLI",
+      "nombre": "LABORATORIO DE SISTEMAS DIGITALES II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[13-15]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "PALOMINO-QUISPE-FACUNDO"
+      ],
+      "aulas": [
+        "EL-415"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL331BLI_109",
+      "codigo": "EL331BLI",
+      "nombre": "PROCESAMIENTO DIGITAL DE SEÑALES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-107"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL542ALI_110",
+      "codigo": "EL542ALI",
+      "nombre": "TELECOMUNICACIONES II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-405"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL611ALI_111",
+      "codigo": "EL611ALI",
+      "nombre": "FUNDAMENTOS DE BIOINGENIERIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "JIMENEZ-TRONCOSO-LUIS"
+      ],
+      "aulas": [
+        "EL-406"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL231ALI_112",
+      "codigo": "EL231ALI",
+      "nombre": "INSTRUMENTACION ELECTRONICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "JIMENEZ-TRONCOSO-LUIS"
+      ],
+      "aulas": [
+        "EL-106"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL415BLI_113",
+      "codigo": "EL415BLI",
+      "nombre": "SISTEMAS DE CONTROL INDUSTRIAL",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[19-21]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[19-21]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL215ALI_114",
+      "codigo": "EL215ALI",
+      "nombre": "SISTEMAS ELECTRONICOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-406"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL215BLI_115",
+      "codigo": "EL215BLI",
+      "nombre": "SISTEMAS ELECTRONICOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-405"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL241ALI_116",
+      "codigo": "EL241ALI",
+      "nombre": "SISTEMAS ELECTRONICOS DE POTENCIA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-406"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL241BLI_117",
+      "codigo": "EL241BLI",
+      "nombre": "SISTEMAS ELECTRONICOS DE POTENCIA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-107"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL507ALI_118",
+      "codigo": "EL507ALI",
+      "nombre": "FORMULACION Y GESTION DE PROYECTOS DE INGENIERIA ELECTRONICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[13-15]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL623ALI_119",
+      "codigo": "EL623ALI",
+      "nombre": "LABORATORIO DE BIOINGENIERIA",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "LU",
+          "horario": "[12-14]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 14,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_12_14",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "JIMENEZ-TRONCOSO-LUIS"
+      ],
+      "aulas": [
+        "EL-316"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL232ALI_120",
+      "codigo": "EL232ALI",
+      "nombre": "LABORATORIO DE INSTRUMENTACION ELECTRONICA",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[15-17]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL232BLI_121",
+      "codigo": "EL232BLI",
+      "nombre": "LABORATORIO DE INSTRUMENTACION ELECTRONICA",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL232CLI_122",
+      "codigo": "EL232CLI",
+      "nombre": "LABORATORIO DE INSTRUMENTACION ELECTRONICA",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "TAGLE-CARBAJAL-FERNANDO"
+      ],
+      "aulas": [
+        "EL-313"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL243ALI_123",
+      "codigo": "EL243ALI",
+      "nombre": "LABORATORIO DE SISTEMAS ELECTRONICOS DE POTENCIA",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-411"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL243BLI_124",
+      "codigo": "EL243BLI",
+      "nombre": "LABORATORIO DE SISTEMAS ELECTRONICOS DE POTENCIA",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "PALOMINO-QUISPE-FACUNDO"
+      ],
+      "aulas": [
+        "EL-411"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL323ALI_125",
+      "codigo": "EL323ALI",
+      "nombre": "LABORATORIO DE SISTEMAS EMBEBIDOS",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[17-19]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-415"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL323BLI_126",
+      "codigo": "EL323BLI",
+      "nombre": "LABORATORIO DE SISTEMAS EMBEBIDOS",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "QUISPE-MESCCO-ALEX JHON"
+      ],
+      "aulas": [
+        "EL-415"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL701ALI_127",
+      "codigo": "EL701ALI",
+      "nombre": "SEMINARIO DE INVESTIGACION APLICADA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "COAQUIRA-CASTILLO-ROGER JESUS"
+      ],
+      "aulas": [
+        "EL-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL701BLI_128",
+      "codigo": "EL701BLI",
+      "nombre": "SEMINARIO DE INVESTIGACION APLICADA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-207"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL701CLI_129",
+      "codigo": "EL701CLI",
+      "nombre": "SEMINARIO DE INVESTIGACION APLICADA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EL-106"
+      ],
+      "prioridad": 100
+    }
+  ],
+  "metadatos": {
+    "htmlGuardado": false,
+    "rutaHTML": null,
+    "estrategiaExtraccion": "tabla_estructurada",
+    "timestamp": 1755249000077,
+    "datosCatalogo": {
+      "numero": 24,
+      "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqlnRqWpsFXhbFxs**",
+      "tipoArchivo": "html"
+    },
+    "configuracion": {
+      "timeout": 60000,
+      "maxRetries": 2,
+      "tiempoEspera": 3000
+    },
+    "estadisticas": {
+      "estrategiasIntentadas": [
+        {
+          "nombre": "tabla_estructurada",
+          "exito": true,
+          "cursosEncontrados": 129,
+          "tiempo": 20
+        }
+      ],
+      "tiempoTotal": 20,
+      "cursosEncontrados": 129
+    }
+  }
+}

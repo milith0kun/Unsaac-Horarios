@@ -1,0 +1,1550 @@
+{
+  "informacionGeneral": {
+    "numero": 39,
+    "nombre": "INGENIERÍA AGROPECUARIA (ANDAHUAYLAS) (Andahuaylas)",
+    "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqhPBqWpsFXhbFxs**",
+    "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqhPBqWpsFXhbFxs**",
+    "tipoArchivo": "html",
+    "fechaExtraccion": "2025-08-15T09:19:02.817Z",
+    "totalCursos": 69,
+    "tipoExtraccion": "real",
+    "estrategiaExtraccion": "tabla_estructurada",
+    "titulo": ".::Centro de Computo Unsaac::.",
+    "facultadHTML": "",
+    "escuelaHTML": "",
+    "facultad": "",
+    "codigoFacultad": "",
+    "escuela": "",
+    "codigoEscuela": "",
+    "area": "",
+    "fuenteInfo": "extraccion_html"
+  },
+  "cursos": [
+    {
+      "id": "IR106AIR_1",
+      "codigo": "IR106AIR",
+      "nombre": "AGRONEGOCIOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GA269AIR_2",
+      "codigo": "GA269AIR",
+      "nombre": "APICULTURA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "AG519AIR_3",
+      "codigo": "AG519AIR",
+      "nombre": "EXTENSION RURAL",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "AG511AIR_4",
+      "codigo": "AG511AIR",
+      "nombre": "HIDROLOGIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GA665AIR_5",
+      "codigo": "GA665AIR",
+      "nombre": "MERCADOTECNIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "APG01AIR_6",
+      "codigo": "APG01AIR",
+      "nombre": "BOTANICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "IRG01AIR_7",
+      "codigo": "IRG01AIR",
+      "nombre": "ECOLOGÍA Y MEDIO AMBIENTE",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AL-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "HIG01AIR_8",
+      "codigo": "HIG01AIR",
+      "nombre": "HISTORIA CRÍTICA DEL PERÚ E IDENTIDAD NACIONAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AL-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "LCG01AIR_9",
+      "codigo": "LCG01AIR",
+      "nombre": "LINGÜÍSTICA Y COMUNICACIÓN HUMANA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[12-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 13,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_12_13",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AL-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG05AIR_10",
+      "codigo": "MEG05AIR",
+      "nombre": "MATEMÁTICA I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AL-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "QUG03AIR_11",
+      "codigo": "QUG03AIR",
+      "nombre": "QUÍMICA GENERAL E INORGÁNICA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AL-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG03AIR_12",
+      "codigo": "MEG03AIR",
+      "nombre": "ESTADÍSTICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AL-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FIG03AIR_13",
+      "codigo": "FIG03AIR",
+      "nombre": "FÍSICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[12-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 13,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_12_13",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AL-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "APG02AIR_14",
+      "codigo": "APG02AIR",
+      "nombre": "INTRODUCCIÓN A LA INGENIERÍA AGROPECUARIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "MEG07AIR_15",
+      "codigo": "MEG07AIR",
+      "nombre": "MATEMÁTICA II",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AL-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IFG01AIR_16",
+      "codigo": "IFG01AIR",
+      "nombre": "PENSAMIENTO COMPUTACIONAL E INTELIGENCIA ARTIFICIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AL-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "QUG04AIR_17",
+      "codigo": "QUG04AIR",
+      "nombre": "QUÍMICA ORGÁNICA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AL-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "AP305AIR_18",
+      "codigo": "AP305AIR",
+      "nombre": "AGROCLIMATOLOGÍA Y FENOLOGÍA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "ME301AIR_19",
+      "codigo": "ME301AIR",
+      "nombre": "ANÁLISIS MATEMÁTICO",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "AP304AIR_20",
+      "codigo": "AP304AIR",
+      "nombre": "ANATOMÍA ANIMAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "QU303AIR_21",
+      "codigo": "QU303AIR",
+      "nombre": "BIOQUÍMICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "AP306AIR_22",
+      "codigo": "AP306AIR",
+      "nombre": "DISEÑO ASISTIDO POR ORDENADOR",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "AP302AIR_23",
+      "codigo": "AP302AIR",
+      "nombre": "FISIOLOGÍA VEGETAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "LOAYZA-CESPEDES-JULIO CESAR"
+      ],
+      "aulas": [
+        "AL-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "AP403AIR_24",
+      "codigo": "AP403AIR",
+      "nombre": "BIOLOGÍA CELULAR Y MOLECULAR",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "QU904AIR_25",
+      "codigo": "QU904AIR",
+      "nombre": "BIOQUIMICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "AP401AIR_26",
+      "codigo": "AP401AIR",
+      "nombre": "ECONOMÍA AGROPECUARIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "CCOMPUTO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "AP405AIR_27",
+      "codigo": "AP405AIR",
+      "nombre": "EDAFOLOGÍA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "ME904AIR_28",
+      "codigo": "ME904AIR",
+      "nombre": "ESTADISTICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GA315AIR_29",
+      "codigo": "GA315AIR",
+      "nombre": "FISIOLOGIA ANIMAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "AP404AIR_30",
+      "codigo": "AP404AIR",
+      "nombre": "FISIOLOGÍA ANIMAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "VA316AIR_31",
+      "codigo": "VA316AIR",
+      "nombre": "PRINCIPIOS FARMACOLOGICOS Y TERAPEUTICOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "AP402AIR_32",
+      "codigo": "AP402AIR",
+      "nombre": "SISTEMÁTICA DE PLANTAS CULTIVADAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "LOAYZA-CESPEDES-JULIO CESAR"
+      ],
+      "aulas": [
+        "AL-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "CB998AIR_33",
+      "codigo": "CB998AIR",
+      "nombre": "SISTEMÁTICA DE PLANTAS CULTIVADAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "AP406AIR_34",
+      "codigo": "AP406AIR",
+      "nombre": "TOPOGRAFÍA GENERAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "AG507AIR_35",
+      "codigo": "AG507AIR",
+      "nombre": "AGROCLIMATOLOGIA Y FENOLOGIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "LC600AIR_36",
+      "codigo": "LC600AIR",
+      "nombre": "DANZA Y DEPORTE",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 90
+    },
+    {
+      "id": "AG504AIR_37",
+      "codigo": "AG504AIR",
+      "nombre": "DISEÑOS EXPERIMENTALES",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "QUISPE-CHIPANA-SALVADOR"
+      ],
+      "aulas": [
+        "CCOMPUTO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "AG508AIR_38",
+      "codigo": "AG508AIR",
+      "nombre": "EDAFOLOGIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "AG514AIR_39",
+      "codigo": "AG514AIR",
+      "nombre": "GENETICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GA415AIR_40",
+      "codigo": "GA415AIR",
+      "nombre": "REPRODUCCION ANIMAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "AG506AIR_41",
+      "codigo": "AG506AIR",
+      "nombre": "ECONOMIA AGROPECUARIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "AG515AIR_42",
+      "codigo": "AG515AIR",
+      "nombre": "FITOMEJORAMIENTO",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "AG509AIR_43",
+      "codigo": "AG509AIR",
+      "nombre": "NUTRICION VEGETAL Y FERTILIZACIÓN",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GA301AIR_44",
+      "codigo": "GA301AIR",
+      "nombre": "NUTRICIÓN Y ALIMENTACIÓN ANIMAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GA314AIR_45",
+      "codigo": "GA314AIR",
+      "nombre": "PARASITOLOGIA Y ENFERMEDADES INFECCIOSAS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "AG505AIR_46",
+      "codigo": "AG505AIR",
+      "nombre": "TOPOGRAFIA GENERAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "AG516AIR_47",
+      "codigo": "AG516AIR",
+      "nombre": "CULTIVOS ANDINOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "AG502AIR_48",
+      "codigo": "AG502AIR",
+      "nombre": "FITOPATOLOGIA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GA204AIR_49",
+      "codigo": "GA204AIR",
+      "nombre": "MANEJO DE PASTURAS Y PRADERAS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "AG501AIR_50",
+      "codigo": "AG501AIR",
+      "nombre": "MANEJO INTEGRADO DE PLAGAS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "AG510AIR_51",
+      "codigo": "AG510AIR",
+      "nombre": "MANEJO Y CONSERVACION DE SUELOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GA303AIR_52",
+      "codigo": "GA303AIR",
+      "nombre": "MEJORAMIENTO GENETICO ANIMAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GA669AIR_53",
+      "codigo": "GA669AIR",
+      "nombre": "FORMULACION Y EVALUACION DE PROYECTOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GA267AIR_54",
+      "codigo": "GA267AIR",
+      "nombre": "INSTALACIONES AGROPECUARIAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GA600AIR_55",
+      "codigo": "GA600AIR",
+      "nombre": "INVESTIGACION CIENTIFICA",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "RODRIGUEZ-CAPCHA-MISAEL"
+      ],
+      "aulas": [
+        "AL-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "AG512AIR_56",
+      "codigo": "AG512AIR",
+      "nombre": "MECANIZACION AGROPECUARIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "LOAYZA-CESPEDES-JULIO CESAR"
+      ],
+      "aulas": [
+        "AL-204",
+        "UP-CAM"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GA305AIR_57",
+      "codigo": "GA305AIR",
+      "nombre": "PRODUCCION DE CAMELIDOS SUDAMERICANOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "RODRIGUEZ-CAPCHA-MISAEL"
+      ],
+      "aulas": [
+        "AL-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "GA304AIR_58",
+      "codigo": "GA304AIR",
+      "nombre": "PRODUCCION DE VACUNOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GA447BIR_59",
+      "codigo": "GA447BIR",
+      "nombre": "TECNICAS AGROPECUARIAS",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 90
+    },
+    {
+      "id": "AG601AIR_60",
+      "codigo": "AG601AIR",
+      "nombre": "PRACTICA PRE PROFESIONAL I",
+      "creditos": 2,
+      "tipo": "Prácticas Pre Profesionales",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 90
+    },
+    {
+      "id": "AG513AIR_61",
+      "codigo": "AG513AIR",
+      "nombre": "PRINCIPIOS DE IRRIGACION",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "GA310AIR_62",
+      "codigo": "GA310AIR",
+      "nombre": "PRODUCCION DE CUYES Y CONEJOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "RODRIGUEZ-CAPCHA-MISAEL"
+      ],
+      "aulas": [
+        "AL-203",
+        "UP-CUY"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "AG517AIR_63",
+      "codigo": "AG517AIR",
+      "nombre": "PROPAGACION DE PLANTAS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "AG518AIR_64",
+      "codigo": "AG518AIR",
+      "nombre": "BIODIVERSIDAD",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GA505AIR_65",
+      "codigo": "GA505AIR",
+      "nombre": "BIOTECNOLOGIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GA601AIR_66",
+      "codigo": "GA601AIR",
+      "nombre": "PRACTICA PRE PROFESIONAL II",
+      "creditos": 2,
+      "tipo": "Prácticas Pre Profesionales",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 90
+    },
+    {
+      "id": "GA307AIR_67",
+      "codigo": "GA307AIR",
+      "nombre": "PRODUCCION DE AVES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "GA447AIR_68",
+      "codigo": "GA447AIR",
+      "nombre": "TECNICAS AGROPECUARIAS",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 90
+    },
+    {
+      "id": "GA600BIR_69",
+      "codigo": "GA600BIR",
+      "nombre": "TRABAJO DE INVESTIGACIÓN",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 90
+    }
+  ],
+  "metadatos": {
+    "htmlGuardado": false,
+    "rutaHTML": null,
+    "estrategiaExtraccion": "tabla_estructurada",
+    "timestamp": 1755249542817,
+    "datosCatalogo": {
+      "numero": 39,
+      "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqhPBqWpsFXhbFxs**",
+      "tipoArchivo": "html"
+    },
+    "configuracion": {
+      "timeout": 60000,
+      "maxRetries": 2,
+      "tiempoEspera": 3000
+    },
+    "estadisticas": {
+      "estrategiasIntentadas": [
+        {
+          "nombre": "tabla_estructurada",
+          "exito": true,
+          "cursosEncontrados": 69,
+          "tiempo": 7
+        }
+      ],
+      "tiempoTotal": 7,
+      "cursosEncontrados": 69
+    }
+  }
+}

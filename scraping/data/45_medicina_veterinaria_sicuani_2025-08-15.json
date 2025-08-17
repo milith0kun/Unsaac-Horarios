@@ -1,0 +1,3449 @@
+{
+  "informacionGeneral": {
+    "numero": 45,
+    "nombre": "MEDICINA VETERINARIA (SICUANI)",
+    "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqPRXqWpsFXhbFxs**",
+    "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqPRXqWpsFXhbFxs**",
+    "tipoArchivo": "html",
+    "fechaExtraccion": "2025-08-15T09:22:20.854Z",
+    "totalCursos": 71,
+    "tipoExtraccion": "real",
+    "estrategiaExtraccion": "tabla_estructurada",
+    "titulo": ".::Centro de Computo Unsaac::.",
+    "facultadHTML": "",
+    "escuelaHTML": "",
+    "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+    "codigoFacultad": "FCS",
+    "escuela": "ESCUELA PROFESIONAL DE MEDICINA VETERINARIA - SICUANI",
+    "codigoEscuela": "EPMV_SIC",
+    "area": "B",
+    "fuenteInfo": "mapeo_oficial"
+  },
+  "cursos": [
+    {
+      "id": "CBG01AVS_1",
+      "codigo": "CBG01AVS",
+      "nombre": "BIOLOGIA CELULAR Y MOLECULAR",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AS-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "CBG02AVS_2",
+      "codigo": "CBG02AVS",
+      "nombre": "ECOLOGÍA Y MEDIO AMBIENTE",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AS-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "HIG01AVS_3",
+      "codigo": "HIG01AVS",
+      "nombre": "HISTORIA CRÍTICA DEL PERÚ E IDENTIDAD NACIONAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AS-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MVG05AVS_4",
+      "codigo": "MVG05AVS",
+      "nombre": "INTRODUCCIÓN A LAS CIENCIAS VETERINARIAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-01-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "LCG01AVS_5",
+      "codigo": "LCG01AVS",
+      "nombre": "LINGÜÍSTICA Y COMUNICACIÓN HUMANA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AS-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG05AVS_6",
+      "codigo": "MEG05AVS",
+      "nombre": "MATEMÁTICA I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AS-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MVG06AVS_7",
+      "codigo": "MVG06AVS",
+      "nombre": "ANATOMIA DESCRIPTIVA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 7,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "A",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[10-12]",
+          "tipo": "P",
+          "grupo": "B",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CONDORI-CAHUATA-OSCAR"
+      ],
+      "aulas": [
+        "AU-02-MAR",
+        "LA-MARAN"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG06AVS_8",
+      "codigo": "MEG06AVS",
+      "nombre": "BIOESTADÍSTICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AS-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FIG02AVS_9",
+      "codigo": "FIG02AVS",
+      "nombre": "BIOFÍSICA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AS-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FPG01AVS_10",
+      "codigo": "FPG01AVS",
+      "nombre": "HABILIDADES SOCIALES",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AS-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IFG01AVS_11",
+      "codigo": "IFG01AVS",
+      "nombre": "PENSAMIENTO COMPUTACIONAL E INTELIGENCIA ARTIFICIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AS-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "QUG02AVS_12",
+      "codigo": "QUG02AVS",
+      "nombre": "QUÍMICA I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "AS-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV300AVS_13",
+      "codigo": "MV300AVS",
+      "nombre": "ANATOMÍA VETERINARIA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "A",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-03-MAR",
+        "LA-MARAN"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV302AVS_14",
+      "codigo": "MV302AVS",
+      "nombre": "BIOQUÍMICA VETERINARIA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "LA-PARAS",
+        "AU-03-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV303AVS_15",
+      "codigo": "MV303AVS",
+      "nombre": "ETOLOGÍA Y BIENESTAR ANIMAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[10-12]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-03-MAR",
+        "AS-CAMPO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV304AVS_16",
+      "codigo": "MV304AVS",
+      "nombre": "HISTOLOGÍA VETERINARIA I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 6,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "A",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "B",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "LA-HISTO",
+        "AU-03-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV305AVS_17",
+      "codigo": "MV305AVS",
+      "nombre": "MANEJO DE INSTRUMENTAL VETERINARIO",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 90
+    },
+    {
+      "id": "MV306AVS_18",
+      "codigo": "MV306AVS",
+      "nombre": "MANEJO Y REMISIÓN DE MUESTRAS BIOLÓGICAS",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 90
+    },
+    {
+      "id": "MV301AVS_19",
+      "codigo": "MV301AVS",
+      "nombre": "MICROBIOLOGÍA VETERINARIA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 7,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "A",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "B",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "SANCHEZ-HERENCIA-DIANA"
+      ],
+      "aulas": [
+        "AU-03-MAR",
+        "LA-MICRO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME306AVS_20",
+      "codigo": "ME306AVS",
+      "nombre": "BIOESTADÍSTICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "QU304AVS_21",
+      "codigo": "QU304AVS",
+      "nombre": "BIOQUÍMICA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "MV400AVS_22",
+      "codigo": "MV400AVS",
+      "nombre": "Bioquímica veterinaria II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "LLACSA-MAMANI-JAVIER"
+      ],
+      "aulas": [
+        "AU-04-MAR",
+        "LA-PARAS"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV302BVS_23",
+      "codigo": "MV302BVS",
+      "nombre": "EMBRIOLOGÍA VETERINARIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "MV402AVS_24",
+      "codigo": "MV402AVS",
+      "nombre": "Embriología veterinaria",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[10-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "MAMANI-MANGO-GUIULFO DURIEL"
+      ],
+      "aulas": [
+        "AU-04-MAR",
+        "LA-MARAN"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV301BVS_25",
+      "codigo": "MV301BVS",
+      "nombre": "FISIOLOGÍA VETERINARIA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "MV401AVS_26",
+      "codigo": "MV401AVS",
+      "nombre": "Fisiología veterinaria I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "PINARES-HUAMANI-RUBEN"
+      ],
+      "aulas": [
+        "AU-04-MAR",
+        "LA-FISIO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV303BVS_27",
+      "codigo": "MV303BVS",
+      "nombre": "HISTOLOGÍA VETERINARIA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "MV403AVS_28",
+      "codigo": "MV403AVS",
+      "nombre": "Histología veterinaria II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "LA-HISTO",
+        "AU-04-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV404AVS_29",
+      "codigo": "MV404AVS",
+      "nombre": "Immunología Veterinaria",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CONDORI-CHUCHI-ELOY AMADOR"
+      ],
+      "aulas": [
+        "LA-MICRO",
+        "AU-04-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV305BVS_30",
+      "codigo": "MV305BVS",
+      "nombre": "INMUNOLOGÍA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "MV405AVS_31",
+      "codigo": "MV405AVS",
+      "nombre": "Parasitología veterinaria I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-10]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 10,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-04-MAR",
+        "LA-PARAS"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV401BVS_32",
+      "codigo": "MV401BVS",
+      "nombre": "ANIMALES EXÓTICOS Y SILVESTRES",
+      "creditos": 2,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "LA-FISIO",
+        "AU-05-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV405BVS_33",
+      "codigo": "MV405BVS",
+      "nombre": "DISEÑOS EXPERIMENTALES",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[10-12]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CALDERON-ANTEZANA-DARCY YACUF"
+      ],
+      "aulas": [
+        "AU-05-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV403BVS_34",
+      "codigo": "MV403BVS",
+      "nombre": "FISIOLOGÍA VETERINARIA II",
+      "creditos": 4,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[10-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-05-MAR",
+        "LA-FISIO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV406AVS_35",
+      "codigo": "MV406AVS",
+      "nombre": "GENÉTICA VETERINARIA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[10-12]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-05-MAR",
+        "AS-CC",
+        "AU-03-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV402BVS_36",
+      "codigo": "MV402BVS",
+      "nombre": "PARASITOLOGÍA VETERINARIA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "MV404BVS_37",
+      "codigo": "MV404BVS",
+      "nombre": "PATOLOGÍA VETERINARIA I",
+      "creditos": 4,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-05-MAR",
+        "LA-HISTO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV506AVS_38",
+      "codigo": "MV506AVS",
+      "nombre": "ETOLOGÍA Y CINOLOGÍA",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CALDERON-ANTEZANA-DARCY YACUF"
+      ],
+      "aulas": [
+        "AU-06-MAR",
+        "AS-CAMPO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV507AVS_39",
+      "codigo": "MV507AVS",
+      "nombre": "FARMACOLOGÍA Y FARMACIA VETERINARIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "LA-FISIO",
+        "AU-06-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV505AVS_40",
+      "codigo": "MV505AVS",
+      "nombre": "LEGISLACIÓN Y DEONTOLOGÍA VETERINARIAS",
+      "creditos": 2,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-12]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-06-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV503AVS_41",
+      "codigo": "MV503AVS",
+      "nombre": "PARASITOLOGÍA VETERINARIA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 7,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "A",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "B",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[10-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "SANCHEZ-HERENCIA-DIANA"
+      ],
+      "aulas": [
+        "LA-PARAS",
+        "AU-06-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV501AVS_42",
+      "codigo": "MV501AVS",
+      "nombre": "PATOLOGÍA VETERINARIA II",
+      "creditos": 4,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[10-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-06-MAR",
+        "LA-HISTO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV504AVS_43",
+      "codigo": "MV504AVS",
+      "nombre": "SEMIOLOGIA VETERINARIA",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CALDERON-ANTEZANA-DARWIN WASHINGTON"
+      ],
+      "aulas": [
+        "AS-CAMPO",
+        "AU-06-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV502AVS_44",
+      "codigo": "MV502AVS",
+      "nombre": "VIROLOGÍA VETERINARIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-06-MAR",
+        "LA-MICRO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV607AVS_45",
+      "codigo": "MV607AVS",
+      "nombre": "ANATOMÍA TOPOGRÁFICA",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-05-MAR",
+        "LA-LARAYA"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV603AVS_46",
+      "codigo": "MV603AVS",
+      "nombre": "DIETÉTICA VETERINARIA",
+      "creditos": 4,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[10-12]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "LLACSA-MAMANI-JAVIER"
+      ],
+      "aulas": [
+        "AU-04-MAR",
+        "AU-05-MAR",
+        "LA-LARAYA"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV602AVS_47",
+      "codigo": "MV602AVS",
+      "nombre": "FARMACOLOGÍA CLÍNICA Y TERAPEÚTICA VETERINARIA",
+      "creditos": 4,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[10-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CALDERON-RUIZ-SANTOS WILTON"
+      ],
+      "aulas": [
+        "AU-04-MAR",
+        "AU-02-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV601AVS_48",
+      "codigo": "MV601AVS",
+      "nombre": "FISIOPATOLOGÍA VETERINARIA",
+      "creditos": 4,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[10-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "RAMIREZ-HUANCA-JULIO ENRIQUE"
+      ],
+      "aulas": [
+        "LA-HISTO",
+        "AU-02-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV604AVS_49",
+      "codigo": "MV604AVS",
+      "nombre": "PATOLOGÍA CLÍNICA VETERINARIA",
+      "creditos": 4,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "LU",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-02-MAR",
+        "AU-03-MAR",
+        "AS-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV605AVS_50",
+      "codigo": "MV605AVS",
+      "nombre": "TERIOGENOLOGÍA ANIMAL",
+      "creditos": 4,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 7,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "A",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "B",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "BRAVO-MATHEUS-PEDRO WALTER"
+      ],
+      "aulas": [
+        "AS-CAMPO",
+        "AU-02-MAR",
+        "AU-03-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV606AVS_51",
+      "codigo": "MV606AVS",
+      "nombre": "TOXICOLOGÍA VETERINARIA",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-05-MAR",
+        "LA-FISIO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV705AVS_52",
+      "codigo": "MV705AVS",
+      "nombre": "ANALGESIA Y ANESTESIA VETERINARIA",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[10-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "LA-FISIO",
+        "AU-03-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV701AVS_53",
+      "codigo": "MV701AVS",
+      "nombre": "EPIDEMIOLOGÍA VETERINARIA Y SALUD PÚBLICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[10-12]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-04-MAR",
+        "AU-06-MAR",
+        "AU-03-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV702AVS_54",
+      "codigo": "MV702AVS",
+      "nombre": "GINECO OBSTETRICIA Y NEONATOLOGÍA VETERINARIA",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "LA-MARAN",
+        "AU-01-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV704AVS_55",
+      "codigo": "MV704AVS",
+      "nombre": "INVESTIGACIÓN CIENTÍFICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-04-MAR",
+        "AU-03-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV703AVS_56",
+      "codigo": "MV703AVS",
+      "nombre": "MEDICINA INTERNA MENORES 1",
+      "creditos": 4,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-02-MAR",
+        "AU-06-MAR",
+        "LA-FISIO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV706AVS_57",
+      "codigo": "MV706AVS",
+      "nombre": "RADIOLOGÍA Y ECOGRAFÍA VETERINARIA",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 6,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "A",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "B",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-05-MAR",
+        "AU-02-MAR",
+        "AS-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV707AVS_58",
+      "codigo": "MV707AVS",
+      "nombre": "TALLER DE PREPARACION PARA FERIAS",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 3,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-12]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-03-MAR",
+        "AS-CAMPO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV802AVS_59",
+      "codigo": "MV802AVS",
+      "nombre": "CIRUGIA VETERINARIA ANIMALES MENORES",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CONDORI-CAHUATA-OSCAR"
+      ],
+      "aulas": [
+        "LA-FISIO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV804AVS_60",
+      "codigo": "MV804AVS",
+      "nombre": "GESTION Y ADMINISTRACION DE NEGOCIOS VETERINARIOS",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[10-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 12,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_10_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-02-MAR",
+        "AU-01-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV801AVS_61",
+      "codigo": "MV801AVS",
+      "nombre": "INSPECCION E INOCUIDAD VETERINARIA",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-05-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV803AVS_62",
+      "codigo": "MV803AVS",
+      "nombre": "MEDICINA INTERNA ANIMALES MAYORES",
+      "creditos": 4,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "LLACSA-MAMANI-JAVIER"
+      ],
+      "aulas": [
+        "LA-LARAYA",
+        "AU-03-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV806AVS_63",
+      "codigo": "MV806AVS",
+      "nombre": "MEDICINA INTERNA DE ANIMALES MENORES II",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "LA-FISIO",
+        "AU-01-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV805AVS_64",
+      "codigo": "MV805AVS",
+      "nombre": "MEDICINA Y BIOTECNOLOGIA REPRODUCTIVA",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "MAMANI-MANGO-GUIULFO DURIEL"
+      ],
+      "aulas": [
+        "AU-02-MAR",
+        "LA-MARAN"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV808AVS_65",
+      "codigo": "MV808AVS",
+      "nombre": "ONCOLOGIA VETERINARIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-05-MAR",
+        "AS-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV807AVS_66",
+      "codigo": "MV807AVS",
+      "nombre": "TALLER DE ELABORACION DE PROYECTOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "AU-06-MAR",
+        "AU-04-MAR"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV902AVS_67",
+      "codigo": "MV902AVS",
+      "nombre": "CIRUGIA VETERINARIA ANIMALES MAYORES",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CONDORI-CHUCHI-ELOY AMADOR"
+      ],
+      "aulas": [
+        "AS-CAMPO"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV907AVS_68",
+      "codigo": "MV907AVS",
+      "nombre": "PRACTICAS PRE PROFESIONALES",
+      "creditos": 4,
+      "tipo": "Prácticas Pre Profesionales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 18,
+          "duracion": 4,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "LU",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "LA-LARAYA"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV903AVS_69",
+      "codigo": "MV903AVS",
+      "nombre": "SALUD Y MEDICINA DE BOVINOS",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CONDORI-CHUCHI-ELOY AMADOR"
+      ],
+      "aulas": [
+        "LA-LARAYA"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV901AVS_70",
+      "codigo": "MV901AVS",
+      "nombre": "SALUD Y MEDICINA DE EQUIDOS",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "RAMIREZ-HUANCA-JULIO ENRIQUE"
+      ],
+      "aulas": [
+        "LA-LARAYA"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MV904AVS_71",
+      "codigo": "MV904AVS",
+      "nombre": "SALUD Y MEDICINA DE OVINOS Y CAMELIDOS SUDAMERICANOS",
+      "creditos": 3,
+      "tipo": "Formación Especializada",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "BRAVO-MATHEUS-PEDRO WALTER"
+      ],
+      "aulas": [
+        "LA-LARAYA",
+        "AU-06-MAR",
+        "AU-03-MAR"
+      ],
+      "prioridad": 100
+    }
+  ],
+  "metadatos": {
+    "htmlGuardado": false,
+    "rutaHTML": null,
+    "estrategiaExtraccion": "tabla_estructurada",
+    "timestamp": 1755249740854,
+    "datosCatalogo": {
+      "numero": 45,
+      "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqPRXqWpsFXhbFxs**",
+      "tipoArchivo": "html"
+    },
+    "configuracion": {
+      "timeout": 60000,
+      "maxRetries": 2,
+      "tiempoEspera": 3000
+    },
+    "estadisticas": {
+      "estrategiasIntentadas": [
+        {
+          "nombre": "tabla_estructurada",
+          "exito": true,
+          "cursosEncontrados": 71,
+          "tiempo": 8
+        }
+      ],
+      "tiempoTotal": 8,
+      "cursosEncontrados": 71
+    }
+  }
+}

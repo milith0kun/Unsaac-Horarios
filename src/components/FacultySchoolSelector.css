@@ -1,0 +1,206 @@
+/* Estilos para el componente FacultySchoolSelector */
+.faculty-school-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.selector-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.selector-label {
+  font-weight: 600;
+  color: #495057;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.selector-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.selector {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid #dee2e6;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #495057;
+  /* Optimización: transición más rápida solo para border-color */
+  transition: border-color 0.1s ease;
+  cursor: pointer;
+}
+
+.selector:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.selector:hover:not(:disabled) {
+  border-color: #adb5bd;
+}
+
+.selector:disabled {
+  background-color: #e9ecef;
+  color: #6c757d;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.selector.loading {
+  padding-right: 3rem;
+}
+
+.loading-spinner {
+  position: absolute;
+  right: 1rem;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Optimización: usar will-change para mejor rendimiento en animaciones */
+.loading-spinner {
+  will-change: transform;
+}
+
+.error-message {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.error-icon {
+  font-size: 1.1rem;
+}
+
+.no-data-message {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border: 1px solid #bee5eb;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.info-icon {
+  font-size: 1rem;
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+  .faculty-school-selector {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 1.5rem;
+  }
+  
+  .selector-group {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .error-message,
+  .no-data-message {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin-top: 0.25rem;
+  }
+  
+  .selector-group {
+    position: relative;
+  }
+}
+
+@media (max-width: 767px) {
+  .faculty-school-selector {
+    padding: 0.75rem;
+  }
+  
+  .selector {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Estados de accesibilidad */
+.selector:focus-visible {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+/* Animaciones suaves */
+.selector-group {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Tema oscuro (opcional) */
+@media (prefers-color-scheme: dark) {
+  .faculty-school-selector {
+    background: #343a40;
+    border-color: #495057;
+  }
+  
+  .selector-label {
+    color: #f8f9fa;
+  }
+  
+  .selector {
+    background-color: #495057;
+    border-color: #6c757d;
+    color: #f8f9fa;
+  }
+  
+  .selector:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+  }
+  
+  .selector:disabled {
+    background-color: #6c757d;
+    color: #adb5bd;
+  }
+}

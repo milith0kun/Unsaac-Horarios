@@ -1,0 +1,6215 @@
+{
+  "informacionGeneral": {
+    "numero": 9,
+    "nombre": "ECONOMÍA",
+    "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqu0rqWpsFXhbFxs**",
+    "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqu0rqWpsFXhbFxs**",
+    "tipoArchivo": "html",
+    "fechaExtraccion": "2025-08-15T09:03:02.067Z",
+    "totalCursos": 124,
+    "tipoExtraccion": "real",
+    "estrategiaExtraccion": "tabla_estructurada",
+    "titulo": ".::Centro de Computo Unsaac::.",
+    "facultadHTML": "",
+    "escuelaHTML": "",
+    "facultad": "FACULTAD DE ECONOMÍA",
+    "codigoFacultad": "FE",
+    "escuela": "ESCUELA PROFESIONAL DE ECONOMÍA",
+    "codigoEscuela": "EPE",
+    "area": "C",
+    "fuenteInfo": "mapeo_oficial"
+  },
+  "cursos": [
+    {
+      "id": "CBG02AEO_1",
+      "codigo": "CBG02AEO",
+      "nombre": "ECOLOGÍA Y MEDIO AMBIENTE",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "CBG02BEO_2",
+      "codigo": "CBG02BEO",
+      "nombre": "ECOLOGÍA Y MEDIO AMBIENTE",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ECG01AEO_3",
+      "codigo": "ECG01AEO",
+      "nombre": "ECONOMÍA GENERAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ECG01BEO_4",
+      "codigo": "ECG01BEO",
+      "nombre": "ECONOMÍA GENERAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "HIG01AEO_5",
+      "codigo": "HIG01AEO",
+      "nombre": "HISTORIA CRÍTICA DEL PERÚ E IDENTIDAD NACIONAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "HIG01BEO_6",
+      "codigo": "HIG01BEO",
+      "nombre": "HISTORIA CRÍTICA DEL PERÚ E IDENTIDAD NACIONAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ECG02AEO_7",
+      "codigo": "ECG02AEO",
+      "nombre": "INTRODUCCIÓN A LA MICRO Y MACRO ECONOMÍA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ECG02BEO_8",
+      "codigo": "ECG02BEO",
+      "nombre": "INTRODUCCIÓN A LA MICRO Y MACRO ECONOMÍA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "LCG01AEO_9",
+      "codigo": "LCG01AEO",
+      "nombre": "LINGÜÍSTICA Y COMUNICACIÓN HUMANA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "LCG01BEO_10",
+      "codigo": "LCG01BEO",
+      "nombre": "LINGÜÍSTICA Y COMUNICACIÓN HUMANA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG05AEO_11",
+      "codigo": "MEG05AEO",
+      "nombre": "MATEMÁTICA I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG05BEO_12",
+      "codigo": "MEG05BEO",
+      "nombre": "MATEMÁTICA I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ADG01AEO_13",
+      "codigo": "ADG01AEO",
+      "nombre": "ADMINISTRACIÓN GENERAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ADG01BEO_14",
+      "codigo": "ADG01BEO",
+      "nombre": "ADMINISTRACIÓN GENERAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "COG01AEO_15",
+      "codigo": "COG01AEO",
+      "nombre": "CONTABILIDAD GENERAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "COG01BEO_16",
+      "codigo": "COG01BEO",
+      "nombre": "CONTABILIDAD GENERAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG04AEO_17",
+      "codigo": "MEG04AEO",
+      "nombre": "ECONOMÍA CUANTITATIVA I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG04BEO_18",
+      "codigo": "MEG04BEO",
+      "nombre": "ECONOMÍA CUANTITATIVA I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG04CEO_19",
+      "codigo": "MEG04CEO",
+      "nombre": "ECONOMÍA CUANTITATIVA I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "MEG03AEO_20",
+      "codigo": "MEG03AEO",
+      "nombre": "ESTADÍSTICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG03BEO_21",
+      "codigo": "MEG03BEO",
+      "nombre": "ESTADÍSTICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FPG02AEO_22",
+      "codigo": "FPG02AEO",
+      "nombre": "FILOSOFÍA Y ÉTICA",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FPG02BEO_23",
+      "codigo": "FPG02BEO",
+      "nombre": "FILOSOFÍA Y ÉTICA",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IFG01AEO_24",
+      "codigo": "IFG01AEO",
+      "nombre": "PENSAMIENTO COMPUTACIONAL E INTELIGENCIA ARTIFICIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 6,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "L",
+          "grupo": "B",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "L",
+          "grupo": "A",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-201",
+        "IN309",
+        "IN311"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IFG01BEO_25",
+      "codigo": "IFG01BEO",
+      "nombre": "PENSAMIENTO COMPUTACIONAL E INTELIGENCIA ARTIFICIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 6,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "L",
+          "grupo": "B",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "L",
+          "grupo": "A",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-202",
+        "IN310"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ASG01AEO_26",
+      "codigo": "ASG01AEO",
+      "nombre": "SOCIEDAD Y CULTURA",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ARAOZ-FERNANDEZ-CARMEN"
+      ],
+      "aulas": [
+        "EC-201"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ASG01BEO_27",
+      "codigo": "ASG01BEO",
+      "nombre": "SOCIEDAD Y CULTURA",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CHACON-GUEVARA-RONNY ANDREE"
+      ],
+      "aulas": [
+        "EC-202"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC602AEO_28",
+      "codigo": "EC602AEO",
+      "nombre": "ANÁLISIS DE COSTOS Y FORMULACIÓN DE PRESUPUESTOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "EC700AEO_29",
+      "codigo": "EC700AEO",
+      "nombre": "ANÁLISIS DE COSTOS Y FORMULACIÓN DE PRESUPUESTOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC700BEO_30",
+      "codigo": "EC700BEO",
+      "nombre": "ANÁLISIS DE COSTOS Y FORMULACIÓN DE PRESUPUESTOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEE01AEO_31",
+      "codigo": "MEE01AEO",
+      "nombre": "ECONOMÍA CUANTITATIVA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEE01BEO_32",
+      "codigo": "MEE01BEO",
+      "nombre": "ECONOMÍA CUANTITATIVA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEE02AEO_33",
+      "codigo": "MEE02AEO",
+      "nombre": "ESTADÍSTICA ECONÓMICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEE02BEO_34",
+      "codigo": "MEE02BEO",
+      "nombre": "ESTADÍSTICA ECONÓMICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME176AEO_35",
+      "codigo": "ME176AEO",
+      "nombre": "ESTADÍSTICA ECONÓMICA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "EC702AEO_36",
+      "codigo": "EC702AEO",
+      "nombre": "HISTORIA ECONÓMICA DEL PERÚ",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC702BEO_37",
+      "codigo": "EC702BEO",
+      "nombre": "HISTORIA ECONÓMICA DEL PERÚ",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME186AEO_38",
+      "codigo": "ME186AEO",
+      "nombre": "MATEMÁTICAS PARA ECONOMISTAS II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "ME186ZEO_39",
+      "codigo": "ME186ZEO",
+      "nombre": "MATEMÁTICAS PARA ECONOMISTAS II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "EC600AEO_40",
+      "codigo": "EC600AEO",
+      "nombre": "MICROECONOMÍA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "EC701AEO_41",
+      "codigo": "EC701AEO",
+      "nombre": "MICROECONOMÍA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC701BEO_42",
+      "codigo": "EC701BEO",
+      "nombre": "MICROECONOMÍA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC771AEO_43",
+      "codigo": "EC771AEO",
+      "nombre": "TALLER DE REDACCIÓN Y NARRATIVA",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC771BEO_44",
+      "codigo": "EC771BEO",
+      "nombre": "TALLER DE REDACCIÓN Y NARRATIVA",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC703AEO_45",
+      "codigo": "EC703AEO",
+      "nombre": "ANÁLISIS DE DATOS ECONÓMICOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC703BEO_46",
+      "codigo": "EC703BEO",
+      "nombre": "ANÁLISIS DE DATOS ECONÓMICOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC604AEO_47",
+      "codigo": "EC604AEO",
+      "nombre": "INGENIERÍA ECONÓMICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "EC705AEO_48",
+      "codigo": "EC705AEO",
+      "nombre": "INGENIERÍA ECONÓMICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC705BEO_49",
+      "codigo": "EC705BEO",
+      "nombre": "INGENIERÍA ECONÓMICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC707AEO_50",
+      "codigo": "EC707AEO",
+      "nombre": "MACROECONOMÍA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC707BEO_51",
+      "codigo": "EC707BEO",
+      "nombre": "MACROECONOMÍA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC706AEO_52",
+      "codigo": "EC706AEO",
+      "nombre": "MICROECONOMÍA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC706BEO_53",
+      "codigo": "EC706BEO",
+      "nombre": "MICROECONOMÍA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC704AEO_54",
+      "codigo": "EC704AEO",
+      "nombre": "PENSAMIENTO ECONÓMICO MODERNO",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC704BEO_55",
+      "codigo": "EC704BEO",
+      "nombre": "PENSAMIENTO ECONÓMICO MODERNO",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC772AEO_56",
+      "codigo": "EC772AEO",
+      "nombre": "TALLER DE LIDERAZGO Y ORATORIA",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC772BEO_57",
+      "codigo": "EC772BEO",
+      "nombre": "TALLER DE LIDERAZGO Y ORATORIA",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC610AEO_58",
+      "codigo": "EC610AEO",
+      "nombre": "ANALISIS E INVESTIGACION DE MERCADOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC610BEO_59",
+      "codigo": "EC610BEO",
+      "nombre": "ANALISIS E INVESTIGACION DE MERCADOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC608AEO_60",
+      "codigo": "EC608AEO",
+      "nombre": "ECONOMETRIA II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC608BEO_61",
+      "codigo": "EC608BEO",
+      "nombre": "ECONOMETRIA II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC612AEO_62",
+      "codigo": "EC612AEO",
+      "nombre": "ECONOMIA INTERNACIONAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC612BEO_63",
+      "codigo": "EC612BEO",
+      "nombre": "ECONOMIA INTERNACIONAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC609AEO_64",
+      "codigo": "EC609AEO",
+      "nombre": "ECONOMIA PUBLICA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC609BEO_65",
+      "codigo": "EC609BEO",
+      "nombre": "ECONOMIA PUBLICA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC613AEO_66",
+      "codigo": "EC613AEO",
+      "nombre": "HISTORIA ECONOMICA GENERAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC613BEO_67",
+      "codigo": "EC613BEO",
+      "nombre": "HISTORIA ECONOMICA GENERAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC611AEO_68",
+      "codigo": "EC611AEO",
+      "nombre": "ORGANIZACION INDUSTRIAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC611BEO_69",
+      "codigo": "EC611BEO",
+      "nombre": "ORGANIZACION INDUSTRIAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC614AEO_70",
+      "codigo": "EC614AEO",
+      "nombre": "ECONOMÍA AMBIENTAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC614BEO_71",
+      "codigo": "EC614BEO",
+      "nombre": "ECONOMÍA AMBIENTAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC619AEO_72",
+      "codigo": "EC619AEO",
+      "nombre": "ECONOMÍA DEL EMPRENDIMIENTO Y LA INNOVACIÓN",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC619BEO_73",
+      "codigo": "EC619BEO",
+      "nombre": "ECONOMÍA DEL EMPRENDIMIENTO Y LA INNOVACIÓN",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC618AEO_74",
+      "codigo": "EC618AEO",
+      "nombre": "ECONOMÍA MONETARIA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC618BEO_75",
+      "codigo": "EC618BEO",
+      "nombre": "ECONOMÍA MONETARIA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC615AEO_76",
+      "codigo": "EC615AEO",
+      "nombre": "ECONOMÍA POLÍTICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC615BEO_77",
+      "codigo": "EC615BEO",
+      "nombre": "ECONOMÍA POLÍTICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC616AEO_78",
+      "codigo": "EC616AEO",
+      "nombre": "PROYECTOS DE INVERSIÓN PRIVADA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC616BEO_79",
+      "codigo": "EC616BEO",
+      "nombre": "PROYECTOS DE INVERSIÓN PRIVADA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC617AEO_80",
+      "codigo": "EC617AEO",
+      "nombre": "TEORÍA DE LA REGULACIÓN",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC617BEO_81",
+      "codigo": "EC617BEO",
+      "nombre": "TEORÍA DE LA REGULACIÓN",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-206"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC624AEO_82",
+      "codigo": "EC624AEO",
+      "nombre": "CRECIMIENTO ECONOMICO",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC624BEO_83",
+      "codigo": "EC624BEO",
+      "nombre": "CRECIMIENTO ECONOMICO",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC620AEO_84",
+      "codigo": "EC620AEO",
+      "nombre": "ECONOMIA REGIONAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-204"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC620BEO_85",
+      "codigo": "EC620BEO",
+      "nombre": "ECONOMIA REGIONAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC622AEO_86",
+      "codigo": "EC622AEO",
+      "nombre": "EVALUACION SOCIAL DE PROYECTOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC622BEO_87",
+      "codigo": "EC622BEO",
+      "nombre": "EVALUACION SOCIAL DE PROYECTOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC625AEO_88",
+      "codigo": "EC625AEO",
+      "nombre": "INVESTIGACION ECONOMICA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC625BEO_89",
+      "codigo": "EC625BEO",
+      "nombre": "INVESTIGACION ECONOMICA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC621AEO_90",
+      "codigo": "EC621AEO",
+      "nombre": "POLITICA ECONOMICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC621BEO_91",
+      "codigo": "EC621BEO",
+      "nombre": "POLITICA ECONOMICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC623AEO_92",
+      "codigo": "EC623AEO",
+      "nombre": "TEORIAS DEL DESARROLLO",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC623BEO_93",
+      "codigo": "EC623BEO",
+      "nombre": "TEORIAS DEL DESARROLLO",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-302"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC630AEO_94",
+      "codigo": "EC630AEO",
+      "nombre": "ANÁLISIS DE RIESGOS EMPRESARIALES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC631AEO_95",
+      "codigo": "EC631AEO",
+      "nombre": "ANÁLISIS ECONÓMICO Y FINANCIERO",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC638AEO_96",
+      "codigo": "EC638AEO",
+      "nombre": "ECONOMÍA AGRARIA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC643AEO_97",
+      "codigo": "EC643AEO",
+      "nombre": "ECONOMIA DE LOS GOBIERNOS LOCALES Y REGIONALES",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "EC655AEO_98",
+      "codigo": "EC655AEO",
+      "nombre": "ECONOMIA DE LOS GOBIERNOS LOCALES Y REGIONALES",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-303"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC639AEO_99",
+      "codigo": "EC639AEO",
+      "nombre": "ECONOMÍA DEL TURISMO",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC650AEO_100",
+      "codigo": "EC650AEO",
+      "nombre": "ECONOMÍA INSTITUCIONAL",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-303"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC642AEO_101",
+      "codigo": "EC642AEO",
+      "nombre": "ECONOMIA MINERA Y ENERGETICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC648AEO_102",
+      "codigo": "EC648AEO",
+      "nombre": "ECONOMÍA PÚBLICA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-303"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC641AEO_103",
+      "codigo": "EC641AEO",
+      "nombre": "ECONOMIA Y POBLACION",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC633AEO_104",
+      "codigo": "EC633AEO",
+      "nombre": "EVALUACION AMBIENTAL DE PROYECTOS DE INVERSION",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC628AEO_105",
+      "codigo": "EC628AEO",
+      "nombre": "FINANZAS CORPORATIVAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[12-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 13,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_12_13",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC628BEO_106",
+      "codigo": "EC628BEO",
+      "nombre": "FINANZAS CORPORATIVAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC652AEO_107",
+      "codigo": "EC652AEO",
+      "nombre": "GESTIÓN DE POLÍTICAS PÚBLICAS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-303"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC627AEO_108",
+      "codigo": "EC627AEO",
+      "nombre": "GESTIÓN DE PROYECTOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC632AEO_109",
+      "codigo": "EC632AEO",
+      "nombre": "MARKETING ESTRATEGICO EMPRESARIAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC649AEO_110",
+      "codigo": "EC649AEO",
+      "nombre": "PLANEAMIENTO ESTRATÉGICO EN EL SECTOR PÚBLICO",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-303"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC629AEO_111",
+      "codigo": "EC629AEO",
+      "nombre": "PLANIFICACIÓN ESTRATÉGICA EMPRESARIAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC629BEO_112",
+      "codigo": "EC629BEO",
+      "nombre": "PLANIFICACIÓN ESTRATÉGICA EMPRESARIAL",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC651AEO_113",
+      "codigo": "EC651AEO",
+      "nombre": "POLITICAS PÚBLICAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-303"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC654AEO_114",
+      "codigo": "EC654AEO",
+      "nombre": "POLITICAS SOCIALES",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[15-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 16,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-303"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC653AEO_115",
+      "codigo": "EC653AEO",
+      "nombre": "PROYECTOS DE INVERSIÓN PÚBLICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-303"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC626AEO_116",
+      "codigo": "EC626AEO",
+      "nombre": "SOFTWARES APLICADOS A LA EMPRESA Y FINANZAS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC626BEO_117",
+      "codigo": "EC626BEO",
+      "nombre": "SOFTWARES APLICADOS A LA EMPRESA Y FINANZAS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC656AEO_118",
+      "codigo": "EC656AEO",
+      "nombre": "TALLER DE EVALUACION DE POLITICAS PUBLICAS Y SOCIALES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-303"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC635AEO_119",
+      "codigo": "EC635AEO",
+      "nombre": "TALLER DE NEGOCIOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC657AEO_120",
+      "codigo": "EC657AEO",
+      "nombre": "TALLER DE PLANEAMIENTO ESTRATEGICO Y PROYECTOS DE INVERSION PUBLICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-303"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC634AEO_121",
+      "codigo": "EC634AEO",
+      "nombre": "TALLER DE PROYECTOS DE INVERSION PRIVADA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC659AEO_122",
+      "codigo": "EC659AEO",
+      "nombre": "PRACTICAS PRE PROFESIONALES",
+      "creditos": 5,
+      "tipo": "Prácticas Pre Profesionales",
+      "esObligatorio": true,
+      "duracionSemanal": 6,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "EC-305"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC636AEO_123",
+      "codigo": "EC636AEO",
+      "nombre": "SEMINARIO DE INVESTIGACION EN ECONOMIA DE EMPRESA Y FINANZAS",
+      "creditos": 5,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 6,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EC658AEO_124",
+      "codigo": "EC658AEO",
+      "nombre": "SEMINARIO DE INVESTIGACION EN ECONOMIA Y POLITICAS PUBLICAS",
+      "creditos": 5,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 6,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "EC-303"
+      ],
+      "prioridad": 100
+    }
+  ],
+  "metadatos": {
+    "htmlGuardado": false,
+    "rutaHTML": null,
+    "estrategiaExtraccion": "tabla_estructurada",
+    "timestamp": 1755248582067,
+    "datosCatalogo": {
+      "numero": 9,
+      "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvqu0rqWpsFXhbFxs**",
+      "tipoArchivo": "html"
+    },
+    "configuracion": {
+      "timeout": 60000,
+      "maxRetries": 2,
+      "tiempoEspera": 3000
+    },
+    "estadisticas": {
+      "estrategiasIntentadas": [
+        {
+          "nombre": "tabla_estructurada",
+          "exito": true,
+          "cursosEncontrados": 124,
+          "tiempo": 15
+        }
+      ],
+      "tiempoTotal": 15,
+      "cursosEncontrados": 124
+    }
+  }
+}

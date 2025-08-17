@@ -1,0 +1,3895 @@
+{
+  "informacionGeneral": {
+    "numero": 27,
+    "nombre": "INGENIERÍA MECÁNICA",
+    "url": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvql0XqWpsFXhbFxs**",
+    "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvql0XqWpsFXhbFxs**",
+    "tipoArchivo": "html",
+    "fechaExtraccion": "2025-08-15T09:12:40.306Z",
+    "totalCursos": 92,
+    "tipoExtraccion": "real",
+    "estrategiaExtraccion": "tabla_estructurada",
+    "titulo": ".::Centro de Computo Unsaac::.",
+    "facultadHTML": "",
+    "escuelaHTML": "",
+    "facultad": "FACULTAD DE INGENIERÍA ELÉCTRICA, ELECTRÓNICA, INFORMÁTICA Y MECÁNICA",
+    "codigoFacultad": "FIEIM",
+    "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA MECÁNICA",
+    "codigoEscuela": "EPIMEC",
+    "area": "A",
+    "fuenteInfo": "mapeo_oficial"
+  },
+  "cursos": [
+    {
+      "id": "MC774AMC_1",
+      "codigo": "MC774AMC",
+      "nombre": "INGENIERIA AUTOMOTRIZ",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC770AMC_2",
+      "codigo": "MC770AMC",
+      "nombre": "INGENIERIA DEL GAS NATURAL",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[21-22]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 21,
+          "horaFin": 22,
+          "duracion": 1,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_21_22",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[21-22]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 21,
+          "horaFin": 22,
+          "duracion": 1,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_21_22",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "MC-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC777AMC_3",
+      "codigo": "MC777AMC",
+      "nombre": "INSTALACIONES INDUSTRIALES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CARDENAS-SANTANDER-LUIS FREDDY"
+      ],
+      "aulas": [
+        "MC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC766AMC_4",
+      "codigo": "MC766AMC",
+      "nombre": "REFRIGERACION Y AIRE ACONDICIONADO",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ABARCA-MORA-DANIEL"
+      ],
+      "aulas": [
+        "MC-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC765AMC_5",
+      "codigo": "MC765AMC",
+      "nombre": "SISTEMA DE TRANSPORTE Y ALMACENAMIENTO DE MATERIALES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ROSADO-PACHECO-RENE H."
+      ],
+      "aulas": [
+        "MC-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC782AMC_6",
+      "codigo": "MC782AMC",
+      "nombre": "TRATAMIENTOS TERMICOS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[19-21]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[19-21]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "MC-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG01AMC_7",
+      "codigo": "MEG01AMC",
+      "nombre": "ÁLGEBRA Y GEOMETRÍA ANALÍTICA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG02AMC_8",
+      "codigo": "MEG02AMC",
+      "nombre": "CÁLCULO I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "CBG01AMC_9",
+      "codigo": "CBG01AMC",
+      "nombre": "ECOLOGÍA Y MEDIO AMBIENTE",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FP901ZMC_10",
+      "codigo": "FP901ZMC",
+      "nombre": "FILOSOFIA Y ETICA",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "FIG01AMC_11",
+      "codigo": "FIG01AMC",
+      "nombre": "FÍSICA I",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "HIG01AMC_12",
+      "codigo": "HIG01AMC",
+      "nombre": "HISTORIA CRÍTICA DEL PERÚ E IDENTIDAD NACIONAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "QUG01AMC_13",
+      "codigo": "QUG01AMC",
+      "nombre": "QUÍMICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "LC901ZMC_14",
+      "codigo": "LC901ZMC",
+      "nombre": "REDACCION DE TEXTOS",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG04AMC_15",
+      "codigo": "MEG04AMC",
+      "nombre": "CÁLCULO II",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[18-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 19,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_18_19",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "MC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MEG03AMC_16",
+      "codigo": "MEG03AMC",
+      "nombre": "ESTADÍSTICA GENERAL",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[16-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 17,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_16_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FI801AMC_17",
+      "codigo": "FI801AMC",
+      "nombre": "FISICA II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[18-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[18-20]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 18,
+          "horaFin": 20,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_18_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[19-20]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 20,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_19_20",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "MC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "AR802AMC_18",
+      "codigo": "AR802AMC",
+      "nombre": "GEOMETRÍA DESCRIPTIVA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-16]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "LCG01AMC_19",
+      "codigo": "LCG01AMC",
+      "nombre": "LINGÜÍSTICA Y COMUNICACIÓN HUMANA",
+      "creditos": 4,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[16-18]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 18,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_16_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[17-18]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 18,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_18",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-304"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IFG01AMC_20",
+      "codigo": "IFG01AMC",
+      "nombre": "PENSAMIENTO COMPUTACIONAL E INTELIGENCIA ARTIFICIAL",
+      "creditos": 3,
+      "tipo": "Estudios Generales",
+      "esObligatorio": true,
+      "duracionSemanal": 6,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "L",
+          "grupo": "A",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-16]",
+          "tipo": "L",
+          "grupo": "B",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-304",
+        "IN309",
+        "IN311"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC810AMC_21",
+      "codigo": "MC810AMC",
+      "nombre": "ACTIVIDAD EXTRA CURRICULAR",
+      "creditos": 1,
+      "tipo": "Área de Estudios Complementarios",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "TAMAYO-ARAOZ-EVELYN GARLETH"
+      ],
+      "aulas": [
+        "MC-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME806AMC_22",
+      "codigo": "ME806AMC",
+      "nombre": "ALGEBRA LINEAL",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[13-15]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME803AMC_23",
+      "codigo": "ME803AMC",
+      "nombre": "CÁLCULO III",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[13-15]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[14-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 15,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_14_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC807AMC_24",
+      "codigo": "MC807AMC",
+      "nombre": "CIENCIA DE LOS MATERIALES I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC809AMC_25",
+      "codigo": "MC809AMC",
+      "nombre": "DIBUJO TECNICO",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[16-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 19,
+          "duracion": 3,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_16_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MAQUI-2"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC809BMC_26",
+      "codigo": "MC809BMC",
+      "nombre": "DIBUJO TÉCNICO",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "MC805AMC_27",
+      "codigo": "MC805AMC",
+      "nombre": "ESTÁTICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "FI804AMC_28",
+      "codigo": "FI804AMC",
+      "nombre": "FÍSICA III",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC808AMC_29",
+      "codigo": "MC808AMC",
+      "nombre": "LABORATORIO DE CIENCIA DE LOS MATERIALES I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC808BMC_30",
+      "codigo": "MC808BMC",
+      "nombre": "LABORATORIO DE CIENCIA DE LOS MATERIALES I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC808CMC_31",
+      "codigo": "MC808CMC",
+      "nombre": "LABORATORIO DE CIENCIA DE LOS MATERIALES I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC815AMC_32",
+      "codigo": "MC815AMC",
+      "nombre": "CIENCIA DE LOS MATERIALES II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[13-15]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC817AMC_33",
+      "codigo": "MC817AMC",
+      "nombre": "DIBUJO MECANICO I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[16-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 16,
+          "horaFin": 19,
+          "duracion": 3,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_16_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MAQUI-2"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC817BMC_34",
+      "codigo": "MC817BMC",
+      "nombre": "DIBUJO MECANICO I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 95
+    },
+    {
+      "id": "MC813AMC_35",
+      "codigo": "MC813AMC",
+      "nombre": "DINÁMICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "MAMANI-CASTILLO-ROOSBEL DENNIS"
+      ],
+      "aulas": [
+        "MC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME811AMC_36",
+      "codigo": "ME811AMC",
+      "nombre": "ECUACIONES DIFERENCIALES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC816AMC_37",
+      "codigo": "MC816AMC",
+      "nombre": "LABORATORIO DE CIENCIA DE LOS MATERIALES II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC814AMC_38",
+      "codigo": "MC814AMC",
+      "nombre": "MECÁNICA DE FLUIDOS I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "TRIVEÑO-RAMOS-PAOLA LY"
+      ],
+      "aulas": [
+        "MC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC812AMC_39",
+      "codigo": "MC812AMC",
+      "nombre": "TERMODINÁMICA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "RUEDA-PUELLES-PERCY MIGUEL"
+      ],
+      "aulas": [
+        "MC-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC718AMC_40",
+      "codigo": "MC718AMC",
+      "nombre": "DIBUJO MECANICO I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[14-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 17,
+          "duracion": 3,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_14_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MAQUI-2"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "ME716AMC_41",
+      "codigo": "ME716AMC",
+      "nombre": "ECUACIONES DIFERENCIALES",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[19-21]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "MI",
+          "horario": "[19-21]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "MC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "IE717AMC_42",
+      "codigo": "IE717AMC",
+      "nombre": "ELECTROTECNIA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC719AMC_43",
+      "codigo": "MC719AMC",
+      "nombre": "ELEMENTOS DE MAQUINAS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC722AMC_44",
+      "codigo": "MC722AMC",
+      "nombre": "INGENIERIA DE MATERIALES I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC723AMC_45",
+      "codigo": "MC723AMC",
+      "nombre": "LABORATORIO DE INGENIERIA DE MATERIALES I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[11-13]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ROSADO-PACHECO-RENE H."
+      ],
+      "aulas": [
+        "MC-102"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC720AMC_46",
+      "codigo": "MC720AMC",
+      "nombre": "MECANICA DE FLUIDOS II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "TAMAYO-ARAOZ-EVELYN GARLETH"
+      ],
+      "aulas": [
+        "MC-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC721AMC_47",
+      "codigo": "MC721AMC",
+      "nombre": "TERMODINAMICA II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "RUEDA-PUELLES-PERCY MIGUEL"
+      ],
+      "aulas": [
+        "MC-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC726AMC_48",
+      "codigo": "MC726AMC",
+      "nombre": "ANÁLISIS NUMÉRICO EN INGENIERÍA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[13-15]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC727AMC_49",
+      "codigo": "MC727AMC",
+      "nombre": "DIBUJO MECÁNICO II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[14-16]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 16,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_14_16",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[14-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 14,
+          "horaFin": 17,
+          "duracion": 3,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_14_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MAQUI-2"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "EL725AMC_50",
+      "codigo": "EL725AMC",
+      "nombre": "ELECTRÓNICA",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC728AMC_51",
+      "codigo": "MC728AMC",
+      "nombre": "INGENIERÍA DE MATERIALES II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC729AMC_52",
+      "codigo": "MC729AMC",
+      "nombre": "LABORATORIO DE INGENIERÍA DE MATERIALES II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[07-09]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC732AMC_53",
+      "codigo": "MC732AMC",
+      "nombre": "LABORATORIO DE MECÁNICA DE FLUIDOS",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC732BMC_54",
+      "codigo": "MC732BMC",
+      "nombre": "LABORATORIO DE MECÁNICA DE FLUIDOS",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 85
+    },
+    {
+      "id": "MC731AMC_55",
+      "codigo": "MC731AMC",
+      "nombre": "LABORATORIO DE RESISTENCIA DE MATERIALES I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[19-21]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "aulas": [
+        "MC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC731BMC_56",
+      "codigo": "MC731BMC",
+      "nombre": "LABORATORIO DE RESISTENCIA DE MATERIALES I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 85
+    },
+    {
+      "id": "IE724AMC_57",
+      "codigo": "IE724AMC",
+      "nombre": "MÁQUINAS ELÉCTRICAS",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[17-19]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[17-19]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC730AMC_58",
+      "codigo": "MC730AMC",
+      "nombre": "RESISTENCIA DE MATERIALES I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[07-08]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 8,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_7_8",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC733AMC_59",
+      "codigo": "MC733AMC",
+      "nombre": "INGENIERIA DE CONTROL",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "MAMANI-CASTILLO-ROOSBEL DENNIS"
+      ],
+      "aulas": [
+        "MC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC740AMC_60",
+      "codigo": "MC740AMC",
+      "nombre": "LABORATORIO DE MAQUINAS HIDRAULICAS",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[13-15]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC740BMC_61",
+      "codigo": "MC740BMC",
+      "nombre": "LABORATORIO DE MAQUINAS HIDRAULICAS",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[13-15]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-105"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC736AMC_62",
+      "codigo": "MC736AMC",
+      "nombre": "LABORATORIO DE PROCESOS DE MANUFACTURA I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "SA",
+          "horario": "[07-09]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 6,
+          "bloqueHorario": "SA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MAQUI-3"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC736BMC_63",
+      "codigo": "MC736BMC",
+      "nombre": "LABORATORIO DE PROCESOS DE MANUFACTURA I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "SA",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 6,
+          "bloqueHorario": "SA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MAQUI-3"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC738AMC_64",
+      "codigo": "MC738AMC",
+      "nombre": "LABORATORIO DE RESISTENCIA DE MATERIALES II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[15-17]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC738BMC_65",
+      "codigo": "MC738BMC",
+      "nombre": "LABORATORIO DE RESISTENCIA DE MATERIALES II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "VI",
+          "horario": "[17-19]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 17,
+          "horaFin": 19,
+          "duracion": 2,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_17_19",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MC-103"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC738CMC_66",
+      "codigo": "MC738CMC",
+      "nombre": "LABORATORIO DE RESISTENCIA DE MATERIALES II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 85
+    },
+    {
+      "id": "MC739AMC_67",
+      "codigo": "MC739AMC",
+      "nombre": "MECANISMOS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "MACEDO-SILVA-ARTURO"
+      ],
+      "aulas": [
+        "MC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC735AMC_68",
+      "codigo": "MC735AMC",
+      "nombre": "PROCESOS DE MANUFACTURA I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "SEQUEIROS-PEREZ-EFRAIN WALTER"
+      ],
+      "aulas": [
+        "MAQUI-1"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC737AMC_69",
+      "codigo": "MC737AMC",
+      "nombre": "RESISTENCIA DE MATERIALES II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "BERRIOS-BARCENA-DAVID REYNALDO"
+      ],
+      "aulas": [
+        "MC-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC734AMC_70",
+      "codigo": "MC734AMC",
+      "nombre": "TURBOMAQUINAS I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[12-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 12,
+          "horaFin": 13,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_12_13",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CATACORA-ACEVEDO-EDGAR ALFREDO"
+      ],
+      "aulas": [
+        "MC-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC743AMC_71",
+      "codigo": "MC743AMC",
+      "nombre": "ANÁLISIS ECONÓMICO EN INGENIERÍA MECÁNICA",
+      "creditos": 2,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MI",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CARDENAS-SANTANDER-LUIS FREDDY"
+      ],
+      "aulas": [
+        "MC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC748AMC_72",
+      "codigo": "MC748AMC",
+      "nombre": "CÁLCULO DE ELEMENTOS DE MÁQUINAS I",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[09-10]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 10,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_9_10",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CASTRO-IRRARAZABAL-MARIO"
+      ],
+      "aulas": [
+        "MC-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC745AMC_73",
+      "codigo": "MC745AMC",
+      "nombre": "INGENIERÍA DE MANTENIMIENTO I",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "ROSADO-PACHECO-RENE H."
+      ],
+      "aulas": [
+        "MC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC749AMC_74",
+      "codigo": "MC749AMC",
+      "nombre": "LABORATORIO DE MÁQUINAS TÉRMICAS",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[13-15]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "RUEDA-PUELLES-PERCY MIGUEL"
+      ],
+      "aulas": [
+        "MC-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC749BMC_75",
+      "codigo": "MC749BMC",
+      "nombre": "LABORATORIO DE MÁQUINAS TÉRMICAS",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "JU",
+          "horario": "[13-15]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "SAMANIEGO-PEREZ-JOSE CARLOS"
+      ],
+      "aulas": [
+        "MC-101"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC747AMC_76",
+      "codigo": "MC747AMC",
+      "nombre": "LABORATORIO DE PROCESOS DE MANUFACTURA II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "SA",
+          "horario": "[13-15]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 6,
+          "bloqueHorario": "SA_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "SEQUEIROS-PEREZ-EFRAIN WALTER"
+      ],
+      "aulas": [
+        "MAQUI-3"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC747BMC_77",
+      "codigo": "MC747BMC",
+      "nombre": "LABORATORIO DE PROCESOS DE MANUFACTURA II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "SA",
+          "horario": "[15-17]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 6,
+          "bloqueHorario": "SA_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MAQUI-3"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC746AMC_78",
+      "codigo": "MC746AMC",
+      "nombre": "PROCESOS DE MANUFACTURA II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "SEQUEIROS-PEREZ-EFRAIN WALTER"
+      ],
+      "aulas": [
+        "MAQUI-1"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC741AMC_79",
+      "codigo": "MC741AMC",
+      "nombre": "TESIS I",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[13-15]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 13,
+          "horaFin": 15,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_13_15",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "MAMANI-CASTILLO-ROOSBEL DENNIS"
+      ],
+      "aulas": [
+        "MC-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC742AMC_80",
+      "codigo": "MC742AMC",
+      "nombre": "TRANSFERENCIA DE CALOR Y MASA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "TRIVEÑO-RAMOS-PAOLA LY"
+      ],
+      "aulas": [
+        "MC-301"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC744AMC_81",
+      "codigo": "MC744AMC",
+      "nombre": "TURBOMÁQUINAS II",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[15-17]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[15-17]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 15,
+          "horaFin": 17,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_15_17",
+          "esMatutino": false,
+          "esVespertino": true,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "SAMANIEGO-PEREZ-JOSE CARLOS"
+      ],
+      "aulas": [
+        "MC-205"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC752AMC_82",
+      "codigo": "MC752AMC",
+      "nombre": "CALCULO DE ELEMENTOS DE MAQUINAS II",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[07-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[07-09]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[08-09]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 8,
+          "horaFin": 9,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_8_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CASTRO-IRRARAZABAL-MARIO"
+      ],
+      "aulas": [
+        "MC-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC751AMC_83",
+      "codigo": "MC751AMC",
+      "nombre": "LABORATORIO DE MOTORES DE COMBUSTION INTERNA",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "SA",
+          "horario": "[07-09]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 7,
+          "horaFin": 9,
+          "duracion": 2,
+          "diaNumerico": 6,
+          "bloqueHorario": "SA_7_9",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MAQUI-4"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC751BMC_84",
+      "codigo": "MC751BMC",
+      "nombre": "LABORATORIO DE MOTORES DE COMBUSTION INTERNA",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "SA",
+          "horario": "[09-11]",
+          "tipo": "L",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 6,
+          "bloqueHorario": "SA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "aulas": [
+        "MAQUI-4"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC750AMC_85",
+      "codigo": "MC750AMC",
+      "nombre": "MOTORES DE COMBUSTION INTERNA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[11-13]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "MACEDO-SILVA-ARTURO"
+      ],
+      "aulas": [
+        "MC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC753AMC_86",
+      "codigo": "MC753AMC",
+      "nombre": "TURBINAS DE GAS Y VAPOR",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CATACORA-ACEVEDO-EDGAR ALFREDO"
+      ],
+      "aulas": [
+        "MC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC754AMC_87",
+      "codigo": "MC754AMC",
+      "nombre": "VIBRACIONES MECANICAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[10-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 10,
+          "horaFin": 11,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_10_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "BERRIOS-BARCENA-DAVID REYNALDO"
+      ],
+      "aulas": [
+        "MC-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC758AMC_88",
+      "codigo": "MC758AMC",
+      "nombre": "DISEÑO DE MAQUINAS",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[19-21]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "JU",
+          "horario": "[19-21]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 19,
+          "horaFin": 21,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_19_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        },
+        {
+          "dia": "VI",
+          "horario": "[20-21]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 20,
+          "horaFin": 21,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_20_21",
+          "esMatutino": false,
+          "esVespertino": false,
+          "esNocturno": true
+        }
+      ],
+      "docentes": [
+        "ABARCA-MORA-DANIEL"
+      ],
+      "aulas": [
+        "MC-307"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC756AMC_89",
+      "codigo": "MC756AMC",
+      "nombre": "GESTION EMPRESARIAL",
+      "creditos": 3,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 4,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "JU",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 4,
+          "bloqueHorario": "JU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CARDENAS-SANTANDER-LUIS FREDDY"
+      ],
+      "aulas": [
+        "MC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC757AMC_90",
+      "codigo": "MC757AMC",
+      "nombre": "PROYECTO DE INGENIERIA MECANICA",
+      "creditos": 4,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 5,
+      "horarios": [
+        {
+          "dia": "LU",
+          "horario": "[09-11]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 1,
+          "bloqueHorario": "LU_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "MI",
+          "horario": "[09-11]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 9,
+          "horaFin": 11,
+          "duracion": 2,
+          "diaNumerico": 3,
+          "bloqueHorario": "MI_9_11",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        },
+        {
+          "dia": "VI",
+          "horario": "[11-12]",
+          "tipo": "T",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 12,
+          "duracion": 1,
+          "diaNumerico": 5,
+          "bloqueHorario": "VI_11_12",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "TAMAYO-ARAOZ-EVELYN GARLETH"
+      ],
+      "aulas": [
+        "MC-203"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC755AMC_91",
+      "codigo": "MC755AMC",
+      "nombre": "TESIS II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 2,
+      "horarios": [
+        {
+          "dia": "MA",
+          "horario": "[11-13]",
+          "tipo": "P",
+          "grupo": "",
+          "horaInicio": 11,
+          "horaFin": 13,
+          "duracion": 2,
+          "diaNumerico": 2,
+          "bloqueHorario": "MA_11_13",
+          "esMatutino": true,
+          "esVespertino": false,
+          "esNocturno": false
+        }
+      ],
+      "docentes": [
+        "CATACORA-ACEVEDO-EDGAR ALFREDO"
+      ],
+      "aulas": [
+        "MC-306"
+      ],
+      "prioridad": 100
+    },
+    {
+      "id": "MC755BMC_92",
+      "codigo": "MC755BMC",
+      "nombre": "TESIS II",
+      "creditos": 1,
+      "tipo": "",
+      "esObligatorio": true,
+      "duracionSemanal": 0,
+      "horarios": [],
+      "prioridad": 85
+    }
+  ],
+  "metadatos": {
+    "htmlGuardado": false,
+    "rutaHTML": null,
+    "estrategiaExtraccion": "tabla_estructurada",
+    "timestamp": 1755249160306,
+    "datosCatalogo": {
+      "numero": 27,
+      "enlaceOriginal": "http://ccomputo.unsaac.edu.pe/index.php?op=catalog&dt=vCvql0XqWpsFXhbFxs**",
+      "tipoArchivo": "html"
+    },
+    "configuracion": {
+      "timeout": 60000,
+      "maxRetries": 2,
+      "tiempoEspera": 3000
+    },
+    "estadisticas": {
+      "estrategiasIntentadas": [
+        {
+          "nombre": "tabla_estructurada",
+          "exito": true,
+          "cursosEncontrados": 92,
+          "tiempo": 17
+        }
+      ],
+      "tiempoTotal": 17,
+      "cursosEncontrados": 92
+    }
+  }
+}

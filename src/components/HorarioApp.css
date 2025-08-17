@@ -1,0 +1,347 @@
+.horario-app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #FFFFFF;
+}
+
+/* Header con información de cursos */
+.horario-header {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #d8c1d7;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.4rem;
+  position: relative;
+}
+
+.horario-header h1 {
+  color: #000;
+  margin: 0;
+  font-family: "Lucida Sans Unicode";
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Botones de acción */
+.acciones-horario {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.btn-accion {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #d8c1d7;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  color: #333;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.btn-accion:hover {
+  background-color: #e9ecef;
+  border-color: #adb5bd;
+  transform: translateY(-1px);
+}
+
+.btn-exportar-imagen:hover {
+  background-color: #e3f2fd;
+  border-color: #2196f3;
+}
+
+.btn-exportar-pdf:hover {
+  background-color: #fff3e0;
+  border-color: #ff9800;
+}
+
+.btn-nuevo-horario:hover {
+  background-color: #e8f5e8;
+  border-color: #4caf50;
+}
+
+.btn-limpiar:hover {
+  background-color: #ffebee;
+  border-color: #f44336;
+}
+
+/* Indicadores visuales mejorados */
+.action-badge {
+  background-color: #fff;
+  color: #dc3545;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  min-width: 20px;
+  text-align: center;
+  animation: pulse 2s infinite;
+}
+
+.conflict-indicator {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #ffeaa7;
+  font-size: 0.9rem;
+  font-weight: 500;
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  75% { transform: translateX(2px); }
+}
+
+/* Nuevos botones de exportación */
+.btn-exportar-calendario:hover {
+  background-color: #e8f5e8;
+  border-color: #4caf50;
+}
+
+.btn-enviar-correo:hover {
+  background-color: #fff3e0;
+  border-color: #ff9800;
+}
+
+.btn-exportar-completo:hover {
+  background-color: #e3f2fd;
+  border-color: #2196f3;
+}
+
+/* Estilos para la sección de botones de exportación en la base */
+.acciones-exportacion {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8fafc;
+  border-top: 2px solid #e2e8f0;
+  border-radius: 0 0 12px 12px;
+}
+
+.acciones-exportacion .btn-accion {
+  min-width: 120px;
+  font-size: 14px;
+}
+
+.cursos-info {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 40%;
+  z-index: 1;
+}
+
+.cursos-activos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.curso-activo {
+  display: flex;
+  align-items: center;
+  background-color: #939bc6;
+  border: thin solid #d8c1d7;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.curso-tag {
+  font-weight: normal;
+  color: #000;
+  background-color: transparent;
+  padding: 0.15rem 0.4rem;
+  border: none;
+  margin: 0;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.btn-remover-curso {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.1rem 0.25rem;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: normal;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 100%;
+  border-radius: 0;
+}
+
+.btn-remover-curso:hover {
+  background-color: #c82333;
+}
+
+.btn-remover-curso:focus {
+  outline: 1px solid #007bff;
+  outline-offset: 1px;
+}
+
+/* Contenido principal simplificado */
+
+/* Tablero de Horarios */
+.tablero-horario {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Curso en celda */
+.curso-ejemplo {
+  background: #939bc6;
+  border: thin solid #d8c1d7;
+  padding: 4px 8px;
+  font-size: 12px;
+  text-align: center;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Colores solo para el tablero - movidos a ScheduleBoard.css */
+
+/* Estados de botones deshabilitados */
+.btn-accion:disabled {
+  background-color: #e9ecef;
+  color: #6c757d;
+  border-color: #dee2e6;
+  cursor: not-allowed;
+  transform: none;
+  opacity: 0.6;
+}
+
+.btn-accion:disabled:hover {
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+  transform: none;
+}
+
+.btn-remover-curso:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.btn-remover-curso:disabled:hover {
+  background-color: #6c757d;
+}
+
+/* Estados de error */
+.horario-app.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  padding: 40px;
+}
+
+.error-message {
+  text-align: center;
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 500px;
+  color: #721c24;
+}
+
+.error-message h2 {
+  margin: 0 0 15px 0;
+  color: #721c24;
+}
+
+.error-message p {
+  margin: 0 0 20px 0;
+  font-size: 14px;
+}
+
+.error-message button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.error-message button:hover {
+  background: #c82333;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .horario-app {
+    padding: 10px;
+  }
+  
+  .acciones-horario {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .btn-accion {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .horario-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .acciones-horario {
+    justify-content: center;
+  }
+  
+  .acciones-exportacion {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

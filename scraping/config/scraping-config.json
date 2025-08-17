@@ -1,0 +1,125 @@
+{
+  "general": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "timeout": 30000,
+    "retryAttempts": 3,
+    "retryDelay": 2000,
+    "respectRobotsTxt": true,
+    "crawlDelay": 1000
+  },
+  "urls": {
+    "baseUrl": "https://www.unsaac.edu.pe",
+    "facultades": "/facultades",
+    "horarios": "/horarios",
+    "docentes": "/docentes",
+    "aulas": "/infraestructura/aulas",
+    "cursos": "/oferta-academica"
+  },
+  "selectors": {
+    "facultades": {
+      "container": ".facultades-container",
+      "item": ".facultad-item",
+      "nombre": ".facultad-nombre",
+      "codigo": ".facultad-codigo",
+      "decano": ".facultad-decano",
+      "escuelas": ".escuelas-list .escuela-item"
+    },
+    "cursos": {
+      "container": ".cursos-container",
+      "item": ".curso-item",
+      "codigo": ".curso-codigo",
+      "nombre": ".curso-nombre",
+      "creditos": ".curso-creditos",
+      "docente": ".curso-docente",
+      "horarios": ".horarios-list .horario-item"
+    },
+    "docentes": {
+      "container": ".docentes-container",
+      "item": ".docente-item",
+      "nombre": ".docente-nombre",
+      "email": ".docente-email",
+      "departamento": ".docente-departamento",
+      "grado": ".docente-grado"
+    },
+    "aulas": {
+      "container": ".aulas-container",
+      "item": ".aula-item",
+      "codigo": ".aula-codigo",
+      "nombre": ".aula-nombre",
+      "capacidad": ".aula-capacidad",
+      "equipamiento": ".aula-equipamiento"
+    }
+  },
+  "puppeteer": {
+    "headless": false,
+    "args": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-accelerated-2d-canvas",
+      "--no-first-run",
+      "--no-zygote",
+      "--disable-gpu",
+      "--disable-extensions",
+      "--disable-plugins",
+      "--disable-web-security",
+      "--disable-features=VizDisplayCompositor",
+      "--disable-background-timer-throttling",
+      "--disable-backgrounding-occluded-windows",
+      "--disable-renderer-backgrounding",
+      "--disable-field-trial-config",
+      "--disable-ipc-flooding-protection"
+    ],
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "waitForSelector": {
+      "timeout": 10000,
+      "visible": true
+    }
+  },
+  "output": {
+    "dataDir": "./scraping/data",
+    "logsDir": "./scraping/logs",
+    "format": "json",
+    "compression": false,
+    "backup": true,
+    "maxFileSize": "10MB"
+  },
+  "validation": {
+    "required_fields": {
+      "facultad": ["nombre", "codigo"],
+      "curso": ["codigo", "nombre", "creditos"],
+      "docente": ["nombre", "email"],
+      "aula": ["codigo", "nombre", "capacidad"]
+    },
+    "data_types": {
+      "creditos": "number",
+      "capacidad": "number",
+      "email": "email",
+      "telefono": "phone"
+    }
+  },
+  "scheduling": {
+    "enabled": false,
+    "cron": "0 2 * * *",
+    "timezone": "America/Lima",
+    "maxConcurrent": 3
+  },
+  "monitoring": {
+    "enabled": true,
+    "metrics": {
+      "duration": true,
+      "success_rate": true,
+      "data_quality": true,
+      "errors": true
+    },
+    "alerts": {
+      "email": false,
+      "webhook": false,
+      "threshold_errors": 10,
+      "threshold_success_rate": 0.8
+    }
+  }
+}

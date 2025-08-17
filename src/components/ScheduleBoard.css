@@ -1,0 +1,533 @@
+/* ScheduleBoard.css - Estilos para el tablero de horarios */
+/* Aplicando estilos clásicos del sistema UNSAAC */
+
+.schedule-board {
+  width: 100%;
+  background-color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.schedule-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  /* Mejoras para dispositivos táctiles */
+  scroll-behavior: smooth;
+  overscroll-behavior-x: contain;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 120px repeat(6, 1fr);
+  min-width: 700px;
+  gap: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #d8c1d7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Celda esquina */
+.celda-esquina {
+  background-color: #939bc6;
+  color: #000;
+  padding: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+  border: thin solid #d8c1d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* Encabezados de días */
+.encabezado-dia {
+  background-color: #939ac6c9;
+  color: #000;
+  padding: 0.6rem;
+  font-weight: bold;
+  text-align: center;
+  border: thin solid #d8c1d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lucida Sans Unicode";
+  font-size: 16px;
+}
+
+/* Encabezados de horas */
+.encabezado-hora {
+  background-color: #b99dc4b9;
+  padding: 0.5rem;
+  font-weight: 500;
+  text-align: center;
+  border-top: 1px solid #d8c1d7;
+  border-left: 1px solid #d8c1d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+/* Celdas de horario */
+.celda-horario {
+  background-color: #FFFFFF;
+  border-top: 1px solid #d8c1d7;
+  border-left: 1px solid #d8c1d7;
+  min-height: 30px;
+  padding: 0.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  /* Optimización: transición más rápida y solo para opacity */
+  transition: opacity 0.1s ease;
+}
+
+.celda-horario:hover {
+  opacity: 0.9;
+  /* Eliminado transform para mejor rendimiento */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  z-index: 1;
+}
+
+/* Estilos táctiles para dispositivos móviles */
+.celda-horario:active {
+  transform: scale(0.98);
+  opacity: 0.8;
+  transition: all 0.1s ease;
+}
+
+/* Mejoras para dispositivos táctiles */
+@media (hover: none) and (pointer: coarse) {
+  .celda-horario {
+    min-height: 35px; /* Aumentar altura para mejor toque */
+    padding: 0.2rem;
+    touch-action: manipulation; /* Optimizar para toque */
+  }
+  
+  .celda-horario:hover {
+    transform: none; /* Desactivar hover en dispositivos táctiles */
+    opacity: 1;
+    box-shadow: none;
+  }
+  
+  .celda-horario:active {
+    background-color: rgba(147, 155, 198, 0.2);
+    transform: scale(0.95);
+    transition: all 0.1s ease;
+  }
+}
+
+/* Estados de celda */
+.celda-horario.libre {
+  background-color: #FFFFFF;
+}
+
+/* Clase ocupada removida para permitir que los colores hor0-hor8 se apliquen */
+
+/* Paleta de colores suaves y distintivos para cursos */
+/* 12 colores únicos para mejor distinción visual */
+
+.celda-horario.hor0 {
+  background-color: #E3F2FD; /* Azul claro */
+  color: #1565C0;
+  border-left: 3px solid #1565C0;
+}
+
+.celda-horario.hor1 {
+  background-color: #F3E5F5; /* Púrpura claro */
+  color: #7B1FA2;
+  border-left: 3px solid #7B1FA2;
+}
+
+.celda-horario.hor2 {
+  background-color: #E8F5E8; /* Verde claro */
+  color: #2E7D32;
+  border-left: 3px solid #2E7D32;
+}
+
+.celda-horario.hor3 {
+  background-color: #FFF3E0; /* Naranja claro */
+  color: #F57C00;
+  border-left: 3px solid #F57C00;
+}
+
+.celda-horario.hor4 {
+  background-color: #FCE4EC; /* Rosa claro */
+  color: #C2185B;
+  border-left: 3px solid #C2185B;
+}
+
+.celda-horario.hor5 {
+  background-color: #E0F2F1; /* Turquesa claro */
+  color: #00695C;
+  border-left: 3px solid #00695C;
+}
+
+.celda-horario.hor6 {
+  background-color: #FFF8E1; /* Amarillo claro */
+  color: #F9A825;
+  border-left: 3px solid #F9A825;
+}
+
+.celda-horario.hor7 {
+  background-color: #F1F8E9; /* Lima claro */
+  color: #689F38;
+  border-left: 3px solid #689F38;
+}
+
+.celda-horario.hor8 {
+  background-color: #E8EAF6; /* Índigo claro */
+  color: #303F9F;
+  border-left: 3px solid #303F9F;
+}
+
+.celda-horario.hor9 {
+  background-color: #EFEBE9; /* Marrón claro */
+  color: #5D4037;
+  border-left: 3px solid #5D4037;
+}
+
+.celda-horario.hor10 {
+  background-color: #FAFAFA; /* Gris claro */
+  color: #424242;
+  border-left: 3px solid #424242;
+}
+
+.celda-horario.hor11 {
+  background-color: #E1F5FE; /* Cian claro */
+  color: #0277BD;
+  border-left: 3px solid #0277BD;
+}
+
+.celda-horario.hor12 {
+  background-color: #FFF9C4; /* Amarillo limón */
+  color: #F57F17;
+  border-left: 3px solid #F57F17;
+}
+
+.celda-horario.hor13 {
+  background-color: #F9FBE7; /* Verde lima claro */
+  color: #827717;
+  border-left: 3px solid #827717;
+}
+
+.celda-horario.hor14 {
+  background-color: #FFF3E0; /* Ámbar claro */
+  color: #E65100;
+  border-left: 3px solid #E65100;
+}
+
+.celda-horario.hor15 {
+  background-color: #FCE4EC; /* Rosa suave */
+  color: #AD1457;
+  border-left: 3px solid #AD1457;
+}
+
+.celda-horario.hor16 {
+  background-color: #E8F5E8; /* Verde menta */
+  color: #1B5E20;
+  border-left: 3px solid #1B5E20;
+}
+
+.celda-horario.hor17 {
+  background-color: #F3E5F5; /* Lavanda */
+  color: #4A148C;
+  border-left: 3px solid #4A148C;
+}
+
+.celda-horario.hor18 {
+  background-color: #E0F7FA; /* Aqua claro */
+  color: #006064;
+  border-left: 3px solid #006064;
+}
+
+.celda-horario.hor19 {
+  background-color: #FFF8E1; /* Crema */
+  color: #FF8F00;
+  border-left: 3px solid #FF8F00;
+}
+
+.celda-horario.hor20 {
+  background-color: #F1F8E9; /* Verde pastel */
+  color: #33691E;
+  border-left: 3px solid #33691E;
+}
+
+.celda-horario.hor21 {
+  background-color: #E8EAF6; /* Azul grisáceo */
+  color: #1A237E;
+  border-left: 3px solid #1A237E;
+}
+
+.celda-horario.hor22 {
+  background-color: #EFEBE9; /* Beige */
+  color: #3E2723;
+  border-left: 3px solid #3E2723;
+}
+
+.celda-horario.hor23 {
+  background-color: #FAFAFA; /* Gris perla */
+  color: #212121;
+  border-left: 3px solid #212121;
+}
+
+/* Contenido del curso en la celda */
+.curso-celda {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 3px;
+}
+
+.curso-codigo {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  font-size: 13px;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.5);
+  color: #000000 !important;
+}
+
+.curso-nombre {
+  font-size: 11px;
+  margin-bottom: 0.2rem;
+  word-wrap: break-word;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.9;
+  color: #000000 !important;
+}
+
+.curso-aula {
+  font-size: 10px;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.8;
+  color: #000000 !important;
+}
+
+/* Estilos para conflictos de horarios */
+.celda-horario.has-conflict {
+  background-color: #ff4444 !important;
+  border: 2px solid #cc0000;
+  color: white;
+}
+
+.conflict-info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  padding: 2px;
+}
+
+.conflict-course {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 3px;
+  padding: 1px 3px;
+  margin: 1px 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conflict-code {
+  font-weight: bold;
+  font-size: 9px;
+  color: #cc0000;
+  text-align: center;
+  line-height: 1;
+}
+
+/* ===== DISEÑO RESPONSIVO PARA TABLERO ===== */
+
+/* Tablets (769px - 1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .schedule-grid {
+    grid-template-columns: 110px repeat(6, minmax(90px, 1fr));
+    min-width: 650px;
+    font-size: 12px;
+  }
+  
+  .celda-esquina {
+    font-size: 12px;
+    padding: 0.5rem;
+  }
+  
+  .encabezado-dia {
+    font-size: 13px;
+    padding: 0.5rem;
+  }
+  
+  .encabezado-hora {
+    font-size: 11px;
+    padding: 0.4rem;
+  }
+  
+  .curso-codigo {
+    font-size: 12px;
+  }
+  
+  .curso-nombre {
+    font-size: 10px;
+  }
+  
+  .curso-aula {
+    font-size: 9px;
+  }
+}
+
+/* Tablets pequeños y móviles grandes (481px - 768px) */
+@media (max-width: 768px) and (min-width: 481px) {
+  .schedule-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }
+  
+  .schedule-grid {
+    grid-template-columns: 80px repeat(6, minmax(70px, 1fr));
+    min-width: 520px;
+    font-size: 13px;
+    width: 100%;
+  }
+  
+  .celda-esquina {
+    font-size: 13px;
+    padding: 0.4rem;
+  }
+  
+  .encabezado-dia {
+    font-size: 14px;
+    padding: 0.4rem;
+  }
+  
+  .encabezado-hora {
+    font-size: 13px;
+    padding: 0.3rem;
+  }
+  
+  .celda-horario {
+    min-height: 32px;
+    padding: 0.2rem;
+  }
+  
+  .curso-celda {
+    font-size: 12px;
+    padding: 2px;
+  }
+
+  .curso-codigo {
+    font-size: 13px;
+    margin-bottom: 0.1rem;
+  }
+
+  .curso-nombre {
+    font-size: 11px;
+    margin-bottom: 0.1rem;
+  }
+
+  .curso-aula {
+    font-size: 10px;
+  }
+
+  .conflict-code {
+    font-size: 10px;
+  }
+}
+
+/* Móviles pequeños (hasta 480px) */
+@media (max-width: 480px) {
+  .schedule-board {
+    font-size: 12px;
+  }
+
+  .schedule-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }
+
+  .schedule-grid {
+    grid-template-columns: 70px repeat(6, minmax(60px, 1fr));
+    min-width: 450px;
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .celda-esquina {
+    font-size: 12px;
+    padding: 0.3rem;
+  }
+
+  .encabezado-dia {
+    font-size: 13px;
+    padding: 0.3rem;
+  }
+
+  .encabezado-hora {
+    font-size: 12px;
+    padding: 0.25rem;
+  }
+
+  .celda-horario {
+    min-height: 35px; /* Aumentar para mejor toque */
+    padding: 0.2rem;
+  }
+  
+  /* Optimizaciones adicionales para táctil */
+  .schedule-grid {
+    touch-action: pan-x pan-y;
+  }
+  
+  .curso-celda {
+    pointer-events: none; /* Evitar interferencia con eventos táctiles */
+  }
+  
+  .curso-codigo, .curso-nombre, .curso-aula {
+    pointer-events: none;
+  }
+}
+
+  .curso-celda {
+    font-size: 11px;
+    padding: 2px;
+    line-height: 1.2;
+  }
+
+  .curso-codigo {
+    font-size: 12px;
+    margin-bottom: 0.05rem;
+  }
+
+  .curso-nombre {
+    font-size: 10px;
+    margin-bottom: 0.05rem;
+  }
+
+  .curso-aula {
+    font-size: 9px;
+  }
+
+  .conflict-code {
+    font-size: 9px;
+  }
+
+  .conflict-course {
+    padding: 1px 3px;
+    margin: 1px;
+  }

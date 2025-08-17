@@ -1,0 +1,12 @@
+# Scripts Directory
+
+Esta carpeta contiene los scripts de web scraping.
+
+## Scripts planificados:
+- `scrape-facultades.js` - Extractor de facultades y escuelas
+- `scrape-cursos.js` - Extractor de cursos y horarios
+- `scrape-docentes.js` - Extractor de información de docentes
+- `scrape-aulas.js` - Extractor de aulas y equipamiento
+- `scrape-all.js` - Script principal que ejecuta todos los scrapers
+- `validate-data.js` - Validador de datos extraídos
+- `transform-data.js` - Transformador de datos para Prisma

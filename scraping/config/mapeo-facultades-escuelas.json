@@ -1,0 +1,489 @@
+{
+  "mapeoFacultadEscuela": {
+    "ANTROPOLOGÍA": {
+      "facultad": "FACULTAD DE CIENCIAS SOCIALES",
+      "codigoFacultad": "FCS",
+      "escuela": "ESCUELA PROFESIONAL DE ANTROPOLOGÍA",
+      "codigoEscuela": "EPA",
+      "area": "D"
+    },
+    "ARQUEOLOGÍA": {
+      "facultad": "FACULTAD DE CIENCIAS SOCIALES",
+      "codigoFacultad": "FCS",
+      "escuela": "ESCUELA PROFESIONAL DE ARQUEOLOGÍA",
+      "codigoEscuela": "EPAR",
+      "area": "D"
+    },
+    "ARQUITECTURA": {
+      "facultad": "FACULTAD DE ARQUITECTURA Y ARTES PLÁSTICAS",
+      "codigoFacultad": "FAAP",
+      "escuela": "ESCUELA PROFESIONAL DE ARQUITECTURA",
+      "codigoEscuela": "EPAR",
+      "area": "A"
+    },
+    "BIOLOGÍA": {
+      "facultad": "FACULTAD CIENCIAS BIOLÓGICAS",
+      "codigoFacultad": "FCB",
+      "escuela": "ESCUELA PROFESIONAL DE BIOLOGÍA",
+      "codigoEscuela": "EPB",
+      "area": "B"
+    },
+    "CIENCIAS ADMINISTRATIVAS": {
+      "facultad": "FACULTAD DE ADMINISTRACIÓN Y TURISMO",
+      "codigoFacultad": "FAT",
+      "escuela": "ESCUELA PROFESIONAL DE CIENCIAS ADMINISTRATIVAS",
+      "codigoEscuela": "EPCA",
+      "area": "C"
+    },
+    "CIENCIAS DE LA COMUNICACIÓN": {
+      "facultad": "FACULTAD DE COMUNICACIÓN SOCIAL E IDIOMAS",
+      "codigoFacultad": "FCSI",
+      "escuela": "ESCUELA PROFESIONAL DE CIENCIAS DE LA COMUNICACIÓN",
+      "codigoEscuela": "EPCC",
+      "area": "D"
+    },
+    "CONTABILIDAD": {
+      "facultad": "FACULTAD DE CIENCIAS CONTABLES Y FINANCIERAS",
+      "codigoFacultad": "FCCF",
+      "escuela": "ESCUELA PROFESIONAL DE CONTABILIDAD",
+      "codigoEscuela": "EPC",
+      "area": "C"
+    },
+    "DERECHO": {
+      "facultad": "FACULTAD DE DERECHO Y CIENCIAS POLÍTICAS",
+      "codigoFacultad": "FDCP",
+      "escuela": "ESCUELA PROFESIONAL DE DERECHO",
+      "codigoEscuela": "EPD",
+      "area": "D"
+    },
+    "ECONOMÍA": {
+      "facultad": "FACULTAD DE ECONOMÍA",
+      "codigoFacultad": "FE",
+      "escuela": "ESCUELA PROFESIONAL DE ECONOMÍA",
+      "codigoEscuela": "EPE",
+      "area": "C"
+    },
+    "EDUCACIÓN PRIMARIA-CUSCO": {
+      "facultad": "FACULTAD DE EDUCACIÓN",
+      "codigoFacultad": "FED",
+      "escuela": "ESCUELA PROFESIONAL DE EDUCACIÓN PRIMARIA",
+      "codigoEscuela": "EPEP",
+      "area": "D"
+    },
+    "EDUCACIÓN SECUNDARIA ESPECIALIDAD CIENCIAS NATURALES-CUSCO": {
+      "facultad": "FACULTAD DE EDUCACIÓN",
+      "codigoFacultad": "FED",
+      "escuela": "ESCUELA PROFESIONAL DE EDUCACIÓN SECUNDARIA - CIENCIAS NATURALES",
+      "codigoEscuela": "EPESCN",
+      "area": "D"
+    },
+    "EDUCACIÓN SECUNDARIA ESPECIALIDAD CIENCIAS SOCIALES-CUSCO": {
+      "facultad": "FACULTAD DE EDUCACIÓN",
+      "codigoFacultad": "FED",
+      "escuela": "ESCUELA PROFESIONAL DE EDUCACIÓN SECUNDARIA - CIENCIAS SOCIALES",
+      "codigoEscuela": "EPESCS",
+      "area": "D"
+    },
+    "EDUCACIÓN SECUNDARIA ESPECIALIDAD EDUCACIÓN FÍSICA-CUSCO": {
+      "facultad": "FACULTAD DE EDUCACIÓN",
+      "codigoFacultad": "FED",
+      "escuela": "ESCUELA PROFESIONAL DE EDUCACIÓN SECUNDARIA - EDUCACIÓN FÍSICA",
+      "codigoEscuela": "EPESEF",
+      "area": "D"
+    },
+    "EDUCACIÓN SECUNDARIA ESPECIALIDAD LENGUA Y LITERATURA-CUSCO": {
+      "facultad": "FACULTAD DE EDUCACIÓN",
+      "codigoFacultad": "FED",
+      "escuela": "ESCUELA PROFESIONAL DE EDUCACIÓN SECUNDARIA - LENGUA Y LITERATURA",
+      "codigoEscuela": "EPESLL",
+      "area": "D"
+    },
+    "EDUCACIÓN SECUNDARIA ESPECIALIDAD MATEMÁTICA Y FÍSICA-CUSCO": {
+      "facultad": "FACULTAD DE EDUCACIÓN",
+      "codigoFacultad": "FED",
+      "escuela": "ESCUELA PROFESIONAL DE EDUCACIÓN SECUNDARIA - MATEMÁTICA Y FÍSICA",
+      "codigoEscuela": "EPESMF",
+      "area": "D"
+    },
+    "ENFERMERÍA": {
+      "facultad": "FACULTAD DE ENFERMERÍA",
+      "codigoFacultad": "FEN",
+      "escuela": "ESCUELA PROFESIONAL DE ENFERMERÍA",
+      "codigoEscuela": "EPEN",
+      "area": "B"
+    },
+    "FARMACIA Y BIOQUÍMICA": {
+      "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+      "codigoFacultad": "FCS",
+      "escuela": "ESCUELA PROFESIONAL DE FARMACIA Y BIOQUÍMICA",
+      "codigoEscuela": "EPFB",
+      "area": "B"
+    },
+    "FILOSOFÍA": {
+      "facultad": "FACULTAD DE CIENCIAS SOCIALES",
+      "codigoFacultad": "FCS",
+      "escuela": "ESCUELA PROFESIONAL DE FILOSOFÍA",
+      "codigoEscuela": "EPF",
+      "area": "D"
+    },
+    "FÍSICA": {
+      "facultad": "FACULTAD DE CIENCIAS QUÍMICAS, FÍSICAS Y MATEMÁTICAS",
+      "codigoFacultad": "FCQFM",
+      "escuela": "ESCUELA PROFESIONAL DE FÍSICA",
+      "codigoEscuela": "EPFI",
+      "area": "A"
+    },
+    "HISTORIA": {
+      "facultad": "FACULTAD DE CIENCIAS SOCIALES",
+      "codigoFacultad": "FCS",
+      "escuela": "ESCUELA PROFESIONAL DE HISTORIA",
+      "codigoEscuela": "EPH",
+      "area": "D"
+    },
+    "INGENIERÍA CIVIL": {
+      "facultad": "FACULTAD DE INGENIERÍA CIVIL",
+      "codigoFacultad": "FIC",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA CIVIL",
+      "codigoEscuela": "EPIC",
+      "area": "A"
+    },
+    "INGENIERÍA DE MINAS": {
+      "facultad": "FACULTAD DE INGENIERÍA GEOLÓGICA, MINAS Y METALÚRGICA",
+      "codigoFacultad": "FIGMM",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA DE MINAS",
+      "codigoEscuela": "EPIM",
+      "area": "A"
+    },
+    "INGENIERÍA ELÉCTRICA": {
+      "facultad": "FACULTAD DE INGENIERÍA ELÉCTRICA, ELECTRÓNICA, INFORMÁTICA Y MECÁNICA",
+      "codigoFacultad": "FIEIM",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA ELÉCTRICA",
+      "codigoEscuela": "EPIE",
+      "area": "A"
+    },
+    "INGENIERÍA ELECTRÓNICA": {
+      "facultad": "FACULTAD DE INGENIERÍA ELÉCTRICA, ELECTRÓNICA, INFORMÁTICA Y MECÁNICA",
+      "codigoFacultad": "FIEIM",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA ELECTRÓNICA",
+      "codigoEscuela": "EPIEL",
+      "area": "A"
+    },
+    "INGENIERÍA GEOLÓGICA": {
+      "facultad": "FACULTAD DE INGENIERÍA GEOLÓGICA, MINAS Y METALÚRGICA",
+      "codigoFacultad": "FIGMM",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA GEOLÓGICA",
+      "codigoEscuela": "EPIG",
+      "area": "A"
+    },
+    "INGENIERÍA INFORMÁTICA Y DE SISTEMAS": {
+      "facultad": "FACULTAD DE INGENIERÍA ELÉCTRICA, ELECTRÓNICA, INFORMÁTICA Y MECÁNICA",
+      "codigoFacultad": "FIEIM",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA INFORMÁTICA Y DE SISTEMAS",
+      "codigoEscuela": "EPIIS",
+      "area": "A"
+    },
+    "INGENIERÍA MECÁNICA": {
+      "facultad": "FACULTAD DE INGENIERÍA ELÉCTRICA, ELECTRÓNICA, INFORMÁTICA Y MECÁNICA",
+      "codigoFacultad": "FIEIM",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA MECÁNICA",
+      "codigoEscuela": "EPIMEC",
+      "area": "A"
+    },
+    "INGENIERÍA METALÚRGICA": {
+      "facultad": "FACULTAD DE INGENIERÍA GEOLÓGICA, MINAS Y METALÚRGICA",
+      "codigoFacultad": "FIGMM",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA METALÚRGICA",
+      "codigoEscuela": "EPIMET",
+      "area": "A"
+    },
+    "INGENIERÍA PETROQUÍMICA": {
+      "facultad": "FACULTAD DE INGENIERÍA DE PROCESOS",
+      "codigoFacultad": "FIP",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA PETROQUÍMICA",
+      "codigoEscuela": "EPIP",
+      "area": "A"
+    },
+    "INGENIERÍA QUÍMICA": {
+      "facultad": "FACULTAD DE INGENIERÍA DE PROCESOS",
+      "codigoFacultad": "FIP",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA QUÍMICA",
+      "codigoEscuela": "EPIQ",
+      "area": "A"
+    },
+    "MATEMÁTICA": {
+      "facultad": "FACULTAD DE CIENCIAS QUÍMICAS, FÍSICAS Y MATEMÁTICAS",
+      "codigoFacultad": "FCQFM",
+      "escuela": "ESCUELA PROFESIONAL DE MATEMÁTICA",
+      "codigoEscuela": "EPM",
+      "area": "A"
+    },
+    "MEDICINA HUMANA": {
+      "facultad": "FACULTAD DE MEDICINA HUMANA",
+      "codigoFacultad": "FMH",
+      "escuela": "ESCUELA PROFESIONAL DE MEDICINA HUMANA",
+      "codigoEscuela": "EPMH",
+      "area": "B"
+    },
+    "ODONTOLOGÍA": {
+      "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+      "codigoFacultad": "FCS",
+      "escuela": "ESCUELA PROFESIONAL DE ODONTOLOGÍA",
+      "codigoEscuela": "EPO",
+      "area": "B"
+    },
+    "PSICOLOGÍA": {
+      "facultad": "FACULTAD DE CIENCIAS SOCIALES",
+      "codigoFacultad": "FCS",
+      "escuela": "ESCUELA PROFESIONAL DE PSICOLOGÍA",
+      "codigoEscuela": "EPP",
+      "area": "D"
+    },
+    "QUÍMICA": {
+      "facultad": "FACULTAD DE CIENCIAS QUÍMICAS, FÍSICAS Y MATEMÁTICAS",
+      "codigoFacultad": "FCQFM",
+      "escuela": "ESCUELA PROFESIONAL DE QUÍMICA",
+      "codigoEscuela": "EPQ",
+      "area": "A"
+    },
+    "TURISMO": {
+      "facultad": "FACULTAD DE ADMINISTRACIÓN Y TURISMO",
+      "codigoFacultad": "FAT",
+      "escuela": "ESCUELA PROFESIONAL DE TURISMO",
+      "codigoEscuela": "EPT",
+      "area": "C"
+    },
+    "AGRONOMÍA": {
+      "facultad": "FACULTAD DE AGRONOMÍA Y ZOOTECNIA",
+      "codigoFacultad": "FAZ",
+      "escuela": "ESCUELA PROFESIONAL DE AGRONOMÍA",
+      "codigoEscuela": "EPAG",
+      "area": "B"
+    },
+    "ZOOTECNIA": {
+      "facultad": "FACULTAD DE AGRONOMÍA Y ZOOTECNIA",
+      "codigoFacultad": "FAZ",
+      "escuela": "ESCUELA PROFESIONAL DE ZOOTECNIA",
+      "codigoEscuela": "EPZ",
+      "area": "B"
+    },
+    "INGENIERÍA AGROPECUARIA-ANDAHUAYLAS": {
+      "facultad": "FACULTAD DE AGRONOMÍA Y ZOOTECNIA",
+      "codigoFacultad": "FAZ",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA AGROPECUARIA - ANDAHUAYLAS",
+      "codigoEscuela": "EPIAG_AND",
+      "area": "B"
+    },
+    "OBSTETRICIA": {
+      "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+      "codigoFacultad": "FCS",
+      "escuela": "ESCUELA PROFESIONAL DE OBSTETRICIA",
+      "codigoEscuela": "EPOB",
+      "area": "B"
+    },
+    "INGENIERIA DEL MEDIO AMBIENTE Y RECURSOS NATURALES-SEDE CURAHUASI": {
+      "facultad": "FACULTAD DE INGENIERÍA DE PROCESOS",
+      "codigoFacultad": "FIP",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA DEL MEDIO AMBIENTE Y RECURSOS NATURALES",
+      "codigoEscuela": "EPIMARN",
+      "area": "B"
+    },
+    "INGENIERÍA AGROPECUARIA-SANTO TOMÁS": {
+      "facultad": "FACULTAD DE AGRONOMÍA Y ZOOTECNIA",
+      "codigoFacultad": "FAZ",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA AGROPECUARIA - SANTO TOMÁS",
+      "codigoEscuela": "EPIAG_ST",
+      "area": "B"
+    },
+    "INGENIERÍA AGROINDUSTRIAL": {
+      "facultad": "FACULTAD DE INGENIERÍA DE PROCESOS",
+      "codigoFacultad": "FIP",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA AGROINDUSTRIAL",
+      "codigoEscuela": "EPIAGR",
+      "area": "A"
+    },
+    "MEDICINA VETERINARIA (SICUANI)": {
+      "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+      "codigoFacultad": "FCS",
+      "escuela": "ESCUELA PROFESIONAL DE MEDICINA VETERINARIA - SICUANI",
+      "codigoEscuela": "EPMV_SIC",
+      "area": "B"
+    },
+    "INGENIERÍA FORESTAL": {
+      "facultad": "FACULTAD DE AGRONOMÍA Y ZOOTECNIA",
+      "codigoFacultad": "FAZ",
+      "escuela": "ESCUELA PROFESIONAL DE INGENIERÍA FORESTAL",
+      "codigoEscuela": "EPIF",
+      "area": "B"
+    },
+    "EDUCACIÓN INICIAL-CANAS": {
+      "facultad": "FACULTAD DE EDUCACIÓN",
+      "codigoFacultad": "FED",
+      "escuela": "ESCUELA PROFESIONAL DE EDUCACIÓN INICIAL - CANAS",
+      "codigoEscuela": "EPEI_CAN",
+      "area": "D"
+    },
+    "EDUCACIÓN PRIMARIA-CANAS": {
+      "facultad": "FACULTAD DE EDUCACIÓN",
+      "codigoFacultad": "FED",
+      "escuela": "ESCUELA PROFESIONAL DE EDUCACIÓN PRIMARIA - CANAS",
+      "codigoEscuela": "EPEP_CAN",
+      "area": "D"
+    },
+    "EDUCACIÓN PRIMARIA-ESPINAR": {
+      "facultad": "FACULTAD DE EDUCACIÓN",
+      "codigoFacultad": "FED",
+      "escuela": "ESCUELA PROFESIONAL DE EDUCACIÓN PRIMARIA - ESPINAR",
+      "codigoEscuela": "EPEP_ESP",
+      "area": "D"
+    },
+    "EDUCACIÓN SECUNDARIA ESPECIALIDAD CIENCIAS NATURALES-ESPINAR": {
+      "facultad": "FACULTAD DE EDUCACIÓN",
+      "codigoFacultad": "FED",
+      "escuela": "ESCUELA PROFESIONAL DE EDUCACIÓN SECUNDARIA - CIENCIAS NATURALES - ESPINAR",
+      "codigoEscuela": "EPESCN_ESP",
+      "area": "D"
+    },
+    "EDUCACIÓN SECUNDARIA ESPECIALIDAD MATEMÁTICA Y FÍSICA-ESPINAR": {
+      "facultad": "FACULTAD DE EDUCACIÓN",
+      "codigoFacultad": "FED",
+      "escuela": "ESCUELA PROFESIONAL DE EDUCACIÓN SECUNDARIA - MATEMÁTICA Y FÍSICA - ESPINAR",
+      "codigoEscuela": "EPESMF_ESP",
+      "area": "D"
+    },
+    "MEDICINA VETERINARIA (ESPINAR)": {
+      "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+      "codigoFacultad": "FCS",
+      "escuela": "ESCUELA PROFESIONAL DE MEDICINA VETERINARIA - ESPINAR",
+      "codigoEscuela": "EPMV_ESP",
+      "area": "B"
+    }
+  },
+  "facultades": {
+    "FACULTAD DE ARQUITECTURA Y ARTES PLÁSTICAS": {
+      "codigo": "FAAP",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE CIENCIAS CONTABLES Y FINANCIERAS": {
+      "codigo": "FCCF",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE DERECHO Y CIENCIAS POLÍTICAS": {
+      "codigo": "FDCP",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE ENFERMERÍA": {
+      "codigo": "FEN",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE INGENIERÍA DE PROCESOS": {
+      "codigo": "FIP",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE AGRONOMÍA Y ZOOTECNIA": {
+      "codigo": "FAZ",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE ADMINISTRACIÓN Y TURISMO": {
+      "codigo": "FAT",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD CIENCIAS BIOLÓGICAS": {
+      "codigo": "FCB",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE CIENCIAS QUÍMICAS, FÍSICAS Y MATEMÁTICAS": {
+      "codigo": "FCQFM",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE CIENCIAS SOCIALES": {
+      "codigo": "FCS",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE COMUNICACIÓN SOCIAL E IDIOMAS": {
+      "codigo": "FCSI",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE ECONOMÍA": {
+      "codigo": "FE",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE EDUCACIÓN": {
+      "codigo": "FED",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE INGENIERÍA CIVIL": {
+      "codigo": "FIC",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE INGENIERÍA ELÉCTRICA, ELECTRÓNICA, INFORMÁTICA Y MECÁNICA": {
+      "codigo": "FIEIM",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE MEDICINA HUMANA": {
+      "codigo": "FMH",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE INGENIERÍA GEOLÓGICA, MINAS Y METALÚRGICA": {
+      "codigo": "FIGMM",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    },
+    "FACULTAD DE CIENCIAS DE LA SALUD": {
+      "codigo": "FCS",
+      "decano": null,
+      "ubicacion": "Ciudad Universitaria de Perayoc",
+      "telefono": null,
+      "email": null
+    }
+  }
+}
