@@ -33,24 +33,75 @@
 
 /* Botones de acción */
 .acciones-horario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  padding: 2px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  flex: none;
+  height: 60px;
+  overflow: hidden;
+}
+
+.acciones-horario .btn-accion {
+  padding: 0.15rem 0.1rem;
+  font-size: 9px;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid #dee2e6;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #495057;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 28px;
   display: flex;
-  gap: 0.5rem;
   align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.1;
+}
+
+.acciones-horario .btn-accion:hover {
+  background-color: #007bff;
+  border-color: #0056b3;
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,123,255,0.2);
+}
+
+.acciones-horario .btn-accion:active {
+  transform: translateY(0);
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.acciones-horario .btn-accion:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border-color: #dee2e6;
 }
 
 .btn-accion {
-  padding: 0.4rem 0.8rem;
+  padding: 0.2rem 0.4rem;
   border: 1px solid #d8c1d7;
-  border-radius: 4px;
+  border-radius: 3px;
   background-color: #f8f9fa;
   color: #333;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease;
   display: flex;
   align-items: center;
-  gap: 0.3rem;
+  gap: 0.2rem;
 }
 
 .btn-accion:hover {
@@ -79,18 +130,19 @@
   border-color: #f44336;
 }
 
-/* Indicadores visuales mejorados */
+/* Indicadores visuales profesionales */
 .action-badge {
-  background-color: #fff;
-  color: #dc3545;
-  border-radius: 50%;
-  padding: 2px 6px;
-  font-size: 0.75rem;
-  font-weight: bold;
-  margin-left: 0.5rem;
-  min-width: 20px;
+  background-color: #dc3545;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 1px 4px;
+  font-size: 7px;
+  font-weight: 700;
+  margin-left: 0.2rem;
+  min-width: 12px;
   text-align: center;
-  animation: pulse 2s infinite;
+  border: none;
+  line-height: 1;
 }
 
 .conflict-indicator {
@@ -101,19 +153,6 @@
   border: 1px solid #ffeaa7;
   font-size: 0.9rem;
   font-weight: 500;
-  animation: shake 0.5s ease-in-out;
-}
-
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.1); }
-  100% { transform: scale(1); }
-}
-
-@keyframes shake {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-2px); }
-  75% { transform: translateX(2px); }
 }
 
 /* Nuevos botones de exportación */
@@ -149,20 +188,7 @@
   font-size: 14px;
 }
 
-.cursos-info {
-  color: #000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 40%;
-  z-index: 1;
-}
+
 
 .cursos-activos-lista {
   display: flex;
@@ -183,13 +209,20 @@
 .curso-tag {
   font-weight: normal;
   color: #000;
-  background-color: transparent;
+  background-color: #e9ecef;
   padding: 0.15rem 0.4rem;
-  border: none;
-  margin: 0;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  margin: 0.1rem;
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
+  position: relative;
+  z-index: 1;
 }
 
 .btn-remover-curso {
@@ -313,35 +346,444 @@
   background: #c82333;
 }
 
+/* Ocultar pestañas móviles en escritorio */
+.mobile-tabs {
+  display: none;
+}
+
+.tab-content {
+  display: block;
+}
+
 /* Responsividad */
 @media (max-width: 768px) {
+  
+  /* Mostrar pestañas móviles */
+  .mobile-tabs {
+    display: flex;
+  }
   .horario-app {
     padding: 10px;
   }
   
-  .acciones-horario {
+  /* Header responsivo con pestañas */
+  .horario-header {
+    padding: 0.5rem 0;
+  }
+  
+  .header-top {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: stretch;
+  }
+  
+  .header-top h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  /* Pestañas móviles profesionales */
+  .mobile-tabs {
+    display: flex;
+    background: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 4px 4px 0 0;
+    padding: 0;
+    margin-bottom: 0.3rem;
+  }
+  
+  .mobile-tab {
+    flex: 1;
+    padding: 0.4rem 0.2rem;
+    background: none;
+    border: none;
+    color: #6c757d;
+    font-weight: 600;
+    font-size: 0.7rem;
+    border-radius: 0;
+    cursor: pointer;
+    text-align: center;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    border-bottom: 2px solid transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .mobile-tab.active {
+    background: #f8f9fa;
+    color: #007bff;
+    border-bottom-color: #007bff;
+    font-weight: 700;
+  }
+  
+  .mobile-tab:hover {
+    background-color: #e9ecef;
+    color: #495057;
+  }
+  
+  /* Contenido de pestañas - simplificado */
+  .tab-content {
+    display: none;
+    min-height: 120px;
+  }
+
+  .tab-content.active {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  .tab-content.active > * {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Estado vacío */
+  .empty-state {
+    text-align: center;
+    padding: 7.5px;
+    color: #718096;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .empty-state span {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .empty-state p {
+    font-size: 14px;
+    margin: 0;
+    opacity: 0.8;
+  }
+  
+  /* Cursos activos en móvil - simplificado */
+  .cursos-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.2rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  margin-bottom: 0.2rem;
+  overflow: hidden;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  flex: 1;
+  min-height: 0;
+}
+  
+  .cursos-info > span {
+    font-weight: 600;
+    color: #495057;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cursos-activos-lista {
+    display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    margin-top: 12px;
+    overflow: hidden;
+    height: auto;
+  }
+  
+  .curso-activo {
+    display: flex;
+    align-items: center;
+    background: #007bff;
+    border-radius: 8px;
+    padding: 8px 14px;
+    min-height: 36px;
+  }
+  
+  .curso-activo .curso-tag {
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    margin-right: 8px;
+    white-space: nowrap;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .curso-activo .btn-remover-curso {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 12px;
+    flex-shrink: 0;
+  }
+  
+  .curso-activo .btn-remover-curso:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Acciones en móvil - cuadrícula 2x2 compacta */
+
+  
+  .btn-accion {
+    padding: 2px 3px;
+    border: 1px solid #dee2e6;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 7px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1px;
+    min-height: 15px;
+    max-height: 20px;
+    width: 100%;
+  }
+
+
+
+  .conflict-indicator {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 4px;
+    padding: 8px;
+    color: #856404;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .btn-accion span:first-child {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1.1;
+  }
+  
+  .btn-accion span:last-child {
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 1px;
+  }
+  
+  .btn-accion:hover:not(:disabled) {
+    background-color: #e9ecef;
+  }
+  
+  .btn-accion:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .btn-exportar-imagen {
+    background: #28a745;
+    color: white;
+  }
+  
+  .btn-exportar-pdf {
+    background: #fd7e14;
+    color: white;
+  }
+  
+  .btn-nuevo-horario {
+    background: #007bff;
+    color: white;
+  }
+  
+  .btn-limpiar {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .action-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #fff;
+    color: #dc3545;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: bold;
+    border: 1px solid #dee2e6;
+  }
+  
+
+  
+  .conflict-indicator {
+    background: #f8d7da !important;
+    color: #721c24 !important;
+    font-weight: 600 !important;
+    text-align: center;
+    font-size: 13px;
+    padding: 0.75rem;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+  }
+  
+  /* Cursos activos en móvil */
+  .cursos-activos-mobile {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  
+  /* Acciones en móvil */
+  .acciones-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    width: 100%;
+  }
+  
+
+  
+  .stat-item {
+    padding: 0.75rem;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #e9ecef;
+  }
+
+  /* Definiciones unificadas con altura fija */
+  .cursos-info {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: none;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .mobile-stats {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: none;
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .stat-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    display: block;
+  }
+  
+  .stat-label {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-top: 0.25rem;
+  }
+  
+}
+
+/* Pantallas muy pequeñas - simplificado */
+@media (max-width: 480px) {
+  .mobile-tabs {
+    margin-bottom: 1rem;
+  }
+  
+  .mobile-tab {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.8rem;
+    min-height: 40px;
+  }
+  
+  .cursos-info,
+  .acciones-horario,
+  .mobile-stats {
+    padding: 0.5rem;
+  }
+  
+  .acciones-horario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    flex: none;
+    height: 50px;
+    overflow: hidden;
   }
   
   .btn-accion {
+    padding: 4px 6px;
     font-size: 12px;
-    padding: 8px 12px;
-  }
-}
-
-@media (max-width: 480px) {
-  .horario-header {
+    min-height: 25px;
+    max-height: 25px;
+    display: flex;
     flex-direction: column;
-    gap: 15px;
-  }
-  
-  .acciones-horario {
+    align-items: center;
     justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-radius: 0;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
   }
   
-  .acciones-exportacion {
-    flex-direction: column;
-    gap: 10px;
+  .mobile-stats {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  
+  .stat-item {
+    padding: 0.5rem;
+  }
+  
+  .stat-number {
+    font-size: 1.25rem;
+  }
+  
+  .stat-label {
+    font-size: 0.75rem;
+  }
+  
+  .curso-tag {
+    font-size: 0.8rem;
+    padding: 0.4rem;
   }
 }

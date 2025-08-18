@@ -20,6 +20,17 @@ const getApiBaseUrl = () => {
 
 const API_BASE_URL = getApiBaseUrl();
 
+// Cache para evitar consultas repetidas
+const cache = {
+  cursosPorIds: new Map(),
+  horarios: new Map(),
+  datosIniciales: null,
+  timestamp: null
+};
+
+// Tiempo de vida del cache (5 minutos)
+const CACHE_TTL = 5 * 60 * 1000;
+
 export class ApiService {
   /**
    * Determinar la URL base de la API según el entorno
@@ -174,19 +185,75 @@ export class ApiService {
   }
 
   /**
-   * Obtener horarios por curso
+   * Obtener horarios por curso con cache
    */
   static async obtenerHorarios(cursoId) {
-    return await this.request(`/horarios/${cursoId}`);
+    try {
+      // Verificar cache
+      if (cache.horarios.has(cursoId)) {
+        const cachedData = cache.horarios.get(cursoId);
+        if (Date.now() - cachedData.timestamp < CACHE_TTL) {
+          return cachedData.data;
+        }
+        // Cache expirado, eliminar
+        cache.horarios.delete(cursoId);
+      }
+
+      const response = await this.request(`/horarios/${cursoId}`);
+      
+      // Guardar en cache
+      cache.horarios.set(cursoId, {
+        data: response,
+        timestamp: Date.now()
+      });
+      
+      return response;
+    } catch (error) {
+      console.error('❌ ApiService - Error al obtener horarios:', error);
+      throw error;
+    }
   }
 
   /**
-   * Obtener cursos específicos por IDs
+   * Obtener cursos específicos por IDs con cache
    */
   static async obtenerCursosPorIds(cursoIds) {
-    // Para mantener compatibilidad, buscar en todos los cursos
-    const todosCursos = await this.obtenerTodosCursos();
-    return todosCursos.filter(curso => cursoIds.includes(curso.id));
+    try {
+      if (!cursoIds || !Array.isArray(cursoIds) || cursoIds.length === 0) {
+        return [];
+      }
+
+      // Crear clave de cache basada en los IDs ordenados
+      const cacheKey = cursoIds.sort().join(',');
+      
+      // Verificar cache
+      if (cache.cursosPorIds.has(cacheKey)) {
+        const cachedData = cache.cursosPorIds.get(cacheKey);
+        if (Date.now() - cachedData.timestamp < CACHE_TTL) {
+          return cachedData.data;
+        }
+        // Cache expirado, eliminar
+        cache.cursosPorIds.delete(cacheKey);
+      }
+
+      const response = await this.request('/cursos-por-ids', {
+        method: 'POST',
+        body: JSON.stringify({ cursoIds })
+      });
+      
+      // Guardar en cache
+      cache.cursosPorIds.set(cacheKey, {
+        data: response,
+        timestamp: Date.now()
+      });
+      
+      return response;
+    } catch (error) {
+      console.error('❌ ApiService - Error al obtener cursos por IDs:', error);
+      // Fallback: buscar en todos los cursos
+      const todosCursos = await this.obtenerTodosCursos();
+      return todosCursos.filter(curso => cursoIds.includes(curso.id));
+    }
   }
 
   /**

@@ -1,6 +1,8 @@
+/* eslint-env node */
 // Script de prueba para verificar la conexión a Supabase
 // y todas las funcionalidades de la base de datos
 
+/* eslint-env node */
 import dotenv from 'dotenv';
 import { createClient } from '@supabase/supabase-js';
 
@@ -28,7 +30,7 @@ async function testSupabaseConnection() {
         console.log('\n🔗 1. PROBANDO CONEXIÓN BÁSICA...');
         
         // Prueba de conexión básica
-        const { data, error } = await supabase
+        const { data: _data, error } = await supabase
             .from('facultades')
             .select('count')
             .limit(1);

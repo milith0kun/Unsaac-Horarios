@@ -1,7 +1,9 @@
+/* eslint-env node */
 import puppeteer from 'puppeteer';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -381,6 +383,8 @@ class ScrapingCarrera {
    * Extrae cursos usando estrategias adaptativas
    */
   async extraerCursosAdaptativo(page, htmlCompleto = null, opciones = {}) {
+    // eslint-disable-next-line no-unused-vars
+    const _opciones = opciones;
     const estrategias = [
       { nombre: 'tabla_estructurada', metodo: () => this.extraerCursos(page) },
       { nombre: 'tabla_generica', metodo: () => this.extraerCursosTabla(page) },
@@ -429,11 +433,12 @@ class ScrapingCarrera {
         
       } catch (error) {
         this.log(`❌ Error en estrategia ${estrategia.nombre}: ${error.message}`);
+        const tiempoError = Date.now() - inicioEstrategia;
         estadisticas.estrategiasIntentadas.push({
           nombre: estrategia.nombre,
           exito: false,
           error: error.message,
-          tiempo: Date.now() - inicioEstrategia
+          tiempo: tiempoError
         });
       }
     }
@@ -648,6 +653,8 @@ class ScrapingCarrera {
     
     // Usar el análisis para crear selectores más específicos
     return await page.evaluate((analisisData) => {
+      // eslint-disable-next-line no-unused-vars
+      const _analisisData = analisisData;
       const cursos = [];
       
       // Implementar extracción basada en el análisis de estructura
@@ -1563,6 +1570,7 @@ export default ScrapingCarrera;
 export { GeneradorHorarios };
 
 // Ejecutar si es llamado directamente
+// eslint-disable-next-line no-undef
 if (import.meta.url.endsWith(process.argv[1]) || process.argv[1].endsWith('ScrapingCarrera.js')) {
   const configuracion = {
     headless: false,

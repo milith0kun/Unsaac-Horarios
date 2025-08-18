@@ -85,12 +85,13 @@ const App = React.memo(() => {
         </div>
 
         <div className="horario-section">
-          <h2>Horario de Clases</h2>
           <div className="schedule-board-container">
             <HorarioApp 
-              cursosSeleccionados={cursosSeleccionados} 
+              cursosSeleccionados={cursosSeleccionados}
+              conflictos={conflictos}
               onRemoverCurso={removerCurso}
               onLimpiarSeleccion={limpiarSeleccion}
+              loading={loading}
             />
           </div>
           

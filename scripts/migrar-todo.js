@@ -1,3 +1,4 @@
+/* eslint-env node */
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -318,7 +319,7 @@ async function migrarDatos(consolidado) {
         
         // Migrar escuelas
         console.log('🏫 Migrando escuelas...');
-        const escuelasData = Array.from(consolidado.escuelas.entries()).map(([key, escuela]) => ({
+        const escuelasData = Array.from(consolidado.escuelas.entries()).map(([_key, escuela]) => ({
             nombre: escuela.nombre,
             codigo: escuela.codigo,
             director: escuela.director || null,
@@ -338,7 +339,7 @@ async function migrarDatos(consolidado) {
         }
         
         // Obtener IDs de escuelas creadas
-        for (const [key, escuela] of consolidado.escuelas.entries()) {
+        for (const [_key, escuela] of consolidado.escuelas.entries()) {
             const escuelaDB = escuelasCreadas.find(e => e.codigo === escuela.codigo);
             if (escuelaDB) {
                 escuelaIds.set(key, escuelaDB.id);
@@ -450,7 +451,7 @@ async function migrarDatos(consolidado) {
             }
         }
         
-        const { data: horariosCreados, error: errorHorarios } = await supabase
+        const { data: _horariosCreados, error: errorHorarios } = await supabase
             .from('horarios')
             .insert(horariosValidos)
             .select();
@@ -464,7 +465,7 @@ async function migrarDatos(consolidado) {
         console.log('✅ Migración completada exitosamente!');
         
         // Mostrar estadísticas
-        const { data: statsData } = await supabase.rpc('get_table_counts');
+        const { data: _statsData } = await supabase.rpc('get_table_counts');
         const stats = {
             facultades: (await supabase.from('facultades').select('*', { count: 'exact', head: true })).count,
             escuelas: (await supabase.from('escuelas').select('*', { count: 'exact', head: true })).count,
@@ -495,7 +496,7 @@ async function main() {
     try {
         // Verificar conexión a la base de datos
         console.log('🔌 Verificando conexión a la base de datos...');
-        const { data, error } = await supabase.from('facultades').select('count', { count: 'exact', head: true });
+        const { data: _data, error } = await supabase.from('facultades').select('count', { count: 'exact', head: true });
         if (error) {
             throw new Error(`Error conectando a Supabase: ${error.message}`);
         }

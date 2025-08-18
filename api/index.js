@@ -183,6 +183,80 @@ app.get('/api/datos-iniciales', async (req, res) => {
   }
 });
 
+// Endpoint para obtener cursos por IDs específicos
+app.post('/api/cursos-por-ids', async (req, res) => {
+  try {
+    const { cursoIds } = req.body;
+    
+    console.log('🔍 API - cursos-por-ids recibido:', { cursoIds, tipo: typeof cursoIds, esArray: Array.isArray(cursoIds) });
+    
+    if (!cursoIds || !Array.isArray(cursoIds) || cursoIds.length === 0) {
+      console.log('❌ API - cursoIds inválido');
+      return res.status(400).json({ error: 'Se requiere un array de IDs de cursos' });
+    }
+
+    const { data: cursos, error } = await supabase
+      .from('cursos')
+      .select('*')
+      .in('id', cursoIds);
+    
+    if (error) {
+      console.error('❌ API - Error en consulta Supabase:', error);
+      throw error;
+    }
+
+    console.log('✅ API - Cursos encontrados:', { cantidad: cursos?.length || 0, ids: cursos?.map(c => c.id) });
+
+    // Convertir a camelCase
+    const cursosFormateados = cursos.map(curso => ({
+      id: curso.id,
+      codigo: curso.codigo,
+      nombre: curso.nombre,
+      creditos: curso.creditos,
+      semestre: curso.semestre,
+      facultad: curso.facultad,
+      escuela: curso.escuela,
+      ciclo: curso.ciclo,
+      tipo: curso.tipo,
+      modalidad: curso.modalidad
+    }));
+
+    res.json(cursosFormateados);
+  } catch (error) {
+    console.error('❌ API - Error al obtener cursos por IDs:', error);
+    res.status(500).json({ error: 'Error interno del servidor' });
+  }
+});
+
+// Endpoint para obtener estadísticas
+app.get('/api/estadisticas', async (req, res) => {
+  try {
+    const { data: cursos, error: cursosError } = await supabase
+      .from('cursos')
+      .select('*');
+    
+    if (cursosError) throw cursosError;
+
+    const { data: horarios, error: horariosError } = await supabase
+      .from('horarios')
+      .select('*');
+    
+    if (horariosError) throw horariosError;
+
+    const estadisticas = {
+      totalCursos: cursos.length,
+      totalHorarios: horarios.length,
+      facultades: [...new Set(cursos.map(c => c.facultad))].length,
+      escuelas: [...new Set(cursos.map(c => c.escuela))].length
+    };
+
+    res.json(estadisticas);
+  } catch (error) {
+    console.error('Error al obtener estadísticas:', error);
+    res.status(500).json({ error: 'Error interno del servidor' });
+  }
+});
+
 // Endpoint de prueba
 app.get('/api/test', (req, res) => {
   res.json({ message: 'API funcionando correctamente', timestamp: new Date().toISOString() });

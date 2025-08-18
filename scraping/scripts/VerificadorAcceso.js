@@ -1,3 +1,4 @@
+/* eslint-env node */
 import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
@@ -101,7 +102,8 @@ class VerificadorAcceso {
             page.on('request', (request) => {
                 try {
                     request.continue();
-                } catch (error) {
+                // eslint-disable-next-line no-unused-vars
+                } catch (_error) {
                     // Ignorar errores de request ya manejado
                 }
             });
@@ -185,7 +187,8 @@ class VerificadorAcceso {
                 if (page && !page.isClosed()) {
                     await page.close();
                 }
-            } catch (error) {
+            // eslint-disable-next-line no-unused-vars
+            } catch (_error) {
                 // Ignorar errores al cerrar página
             }
         }
@@ -251,7 +254,8 @@ class VerificadorAcceso {
                 try {
                     await this.browser.close();
                     this.log('Navegador cerrado', 'info');
-                } catch (error) {
+                // eslint-disable-next-line no-unused-vars
+                } catch (_error) {
                     this.log('Error al cerrar navegador (ignorado)', 'warning');
                 }
             }

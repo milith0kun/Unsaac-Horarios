@@ -27,13 +27,9 @@ const CourseSelector = memo(({
 
   // Filtrar cursos: excluir seleccionados y aplicar búsqueda
   const cursosFiltrados = useMemo(() => {
-    if (!cursos || cursos.length === 0) {
-      console.log('📊 [CourseSelector] No hay cursos disponibles');
+    if (cursos.length === 0) {
       return [];
     }
-    
-    console.log(`📊 [CourseSelector] Total cursos recibidos: ${cursos.length}`);
-    console.log(`📊 [CourseSelector] Cursos seleccionados: ${cursosSeleccionados.length}`);
     
     // Crear Set de IDs de cursos seleccionados para búsqueda rápida
     const idsSeleccionados = new Set(cursosSeleccionados.map(curso => 
@@ -53,9 +49,6 @@ const CourseSelector = memo(({
       return curso.codigo?.toLowerCase().includes(termino) || 
              curso.nombre?.toLowerCase().includes(termino);
     });
-    
-    console.log(`🔍 [CourseSelector] Cursos disponibles (no seleccionados): ${filtrados.length}`);
-    console.log(`🔎 [CourseSelector] Término de búsqueda: "${searchTerm}"`);
     
     return filtrados;
   }, [cursos, searchTerm, cursosSeleccionados]);

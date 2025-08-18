@@ -1,3 +1,4 @@
+/* eslint-env node */
 import ScrapingCarrera from './ScrapingCarrera.js';
 import fs from 'fs/promises';
 import path from 'path';

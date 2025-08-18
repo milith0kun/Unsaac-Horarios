@@ -105,7 +105,7 @@ export function useApiData() {
 
   const cargarCursosPorEscuela = useCallback(async (escuelaId) => {
     try {
-      console.log(`🔍 [useApiData] Cargando cursos para escuela ID: ${escuelaId}`);
+      // Cargando cursos para escuela
       
       // Asegurar que los datos estén inicializados
       if (!datosInicializados) {

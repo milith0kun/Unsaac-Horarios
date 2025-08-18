@@ -1,15 +1,8 @@
-import React, { useRef, useCallback, useMemo } from 'react';
-// import html2canvas from 'html2canvas';
-// import jsPDF from 'jspdf';
-import './HorarioApp.css';
+import React, { useCallback, useRef, useMemo, useState, useEffect } from 'react';
 import ScheduleBoard from './ScheduleBoard';
+import './HorarioApp.css';
+import { generarArchivoICS, descargarArchivoICS, enviarPorCorreo, exportarHorarioCompleto } from '../utils/calendarUtils';
 import { useScheduleManager } from '../hooks/useScheduleManager';
-import { 
-  generarArchivoICS, 
-  descargarArchivoICS, 
-  enviarPorCorreo, 
-  exportarHorarioCompleto 
-} from '../services/calendarService';
 
 const HorarioApp = React.memo(({ 
   cursosSeleccionados = [], 
@@ -37,6 +30,22 @@ const HorarioApp = React.memo(({
 
   // Ref para el tablero de horarios
   const tableroRef = useRef(null);
+  
+  // Estado para pestañas móviles
+  const [activeTab, setActiveTab] = useState('cursos');
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Detectar si es dispositivo móvil
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   // Funciones para las nuevas funcionalidades
   const exportarComoImagen = useCallback(async () => {
@@ -225,74 +234,197 @@ const HorarioApp = React.memo(({
       <div className="horario-header">
         <div className="header-top">
           <h1>Tablero de Horarios</h1>
-          {cursosSeleccionados.length > 0 && (
-            <div className="cursos-info">
-              <span>Cursos activos: </span>
-              <div className="cursos-activos-lista">
-                {cursosSeleccionados.map((curso) => (
-                  <div key={curso.id} className="curso-activo">
-                    <span className="curso-tag">
-                      {curso.codigo}
-                    </span>
-                    {onRemoverCurso && (
-                      <button 
-                        className="btn-remover-curso"
-                        onClick={() => onRemoverCurso(curso.id)}
-                        title={`Deseleccionar ${curso.codigo}`}
-                        aria-label={`Deseleccionar curso ${curso.codigo}`}
-                        disabled={false}
-                      >
-                        ✕
-                      </button>
-                    )}
+          
+          {/* Pestañas para móviles */}
+          {isMobile ? (
+            <div className="mobile-view">
+              <div className="mobile-tabs">
+                <button 
+                  className={`mobile-tab ${activeTab === 'cursos' ? 'active' : ''}`}
+                  onClick={() => setActiveTab('cursos')}
+                >
+                  Cursos ({cursosSeleccionados.length})
+                </button>
+                <button 
+                  className={`mobile-tab ${activeTab === 'acciones' ? 'active' : ''}`}
+                  onClick={() => setActiveTab('acciones')}
+                >
+                  Acciones
+                </button>
+                <button 
+                  className={`mobile-tab ${activeTab === 'estadisticas' ? 'active' : ''}`}
+                  onClick={() => setActiveTab('estadisticas')}
+                >
+                  Estadísticas
+                </button>
+              </div>
+              
+              {/* Contenido de pestañas */}
+              <div className={`tab-content ${activeTab === 'cursos' ? 'active' : ''}`}>
+                {cursosSeleccionados.length > 0 ? (
+                  <div className="cursos-info">
+                    <span>Cursos activos:</span>
+                    <div className="cursos-activos-lista">
+                      {cursosSeleccionados.map((curso) => (
+                    <div key={curso.id} className="curso-activo">
+                          <span className="curso-tag">
+                            {curso.codigo}
+                          </span>
+                          {onRemoverCurso && (
+                            <button 
+                              className="btn-remover-curso"
+                              onClick={() => onRemoverCurso(curso.id)}
+                              title={`Deseleccionar ${curso.codigo}`}
+                              aria-label={`Deseleccionar curso ${curso.codigo}`}
+                            >
+                              ✕
+                            </button>
+                          )}
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                ))}
+                ) : (
+                  <div className="cursos-info">
+                    <div className="empty-state">
+                      <span>No hay cursos seleccionados</span>
+                      <p>Selecciona cursos desde el panel lateral para verlos aquí</p>
+                    </div>
+                  </div>
+                )}
+              </div>
+              
+              <div className={`tab-content ${activeTab === 'acciones' ? 'active' : ''}`}>
+                <div className="acciones-horario">
+                  <button 
+                    className="btn-accion btn-exportar-imagen"
+                    onClick={exportarComoImagen}
+                    title="Exportar como imagen"
+                    disabled={loading || cursosParaTablero.length === 0}
+                  >
+                    Exportar Imagen
+                  </button>
+                  <button 
+                    className="btn-accion btn-exportar-pdf"
+                    onClick={exportarComoPDF}
+                    title="Exportar como PDF"
+                    disabled={loading || cursosParaTablero.length === 0}
+                  >
+                    Exportar PDF
+                  </button>
+                  <button 
+                    className="btn-accion btn-nuevo-horario"
+                    onClick={generarNuevoHorario}
+                    title="Generar nuevo horario"
+                    disabled={loading}
+                  >
+                    Nuevo Horario
+                  </button>
+                  <button 
+                    className="btn-accion btn-limpiar"
+                    onClick={limpiarTodo}
+                    title="Limpiar todo"
+                    disabled={loading || cursosSeleccionados.length === 0}
+                  >
+                    Limpiar Todo
+                    {cursosSeleccionados.length > 0 && (
+                      <span className="action-badge">{cursosSeleccionados.length}</span>
+                    )}
+                  </button>
+                </div>
+              </div>
+              
+              <div className={`tab-content ${activeTab === 'estadisticas' ? 'active' : ''}`}>
+                <div className="mobile-stats">
+                  <div>
+                    <strong>Cursos:</strong> {cursosSeleccionados.length}
+                  </div>
+                  <div>
+                    <strong>Créditos:</strong> {cursosParaTablero.reduce((total, curso) => total + (curso.creditos || 0), 0)}
+                  </div>
+                  <div>
+                    <strong>Estado:</strong> {conflictos.length === 0 ? 'Sin conflictos' : `${conflictos.length} conflicto${conflictos.length > 1 ? 's' : ''}`}
+                  </div>
+                  {conflictos.length > 0 && (
+                    <div className="conflict-indicator">
+                      Revisa los horarios para resolver conflictos
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          ) : (
+            // Vista de escritorio (original)
+            <div className="desktop-view">
+              {cursosSeleccionados.length > 0 && (
+                <div className="cursos-info">
+                  <span>Cursos activos: </span>
+                  <div className="cursos-activos-lista">
+                    {cursosSeleccionados.map((curso) => (
+                      <div key={curso.id} className="curso-activo">
+                        <span className="curso-tag">
+                          {curso.codigo}
+                        </span>
+                        {onRemoverCurso && (
+                          <button 
+                            className="btn-remover-curso"
+                            onClick={() => onRemoverCurso(curso.id)}
+                            title={`Deseleccionar ${curso.codigo}`}
+                            aria-label={`Deseleccionar curso ${curso.codigo}`}
+                          >
+                            ✕
+                          </button>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              <div className="acciones-horario">
+                <button 
+                  className="btn-accion btn-exportar-imagen"
+                  onClick={exportarComoImagen}
+                  title="Exportar como imagen"
+                  disabled={loading || cursosParaTablero.length === 0}
+                >
+                  Exportar Imagen
+                </button>
+                <button 
+                  className="btn-accion btn-exportar-pdf"
+                  onClick={exportarComoPDF}
+                  title="Exportar como PDF"
+                  disabled={loading || cursosParaTablero.length === 0}
+                >
+                  Exportar PDF
+                </button>
+                <button 
+                  className="btn-accion btn-nuevo-horario"
+                  onClick={generarNuevoHorario}
+                  title="Generar nuevo horario"
+                  disabled={loading}
+                >
+                  Nuevo Horario
+                </button>
+                <button 
+                  className="btn-accion btn-limpiar"
+                  onClick={limpiarTodo}
+                  title="Limpiar todo"
+                  disabled={loading || cursosSeleccionados.length === 0}
+                >
+                  Limpiar Todo
+                  {cursosSeleccionados.length > 0 && (
+                    <span className="action-badge">{cursosSeleccionados.length}</span>
+                  )}
+                </button>
+                
+                {conflictos.length > 0 && (
+                  <div className="conflict-indicator">
+                    {conflictos.length} conflicto{conflictos.length > 1 ? 's' : ''}
+                  </div>
+                )}
               </div>
             </div>
           )}
-          <div className="acciones-horario">
-            <button 
-              className="btn-accion btn-exportar-imagen"
-              onClick={exportarComoImagen}
-              title="Exportar como imagen"
-              disabled={loading || cursosParaTablero.length === 0}
-            >
-              📷 Imagen
-            </button>
-            <button 
-              className="btn-accion btn-exportar-pdf"
-              onClick={exportarComoPDF}
-              title="Exportar como PDF"
-              disabled={loading || cursosParaTablero.length === 0}
-            >
-              📄 PDF
-            </button>
-            <button 
-              className="btn-accion btn-nuevo-horario"
-              onClick={generarNuevoHorario}
-              title="Generar nuevo horario"
-              disabled={loading}
-            >
-              ➕ Nuevo
-            </button>
-            <button 
-              className="btn-accion btn-limpiar"
-              onClick={limpiarTodo}
-              title="Limpiar todo"
-              disabled={loading || cursosSeleccionados.length === 0}
-            >
-              🗑️ Limpiar
-              {cursosSeleccionados.length > 0 && (
-                <span className="action-badge">{cursosSeleccionados.length}</span>
-              )}
-            </button>
-            
-            {conflictos.length > 0 && (
-              <div className="conflict-indicator">
-                ⚠️ {conflictos.length} conflicto{conflictos.length > 1 ? 's' : ''}
-              </div>
-            )}
-          </div>
         </div>
       </div>
 
@@ -313,7 +445,7 @@ const HorarioApp = React.memo(({
           title="Descargar archivo para Google Calendar"
           disabled={loading || cursosParaTablero.length === 0}
         >
-          📅 Calendario
+          Exportar Calendario
         </button>
         <button 
           className="btn-accion btn-enviar-correo"
@@ -321,7 +453,7 @@ const HorarioApp = React.memo(({
           title="Enviar horario por correo"
           disabled={loading || cursosParaTablero.length === 0}
         >
-          ✉️ Correo
+          Enviar por Correo
         </button>
         <button 
           className="btn-accion btn-exportar-completo"
@@ -329,7 +461,7 @@ const HorarioApp = React.memo(({
           title="Descargar calendario y enviar por correo"
           disabled={loading || cursosParaTablero.length === 0}
         >
-          📤 Exportar Todo
+          Exportar Completo
         </button>
       </div>
     </div>

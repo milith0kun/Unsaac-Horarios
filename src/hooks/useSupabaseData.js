@@ -137,7 +137,9 @@ export function useHorarios() {
   const agregarCurso = useCallback(async (cursoId) => {
     try {
       // Verificar si ya está seleccionado (optimización temprana)
-      if (cursosSeleccionados.find(c => c.id === cursoId)) {
+      const yaSeleccionado = cursosSeleccionados.find(c => c.id === cursoId);
+      
+      if (yaSeleccionado) {
         return;
       }
       
@@ -153,8 +155,13 @@ export function useHorarios() {
       
       const nuevoCurso = cursosData[0];
       
-      // Cargar horarios específicos del curso
-      const horariosData = await ApiService.obtenerHorarios(cursoId);
+      // Verificar si el curso ya tiene horarios cargados (evitar consulta duplicada)
+      let horariosData = nuevoCurso.horarios;
+      
+      if (!horariosData || horariosData.length === 0) {
+        // Solo cargar horarios si no están disponibles
+        horariosData = await ApiService.obtenerHorarios(cursoId);
+      }
       
       // Agregar horarios al objeto del curso
       const cursoConHorarios = {
@@ -179,7 +186,7 @@ export function useHorarios() {
       });
       
     } catch (error) {
-      console.error('Error agregando curso:', error);
+      console.error('❌ Error agregando curso:', error);
       setLoading(false);
     }
   }, [cursosSeleccionados]);
@@ -214,6 +221,8 @@ export function useHorarios() {
     setCursosSeleccionados([]);
     setConflictos([]);
   }, []);
+
+
 
   return {
     cursosSeleccionados: cursosSeleccionados || [],

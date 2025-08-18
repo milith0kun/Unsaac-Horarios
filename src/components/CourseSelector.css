@@ -235,12 +235,7 @@
   min-width: 0;
 }
 
-.curso-codigo {
-  font-weight: 600;
-  color: #2c3e50;
-  font-size: 13px;
-  margin-bottom: 2px;
-}
+
 
 .curso-nombre {
   color: #495057;
@@ -427,10 +422,9 @@
   transition: all 0.3s ease;
 }
 
-/* Responsive Design */
+/* Responsive Design Simplificado */
 @media (max-width: 768px) {
   .course-selector {
-    min-width: 300px;
     max-width: 90vw;
     max-height: 70vh;
   }
@@ -450,107 +444,9 @@
   .curso-creditos, .curso-semestre {
     font-size: 10px;
   }
-  
-  .search-input {
-    font-size: 14px;
-  }
 }
 
-@media (max-width: 480px) {
-  .course-selector {
-    min-width: 280px;
-    max-width: 320px;
-    max-height: 60vh;
-  }
-  
-  .curso-item {
-    padding: 8px 10px;
-  }
-  
-  .curso-codigo {
-    font-size: 12px;
-  }
-  
-  .curso-nombre {
-    font-size: 11px;
-  }
-  
-  .curso-creditos,
-  .curso-semestre {
-    font-size: 10px;
-  }
-}
 
-/* Dark Theme Support */
-@media (prefers-color-scheme: dark) {
-  .course-selector {
-    background: #2d3748;
-    border-color: #4a5568;
-    color: #e2e8f0;
-  }
-  
-  .course-selector-label {
-    background: #4a5568;
-    color: #e2e8f0;
-    border-bottom-color: #2d3748;
-  }
-  
-  .course-selector-label:hover {
-    background: #2d3748;
-  }
-  
-  .search-input {
-    background: #4a5568;
-    border-color: #2d3748;
-    color: #e2e8f0;
-  }
-  
-  .search-input:focus {
-    background: #2d3748;
-    border-color: #63b3ed;
-  }
-  
-  .curso-item {
-    background: #2d3748;
-    border-bottom-color: #4a5568;
-  }
-  
-  .curso-item:hover {
-    background: #4a5568;
-  }
-  
-  .curso-item.selected {
-    background: #2a4365;
-  }
-  
-  .curso-codigo {
-    color: #e2e8f0;
-  }
-  
-  .curso-nombre {
-    color: #cbd5e0;
-  }
-  
-  .curso-creditos,
-  .curso-semestre {
-    color: #a0aec0;
-  }
-  
-  .actions-container {
-    background: #4a5568;
-    border-top-color: #2d3748;
-  }
-  
-  .loading-message {
-    background: #4a5568;
-    color: #63b3ed;
-  }
-  
-  .error-message {
-    background: #742a2a;
-    color: #feb2b2;
-  }
-}
 
 /* Animation for smooth transitions */
 @keyframes fadeIn {
@@ -568,33 +464,7 @@
   animation: fadeIn 0.3s ease;
 }
 
-/* Accessibility improvements */
-.course-selector:focus-within {
-  outline: 2px solid #007bff;
-  outline-offset: 2px;
-}
-
-.curso-item:focus {
-  outline: 2px solid #007bff;
-  outline-offset: -2px;
-}
-
+/* Accesibilidad básica */
 .search-input:focus {
   outline: none;
-}
-
-/* High contrast mode support */
-@media (prefers-contrast: high) {
-  .course-selector {
-    border-width: 3px;
-  }
-  
-  .curso-item {
-    border-bottom-width: 2px;
-  }
-  
-  .curso-item:hover,
-  .curso-item.selected {
-    border-left-width: 5px;
-  }
 }

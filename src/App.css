@@ -336,9 +336,7 @@ html, body {
   box-shadow: 0 2px 4px rgba(185, 157, 196, 0.1);
 }
 
-.curso-info {
-  flex: 1;
-}
+
 
 .curso-codigo {
   font-weight: 600;
@@ -374,35 +372,12 @@ html, body {
   position: relative;
 }
 
-/* ===== DISEÑO RESPONSIVO ===== */
+/* ===== DISEÑO RESPONSIVO SIMPLIFICADO ===== */
 
-/* Tablets (768px - 1024px) */
-@media (max-width: 1024px) {
-  .app-header h1 {
-    font-size: 1.8rem;
-  }
-  
-  .selectors-section {
-    padding: 0.75rem 1rem;
-    gap: 1rem;
-  }
-  
-  .selector-group {
-    min-width: 180px;
-    max-width: 220px;
-  }
-  
-  .cursos-section {
-    min-width: 280px;
-    max-width: 320px;
-    right: 15px;
-  }
-}
-
-/* Móviles grandes (481px - 768px) */
-@media (max-width: 768px) and (min-width: 481px) {
+/* Tablets y móviles */
+@media (max-width: 768px) {
   .app-header {
-    padding: 0.75rem 1rem;
+    padding: 0.5rem;
   }
   
   .app-header h1 {
@@ -413,12 +388,10 @@ html, body {
     flex-direction: column;
     padding: 0.5rem;
     gap: 0.75rem;
-    align-items: stretch;
   }
   
   .selector-group {
-    min-width: 100%;
-    max-width: 100%;
+    width: 100%;
   }
   
   .selector-group label {
@@ -430,115 +403,12 @@ html, body {
     padding: 0.6rem;
   }
   
-  .cursos-section {
-    position: static;
-    min-width: 100%;
-    max-width: 100%;
-    margin: 0.5rem;
-    max-height: 50vh;
-  }
-  
-  /* Solo aplicar estilos táctiles en dispositivos realmente táctiles */
-  @media (hover: none) and (pointer: coarse) {
-    .cursos-section {
-      cursor: default; /* Desactivar cursor grab en móviles */
-      touch-action: pan-y; /* Permitir scroll vertical */
-    }
-    
-    .cursos-section:active {
-      cursor: default;
-      transform: none;
-    }
-    
-    .cursos-section.dragging {
-      transform: none;
-      opacity: 1;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-    }
-  }
-  
   .horario-section {
     padding: 0.5rem;
   }
   
   .schedule-board-container {
     padding: 0.5rem;
-    margin: 0;
-  }
-}
-
-/* Móviles pequeños (320px - 480px) */
-@media (max-width: 480px) {
-  .app-header {
-    padding: 0.5rem;
-  }
-  
-  .app-header h1 {
-    font-size: 1.25rem;
-  }
-  
-  .selectors-section {
-    padding: 0.25rem;
-    gap: 0.5rem;
-  }
-  
-  .selector-group label {
-    font-size: 0.85rem;
-  }
-  
-  .selector-group select {
-    font-size: 0.85rem;
-    padding: 0.5rem;
-  }
-  
-  .cursos-section {
-    margin: 0.25rem;
-    padding: 0.5rem;
-    max-height: 40vh;
-  }
-  
-  /* Solo aplicar estilos táctiles en dispositivos realmente táctiles */
-  @media (hover: none) and (pointer: coarse) {
-    .cursos-section {
-      cursor: default;
-      touch-action: pan-y;
-      user-select: text; /* Permitir selección de texto en móviles */
-    }
-    
-    .cursos-section label {
-      cursor: default;
-      padding: 8px 0;
-      font-size: 0.9rem;
-    }
-  }
-  
-  .cursos-section label {
-    padding: 8px 0;
-    font-size: 0.9rem;
-  }
-  
-  .curso-item {
-    padding: 0.5rem 0.75rem;
-  }
-  
-  .curso-codigo {
-    font-size: 0.9rem;
-  }
-  
-  .curso-nombre {
-    font-size: 0.8rem;
-  }
-  
-  .curso-creditos {
-    font-size: 0.75rem;
-  }
-  
-  .horario-section {
-    padding: 0.25rem;
-  }
-  
-  .schedule-board-container {
-    padding: 0.25rem;
     margin: 0;
   }
 }
@@ -597,15 +467,4 @@ html, body {
 
 .conflictos-warning p {
   margin: 0;
-}
-
-/* Responsive general */
-@media (max-width: 768px) {
-  .selectors-section {
-    flex-direction: column;
-  }
-  
-  .selector-group {
-    min-width: 100%;
-  }
 }

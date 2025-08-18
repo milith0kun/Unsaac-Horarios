@@ -1,3 +1,4 @@
+/* eslint-env node */
 import puppeteer from 'puppeteer';
 import fs from 'fs/promises';
 import path from 'path';
@@ -281,7 +282,7 @@ class ScrapingCatalogo {
       // Estrategia 3: Buscar texto que contenga nombres de carreras
       if (datos.carreras.length === 0) {
         const textoCompleto = document.body.textContent || '';
-        const lineas = textoCompleto.split('\n');
+        const _lineas = textoCompleto.split('\n');
         
         const patronesCarreras = [
           /\d+\s*([A-ZÁÉÍÓÚÑ\s]+)\s*Ver/gi,
