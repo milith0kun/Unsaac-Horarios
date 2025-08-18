@@ -2,19 +2,24 @@
 
 .course-selector {
   position: fixed;
-  z-index: 1000;
-  background: white;
-  border: 2px solid #e0e0e0;
-  border-radius: 12px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-  min-width: 350px;
-  max-width: 450px;
-  max-height: 80vh;
-  overflow: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  transition: all 0.2s ease;
-  user-select: none;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 2px 0 20px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  user-select: none;
 }
 
 .course-selector.dragging {
@@ -25,7 +30,7 @@
 
 /* Drag Handle */
 .drag-handle {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #191920 0%, #555454 100%);
   color: white;
   padding: 8px;
   text-align: center;
@@ -48,17 +53,15 @@
 }
 
 /* Label */
-.course-selector-label {
-  display: block;
-  background: #f8f9fa;
-  padding: 12px 16px;
-  font-weight: 600;
-  color: #2c3e50;
-  cursor: pointer;
-  border-bottom: 1px solid #e9ecef;
-  transition: all 0.2s ease;
-  font-size: 14px;
-  position: relative;
+.selector-label {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0;
 }
 
 .course-selector-label:hover {
@@ -78,10 +81,10 @@
 
 /* Search Container */
 .search-container {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-  background: white;
+  padding: 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.8);
+  margin: 0;
 }
 
 .search-container.show {
@@ -158,11 +161,12 @@
 }
 
 /* Cursos List */
-.cursos-list {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-  background: white;
+.course-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.25rem;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 0;
 }
 
 .cursos-list.show {
@@ -288,14 +292,6 @@
 }
 
 /* Loading and Error Messages */
-.loading-message {
-  padding: 12px 16px;
-  text-align: center;
-  color: #007bff;
-  font-size: 13px;
-  background: #f8f9fa;
-  border-bottom: 1px solid #e9ecef;
-}
 
 .error-message {
   padding: 12px 16px;
@@ -404,16 +400,7 @@
   50% { opacity: 0.5; }
 }
 
-.error-message {
-  padding: 12px 16px;
-  background: #f8d7da;
-  color: #721c24;
-  border-bottom: 1px solid #f5c6cb;
-  font-size: 13px;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
+
 
 /* Course selecting animation */
 .curso-item.course-selecting {
@@ -467,4 +454,79 @@
 /* Accesibilidad básica */
 .search-input:focus {
   outline: none;
+}
+
+/* ===== ESTILOS ADICIONALES DE LA SECCIÓN DE CURSOS ===== */
+
+/* Sección de cursos - Pestaña flotante */
+.cursos-section {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 380px;
+  background-color: white;
+  border: 1px solid #d8c1d7;
+  border-radius: 8px;
+  padding: 0.8rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  height: auto;
+  max-height: 75vh;
+  overflow: visible;
+  transition: box-shadow 0.2s ease, transform 0.1s ease;
+  cursor: grab;
+  user-select: none;
+}
+
+.cursos-section:active {
+  cursor: grabbing;
+}
+
+.cursos-section.dragging {
+  opacity: 0.9;
+  transform: scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  z-index: 1001;
+  transition: none;
+}
+
+.cursos-section label {
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  color: #000;
+  font-size: 0.8rem;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  display: block;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Sección del tablero de horarios */
+.horario-section {
+  flex: 1;
+  padding: 0;
+  background-color: #f9f8f8;
+  position: relative;
+}
+
+.horario-section h2 {
+  margin: 0 0 1rem 0;
+  color: #000;
+  text-align: center;
+}
+
+/* Contenedor del tablero */
+.schedule-board-container {
+  background-color: white;
+  border-radius: 4px;
+  padding: 0;
+  overflow-x: auto;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  min-height: auto;
 }

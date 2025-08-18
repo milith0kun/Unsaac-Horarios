@@ -3,38 +3,48 @@
 
 .schedule-board {
   width: 100%;
+  height: auto;
+  max-height: calc(100vh - 200px); /* Altura máxima basada en viewport */
   background-color: #FFFFFF;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: clamp(10px, 2.5vw, 14px);
+  overflow: hidden; /* Sin scroll en el contenedor principal */
+  box-sizing: border-box;
+  margin: 0; /* Márgenes laterales responsivos */
 }
 
 .schedule-container {
   width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  height: 100%;
+  overflow: hidden; /* Eliminar completamente cualquier scroll */
   box-sizing: border-box;
-  /* Mejoras para dispositivos táctiles */
-  scroll-behavior: smooth;
-  overscroll-behavior-x: contain;
+  display: flex;
+  flex-direction: column;
 }
 
 .schedule-grid {
   display: grid;
-  grid-template-columns: 120px repeat(6, 1fr);
-  min-width: 700px;
+  grid-template-columns: auto repeat(6, 1fr); /* Completamente fluido sin minmax */
+  grid-template-rows: auto repeat(auto-fit, 1fr); /* Filas completamente fluidas */
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
   gap: 0;
   background-color: #FFFFFF;
   border: 1px solid #d8c1d7;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: clamp(8px, 2vw, 14px);
   text-align: center;
+  box-sizing: border-box;
+  overflow: hidden; /* Prevenir cualquier overflow */
 }
 
 /* Celda esquina */
 .celda-esquina {
   background-color: #939bc6;
   color: #000;
-  padding: 0.5rem;
+  padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+  margin: 0;
   font-weight: bold;
   text-align: center;
   border: thin solid #d8c1d7;
@@ -42,14 +52,18 @@
   align-items: center;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: clamp(8px, 2vw, 12px); /* Tamaño unificado */
+  height: clamp(20px, 3.5vh, 35px); /* Altura unificada con todas las celdas */
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 /* Encabezados de días */
 .encabezado-dia {
   background-color: #939ac6c9;
   color: #000;
-  padding: 0.6rem;
+  padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+  margin: 0;
   font-weight: bold;
   text-align: center;
   border: thin solid #d8c1d7;
@@ -57,13 +71,17 @@
   align-items: center;
   justify-content: center;
   font-family: "Lucida Sans Unicode";
-  font-size: 16px;
+  font-size: clamp(8px, 2vw, 12px); /* Tamaño unificado */
+  height: clamp(20px, 3.5vh, 35px); /* Altura unificada con todas las celdas */
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 /* Encabezados de horas */
 .encabezado-hora {
   background-color: #b99dc4b9;
-  padding: 0.5rem;
+  padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+  margin: 0;
   font-weight: 500;
   text-align: center;
   border-top: 1px solid #d8c1d7;
@@ -72,8 +90,11 @@
   align-items: center;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: clamp(8px, 2vw, 12px); /* Tamaño unificado */
   color: #000;
+  height: clamp(20px, 3.5vh, 35px); /* Altura unificada */
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 /* Celdas de horario */
@@ -81,18 +102,21 @@
   background-color: #FFFFFF;
   border-top: 1px solid #d8c1d7;
   border-left: 1px solid #d8c1d7;
-  min-height: 30px;
-  padding: 0.2rem;
+  height: clamp(20px, 3.5vh, 35px); /* Misma altura que encabezado-hora */
+  padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Mismo padding que encabezado-hora */
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: clamp(8px, 2vw, 12px); /* Mismo tamaño que encabezado-hora */
   text-align: center;
   position: relative;
-  /* Optimización: transición más rápida y solo para opacity */
+  box-sizing: border-box;
   transition: opacity 0.1s ease;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden; /* Prevenir overflow */
 }
 
 .celda-horario:hover {
@@ -112,8 +136,8 @@
 /* Mejoras para dispositivos táctiles */
 @media (hover: none) and (pointer: coarse) {
   .celda-horario {
-    min-height: 35px; /* Aumentar altura para mejor toque */
-    padding: 0.2rem;
+    min-height: 30px; /* Mantener altura consistente */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Mismo padding que encabezado-hora */
     touch-action: manipulation; /* Optimizar para toque */
   }
   
@@ -286,40 +310,75 @@
 
 /* Contenido del curso en la celda */
 .curso-celda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   width: 100%;
   text-align: center;
-  font-size: 12px;
-  line-height: 1.3;
+  font-size: clamp(6px, 1.6vw, 10px); /* Tamaño reducido */
+  line-height: 1.0; /* Line-height reducido */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 3px;
+  padding: clamp(0.5px, 0.2vw, 1px); /* Padding muy reducido */
+  margin: 0;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
 }
 
 .curso-codigo {
-  font-weight: 900;
-  margin: 0 0 2px 0;
-  font-size: 14px;
-  color: #000000;
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
   font-weight: bold;
+  font-size: clamp(5px, 1.4vw, 9px); /* Tamaño reducido */
+  margin: 0;
+  color: #2c3e50;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  text-align: center;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .curso-nombre {
-  font-size: 11px;
-  margin-bottom: 0.2rem;
-  word-wrap: break-word;
+  font-size: clamp(4px, 1.2vw, 8px); /* Tamaño reducido */
+  margin: 0;
+  color: #34495e;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  opacity: 0.9;
-  
-  color: #000000 !important;
+  line-height: 1.0; /* Line-height reducido */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  text-align: center;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .curso-aula {
-  font-size: 10px;
+  font-size: clamp(3px, 1vw, 7px); /* Tamaño reducido */
+  color: #7f8c8d;
+  font-weight: 400;
   font-style: italic;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  opacity: 0.8;
-  color: #000000 !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  margin: 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 /* Estilos para conflictos de horarios */
@@ -358,179 +417,304 @@
 
 /* ===== DISEÑO RESPONSIVO PARA TABLERO ===== */
 
-/* Tablets (769px - 1024px) */
+/* Tablets grandes (769px - 1024px) */
 @media (max-width: 1024px) and (min-width: 769px) {
+  .schedule-board {
+    margin: 0 clamp(0.75rem, 2.5vw, 1.5rem); /* Márgenes ajustados para tablets */
+  }
+  
   .schedule-grid {
-    grid-template-columns: 110px repeat(6, minmax(90px, 1fr));
-    min-width: 650px;
-    font-size: 12px;
+    grid-template-columns: auto repeat(6, 1fr);
+    width: 100%;
+    font-size: clamp(9px, 2vw, 11px); /* Reducido */
+    overflow: hidden;
   }
   
   .celda-esquina {
-    font-size: 12px;
-    padding: 0.5rem;
+    height: clamp(20px, 3.5vh, 35px); /* Altura unificada */
+    font-size: clamp(8px, 1.8vw, 10px); /* Tamaño unificado */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
   }
   
   .encabezado-dia {
-    font-size: 13px;
-    padding: 0.5rem;
+    height: clamp(20px, 3.5vh, 35px); /* Altura unificada */
+    font-size: clamp(8px, 1.8vw, 10px); /* Tamaño unificado */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
   }
   
   .encabezado-hora {
-    font-size: 11px;
-    padding: 0.4rem;
+    height: clamp(20px, 3.5vh, 35px); /* Altura unificada */
+    font-size: clamp(8px, 1.8vw, 10px); /* Tamaño unificado */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+  }
+  
+  .celda-horario {
+    height: clamp(20px, 3.5vh, 35px); /* Altura unificada */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
   }
   
   .curso-codigo {
-    font-size: 12px;
+    font-size: clamp(8px, 1.8vw, 10px); /* Reducido */
   }
   
   .curso-nombre {
-    font-size: 10px;
+    font-size: clamp(7px, 1.6vw, 8px); /* Reducido */
   }
   
   .curso-aula {
-    font-size: 9px;
+    font-size: clamp(6px, 1.3vw, 7px); /* Reducido */
   }
 }
 
 /* Tablets pequeños y móviles grandes (481px - 768px) */
 @media (max-width: 768px) and (min-width: 481px) {
+  .schedule-board {
+    max-height: calc(70vh - 60px); /* Altura proporcionalmente reducida */
+    overflow: hidden;
+    margin: 0 clamp(0.5rem, 1.5vw, 1rem);
+  }
+  
   .schedule-container {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
     width: 100%;
+    height: 100%;
+    padding: 0;
   }
   
   .schedule-grid {
-    grid-template-columns: 80px repeat(6, minmax(70px, 1fr));
-    min-width: 520px;
-    font-size: 13px;
+    grid-template-columns: auto repeat(6, 1fr);
+    grid-template-rows: auto repeat(auto-fit, 1fr);
     width: 100%;
+    height: 100%;
+    max-width: 100vw;
+    font-size: clamp(13px, 2.5vw, 15px); /* Tamaño legible para tablets */
+    overflow: hidden;
   }
   
   .celda-esquina {
-    font-size: 13px;
-    padding: 0.4rem;
+    height: clamp(18px, 3vh, 30px); /* Altura unificada */
+    font-size: clamp(12px, 2.5vw, 14px); /* Tamaño unificado */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    overflow: hidden;
   }
   
   .encabezado-dia {
-    font-size: 14px;
-    padding: 0.4rem;
+    height: clamp(18px, 3vh, 30px); /* Altura unificada */
+    font-size: clamp(12px, 2.5vw, 14px); /* Tamaño unificado */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    overflow: hidden;
   }
   
   .encabezado-hora {
-    font-size: 13px;
-    padding: 0.3rem;
+    height: clamp(18px, 3vh, 30px); /* Altura unificada */
+    font-size: clamp(12px, 2.5vw, 14px); /* Tamaño unificado */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    overflow: hidden;
   }
   
   .celda-horario {
-    min-height: 32px;
-    padding: 0.2rem;
+    height: clamp(18px, 3vh, 30px); /* Altura unificada */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    overflow: hidden;
+    min-height: 18px;
   }
   
   .curso-celda {
-    font-size: 12px;
-    padding: 2px;
+    font-size: clamp(11px, 2.2vw, 13px); /* Tamaño legible */
+    padding: clamp(1.5px, 0.4vw, 2.5px);
+    line-height: 1.2;
   }
 
   .curso-codigo {
-    font-size: 13px;
-    margin-bottom: 0.1rem;
+    font-size: clamp(10px, 2vw, 12px); /* Tamaño legible */
+    margin-bottom: clamp(0.8px, 0.15vw, 1.2px);
   }
 
   .curso-nombre {
-    font-size: 11px;
-    margin-bottom: 0.1rem;
+    font-size: clamp(9px, 1.8vw, 11px); /* Tamaño legible */
+    margin-bottom: clamp(0.8px, 0.15vw, 1.2px);
   }
 
   .curso-aula {
-    font-size: 10px;
+    font-size: clamp(8px, 1.6vw, 10px); /* Tamaño legible */
   }
 
   .conflict-code {
-    font-size: 10px;
+    font-size: clamp(9px, 1.8vw, 11px); /* Tamaño legible */
   }
 }
 
 /* Móviles pequeños (hasta 480px) */
 @media (max-width: 480px) {
   .schedule-board {
-    font-size: 12px;
-  }
-
-  .schedule-container {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    width: 100%;
-  }
-
-  .schedule-grid {
-    grid-template-columns: 70px repeat(6, minmax(60px, 1fr));
-    min-width: 450px;
-    font-size: 12px;
-    width: 100%;
-  }
-
-  .celda-esquina {
-    font-size: 12px;
-    padding: 0.3rem;
-  }
-
-  .encabezado-dia {
-    font-size: 13px;
-    padding: 0.3rem;
-  }
-
-  .encabezado-hora {
-    font-size: 12px;
-    padding: 0.25rem;
-  }
-
-  .celda-horario {
-    min-height: 35px; /* Aumentar para mejor toque */
-    padding: 0.2rem;
+    max-height: calc(60vh - 50px); /* Altura significativamente reducida */
+    overflow: hidden;
+    margin: 0 clamp(0.25rem, 1vw, 0.75rem);
   }
   
-  /* Optimizaciones adicionales para táctil */
+  .schedule-container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  
   .schedule-grid {
-    touch-action: pan-x pan-y;
+    grid-template-columns: auto repeat(6, 1fr);
+    grid-template-rows: auto repeat(auto-fit, 1fr);
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
+    font-size: clamp(12px, 3vw, 14px); /* Tamaño mínimo legible */
+    touch-action: manipulation;
+    overflow: hidden;
+  }
+  
+  .celda-esquina {
+    height: clamp(16px, 2.5vh, 25px); /* Altura unificada */
+    font-size: clamp(11px, 2.8vw, 13px); /* Tamaño unificado */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    overflow: hidden;
+  }
+  
+  .encabezado-dia {
+    height: clamp(16px, 2.5vh, 25px); /* Altura unificada */
+    font-size: clamp(11px, 2.8vw, 13px); /* Tamaño unificado */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    overflow: hidden;
+  }
+  
+  .encabezado-hora {
+    height: clamp(16px, 2.5vh, 25px); /* Altura unificada */
+    font-size: clamp(11px, 2.8vw, 13px); /* Tamaño unificado */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    overflow: hidden;
+  }
+  
+  .celda-horario {
+    height: clamp(16px, 2.5vh, 25px); /* Altura unificada */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    touch-action: manipulation;
+    overflow: hidden;
+    min-height: 16px;
   }
   
   .curso-celda {
-    pointer-events: none; /* Evitar interferencia con eventos táctiles */
+    font-size: clamp(10px, 2.5vw, 12px); /* Tamaño legible */
+    padding: clamp(1px, 0.3vw, 2px);
+    line-height: 1.1;
+    touch-action: manipulation;
   }
   
-  .curso-codigo, .curso-nombre, .curso-aula {
-    pointer-events: none;
+  .curso-codigo {
+    font-size: clamp(9px, 2.3vw, 11px); /* Tamaño legible */
+    margin-bottom: clamp(0.5px, 0.1vw, 1px);
+  }
+  
+  .curso-nombre {
+    font-size: clamp(8px, 2vw, 10px); /* Tamaño legible */
+    margin-bottom: clamp(0.5px, 0.1vw, 1px);
+  }
+  
+  .curso-aula {
+    font-size: clamp(7px, 1.8vw, 9px); /* Tamaño legible */
+  }
+  
+  .conflict-code {
+    font-size: clamp(8px, 2vw, 10px); /* Tamaño legible */
+  }
+  
+  .conflict-course {
+    font-size: clamp(7px, 1.8vw, 9px); /* Tamaño legible */
   }
 }
 
+/* Móviles muy pequeños (hasta 360px) */
+@media (max-width: 360px) {
+  .schedule-board {
+    max-height: calc(55vh - 40px); /* Altura muy reducida pero proporcional */
+    overflow: hidden;
+    margin: 0 clamp(0.125rem, 0.5vw, 0.5rem);
+  }
+  
+  .schedule-container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  
+  .schedule-grid {
+    grid-template-columns: auto repeat(6, 1fr);
+    grid-template-rows: auto repeat(auto-fit, 1fr);
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
+    font-size: clamp(11px, 3.2vw, 13px); /* Tamaño mínimo legible */
+    touch-action: manipulation;
+    overflow: hidden;
+  }
+  
+  .celda-esquina {
+    height: clamp(14px, 2.2vh, 22px); /* Altura unificada */
+    font-size: clamp(10px, 2.8vw, 12px); /* Tamaño unificado */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    overflow: hidden;
+  }
+  
+  .encabezado-dia {
+    height: clamp(14px, 2.2vh, 22px); /* Altura unificada */
+    font-size: clamp(10px, 2.8vw, 12px); /* Tamaño unificado */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    overflow: hidden;
+  }
+  
+  .encabezado-hora {
+    height: clamp(14px, 2.2vh, 22px); /* Altura unificada */
+    font-size: clamp(10px, 2.8vw, 12px); /* Tamaño unificado */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    overflow: hidden;
+  }
+  
+  .celda-horario {
+    height: clamp(14px, 2.2vh, 22px); /* Altura unificada */
+    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    touch-action: manipulation;
+    overflow: hidden;
+  }
+  
   .curso-celda {
-    font-size: 11px;
-    padding: 2px;
-    line-height: 1.2;
+    font-size: clamp(9px, 2.8vw, 11px); /* Tamaño legible */
+    padding: clamp(0.8px, 0.25vw, 1.5px);
+    line-height: 1.0;
+    touch-action: manipulation;
+    overflow: hidden;
   }
-
+  
   .curso-codigo {
-    font-size: 12px;
-    margin-bottom: 0.05rem;
+    font-size: clamp(8px, 2.5vw, 10px); /* Tamaño legible */
+    margin-bottom: clamp(0.4px, 0.08vw, 0.8px);
+    overflow: hidden;
   }
-
+  
   .curso-nombre {
-    font-size: 10px;
-    margin-bottom: 0.05rem;
+    font-size: clamp(7px, 2.2vw, 9px); /* Tamaño legible */
+    margin-bottom: clamp(0.4px, 0.08vw, 0.8px);
+    overflow: hidden;
   }
-
+  
   .curso-aula {
-    font-size: 9px;
+    font-size: clamp(6px, 1.8vw, 8px); /* Tamaño legible */
+    overflow: hidden;
   }
-
+  
   .conflict-code {
-    font-size: 9px;
+    font-size: clamp(7px, 2.2vw, 9px); /* Tamaño legible */
+    overflow: hidden;
   }
-
+  
   .conflict-course {
-    padding: 1px 3px;
-    margin: 1px;
+    font-size: clamp(6px, 1.8vw, 8px); /* Tamaño legible */
+    overflow: hidden;
   }
+}

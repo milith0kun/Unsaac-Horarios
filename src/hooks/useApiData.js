@@ -14,6 +14,25 @@ export function useApiData() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  // Datos de fallback para cuando el backend no esté disponible
+  const datosFallback = {
+    facultades: [
+      { id: 1, nombre: 'Facultad de Ingeniería' },
+      { id: 2, nombre: 'Facultad de Ciencias' },
+      { id: 3, nombre: 'Facultad de Educación' }
+    ],
+    escuelas: [
+      { id: 1, nombre: 'Escuela de Ingeniería de Sistemas', facultadId: 1 },
+      { id: 2, nombre: 'Escuela de Ingeniería Civil', facultadId: 1 },
+      { id: 3, nombre: 'Escuela de Matemáticas', facultadId: 2 }
+    ],
+    cursos: [
+      { id: 1, codigo: 'IS101', nombre: 'Programación I', escuelaId: 1, creditos: 4 },
+      { id: 2, codigo: 'IS102', nombre: 'Algoritmos', escuelaId: 1, creditos: 3 },
+      { id: 3, codigo: 'IC101', nombre: 'Cálculo I', escuelaId: 2, creditos: 4 }
+    ]
+  };
+
   const cargarDatosIniciales = useCallback(async () => {
     if (datosInicializados) {
       console.log('Datos ya inicializados, retornando:', todosLosDatos);
@@ -43,9 +62,21 @@ export function useApiData() {
       
     } catch (err) {
       const errorMessage = `Error cargando datos iniciales: ${err.message}`;
-      setError(errorMessage);
-      console.error(errorMessage, err);
-      throw err;
+      console.warn('⚠️ Backend no disponible, usando datos de fallback:', errorMessage);
+      
+      // Usar datos de fallback cuando el backend no esté disponible
+      setTodosLosDatos(datosFallback);
+      setFacultades(datosFallback.facultades);
+      setDatosInicializados(true);
+      setError('Modo offline: Usando datos de demostración');
+      
+      console.log('✅ Datos de fallback cargados:', {
+        facultades: datosFallback.facultades.length,
+        escuelas: datosFallback.escuelas.length,
+        cursos: datosFallback.cursos.length
+      });
+      
+      return { success: true, data: datosFallback };
     } finally {
       setLoading(false);
     }
