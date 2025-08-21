@@ -8,14 +8,14 @@ const getApiBaseUrl = () => {
   if (typeof window !== 'undefined') {
     // En desarrollo (localhost)
     if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-      return 'http://localhost:3001/api';
+      return 'http://localhost:3000/api';
     }
     // En producción, usar la misma URL del frontend pero con /api
     return `${window.location.protocol}//${window.location.host}/api`;
   }
   
   // Fallback para entornos sin window (SSR, etc.)
-  return import.meta.env.VITE_API_BASE_URL || 'http://localhost:3001/api';
+  return import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api';
 };
 
 const API_BASE_URL = getApiBaseUrl();
@@ -38,7 +38,7 @@ export class ApiService {
   static getApiBaseUrl() {
     // En desarrollo, usar el servidor local
     if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
-      return 'http://localhost:3001/api';
+      return 'http://localhost:3000/api';
     }
     // En producción, usar la URL actual
     return '/api';

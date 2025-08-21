@@ -12,17 +12,97 @@ const CourseSelector = memo(({
   onCursoToggle,
   onLimpiarSeleccion,
   loading = false,
-  disabled = false,
-  position = { x: 20, y: 100 },
-  onPositionChange
+  disabled = false
 }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [showCursosList, setShowCursosList] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
-  const [touchStartPos, setTouchStartPos] = useState({ x: 0, y: 0 });
   const [hasMoved, setHasMoved] = useState(false);
+  const [touchStartPos, setTouchStartPos] = useState({ x: 0, y: 0 });
+  const [internalPosition, setInternalPosition] = useState({ x: 20, y: 100 });
   
+  // Ref para optimización de animaciones
+  const animationFrameRef = useRef(null);
+  const lastPositionRef = useRef(internalPosition);
+  const resizeTimeoutRef = useRef(null);
+
+  // Estado para detectar si estamos en modo flotante (pantallas grandes)
+  const [isFloatingMode, setIsFloatingMode] = useState(() => window.innerWidth >= 1025);
+  
+  // Efecto para detectar cambios en el tamaño de pantalla
+  useEffect(() => {
+    const handleResize = () => {
+      const newIsFloatingMode = window.innerWidth >= 1025;
+      setIsFloatingMode(newIsFloatingMode);
+      
+      // Si cambiamos a modo no flotante, resetear posición
+      if (!newIsFloatingMode && isDragging) {
+        setIsDragging(false);
+      }
+    };
+    
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [isDragging]);
+
+  // Función para calcular límites de pantalla (reutilizable)
+  const calculateScreenLimits = useCallback(() => {
+    const screenWidth = window.innerWidth || 1024; // Fallback por seguridad
+    const screenHeight = window.innerHeight || 768; // Fallback por seguridad
+    const componentWidth = 320;
+    
+    let minX, maxX;
+    
+    if (screenWidth >= 1200) {
+      minX = -componentWidth + 50;
+      maxX = screenWidth - 50;
+    } else if (screenWidth >= 768) {
+      minX = -componentWidth + 80;
+      maxX = screenWidth - 80;
+    } else {
+      minX = -componentWidth + 120;
+      maxX = screenWidth - 40;
+    }
+    
+    return {
+      minX,
+      maxX,
+      minY: 0,
+      maxY: screenHeight - 40
+    };
+  }, []);
+
+  // Memoizar límites de pantalla para evitar cálculos repetitivos
+  const screenLimits = useMemo(() => calculateScreenLimits(), [calculateScreenLimits]);
+
+  // Función optimizada para actualizar posición con requestAnimationFrame
+  const updatePositionSmooth = useCallback((newX, newY) => {
+    if (!isFloatingMode) return; // Solo funcionar en modo flotante
+    
+    if (animationFrameRef.current) {
+      cancelAnimationFrame(animationFrameRef.current);
+    }
+    
+    animationFrameRef.current = requestAnimationFrame(() => {
+      try {
+        const { minX, maxX, minY, maxY } = screenLimits;
+        
+        const newPosition = {
+          x: Math.max(minX, Math.min(newX, maxX)),
+          y: Math.max(minY, Math.min(newY, maxY))
+        };
+        
+        // Actualizar posición interna si realmente cambió
+        if (newPosition.x !== lastPositionRef.current.x || newPosition.y !== lastPositionRef.current.y) {
+          lastPositionRef.current = newPosition;
+          setInternalPosition(newPosition);
+        }
+      } catch (error) {
+        console.warn('Error updating position:', error);
+      }
+    });
+  }, [screenLimits, isFloatingMode]);
   const cursosSectionRef = useRef(null);
 
   // Filtrar cursos: excluir seleccionados y aplicar búsqueda
@@ -85,30 +165,33 @@ const CourseSelector = memo(({
 
   // Funciones de arrastre para mouse
   const handleMouseDown = useCallback((e) => {
+    if (!isFloatingMode) return; // Solo funcionar en modo flotante
+    
+    // Verificar si el elemento es arrastrable
     const isDragHandle = e.target.closest('.drag-handle');
-    const isLabel = e.target.tagName === 'LABEL' || e.target.closest('label');
+    const isHeader = e.target.closest('.course-selector-header');
     
+    // Evitar arrastre en elementos interactivos
     if (e.target.closest('.curso-item') || e.target.closest('.search-input') || 
-        e.target.closest('.clear-search') || e.target.closest('input[type="checkbox"]')) {
+        e.target.closest('.clear-search') || e.target.closest('input[type="checkbox"]') ||
+        e.target.closest('button')) {
       return;
     }
     
-    if (!isDragHandle && !isLabel) {
+    // Solo permitir arrastre desde el handle o header
+    if (!isDragHandle && !isHeader) {
       return;
-    }
-    
-    if (isLabel) {
-      e.stopPropagation();
     }
     
     e.preventDefault();
+    e.stopPropagation();
     setIsDragging(true);
     
     setDragOffset({
-      x: e.clientX - position.x,
-      y: e.clientY - position.y
+      x: e.clientX - internalPosition.x,
+      y: e.clientY - internalPosition.y
     });
-  }, [position.x, position.y]);
+  }, [internalPosition.x, internalPosition.y, isFloatingMode]);
 
   const handleMouseMove = useCallback((e) => {
     if (!isDragging) return;
@@ -118,35 +201,36 @@ const CourseSelector = memo(({
     const newX = e.clientX - dragOffset.x;
     const newY = e.clientY - dragOffset.y;
     
-    const minX = -300;
-    const minY = -50;
-    const maxX = window.innerWidth - 50;
-    const maxY = window.innerHeight - 50;
-    
-    const newPosition = {
-      x: Math.max(minX, Math.min(newX, maxX)),
-      y: Math.max(minY, Math.min(newY, maxY))
-    };
-    
-    onPositionChange?.(newPosition);
-  }, [isDragging, dragOffset, onPositionChange]);
+    // Usar la función optimizada para actualizar posición
+    updatePositionSmooth(newX, newY);
+  }, [isDragging, dragOffset, updatePositionSmooth]);
 
   const handleMouseUp = useCallback(() => {
     setIsDragging(false);
+    // Limpiar cualquier animación pendiente
+    if (animationFrameRef.current) {
+      cancelAnimationFrame(animationFrameRef.current);
+      animationFrameRef.current = null;
+    }
   }, []);
 
   // Funciones de arrastre para touch
   const handleTouchStart = useCallback((e) => {
+    if (!isFloatingMode) return; // Solo funcionar en modo flotante
+    
     const target = e.target;
     const isDragHandle = target.closest('.drag-handle');
-    const isLabel = target.tagName === 'LABEL' || target.closest('label');
+    const isHeader = target.closest('.course-selector-header');
     
+    // Evitar arrastre en elementos interactivos
     if (target.closest('.curso-item') || target.closest('.search-input') || 
-        target.closest('.clear-search') || target.closest('input[type="checkbox"]')) {
+        target.closest('.clear-search') || target.closest('input[type="checkbox"]') ||
+        target.closest('button')) {
       return;
     }
     
-    if (!isDragHandle && !isLabel) {
+    // Solo permitir arrastre desde el handle o header
+    if (!isDragHandle && !isHeader) {
       return;
     }
     
@@ -160,10 +244,10 @@ const CourseSelector = memo(({
     setHasMoved(false);
     
     setDragOffset({
-      x: touch.clientX - position.x,
-      y: touch.clientY - position.y
+      x: touch.clientX - internalPosition.x,
+      y: touch.clientY - internalPosition.y
     });
-  }, [position.x, position.y]);
+  }, [internalPosition.x, internalPosition.y, isFloatingMode]);
 
   const handleTouchMove = useCallback((e) => {
     const touch = e.touches[0];
@@ -197,35 +281,19 @@ const CourseSelector = memo(({
     const newX = touch.clientX - dragOffset.x;
     const newY = touch.clientY - dragOffset.y;
     
-    const minX = -300;
-    const minY = -50;
-    const maxX = window.innerWidth - 50;
-    const maxY = window.innerHeight - 50;
-    
-    const newPosition = {
-      x: Math.max(minX, Math.min(newX, maxX)),
-      y: Math.max(minY, Math.min(newY, maxY))
-    };
-    
-    onPositionChange?.(newPosition);
-  }, [isDragging, dragOffset, touchStartPos.x, touchStartPos.y, hasMoved, onPositionChange]);
+    // Usar la función optimizada para actualizar posición
+    updatePositionSmooth(newX, newY);
+  }, [isDragging, hasMoved, dragOffset, touchStartPos, updatePositionSmooth]);
 
-  const handleTouchEnd = useCallback((e) => {
-    if (!hasMoved) {
-      // No hacer nada, dejar que el evento click natural funcione
-    } else {
-      try {
-        if (e.cancelable) {
-          e.preventDefault();
-        }
-      } catch {
-         // Ignorar errores
-       }
-    }
-    
+  const handleTouchEnd = useCallback(() => {
     setIsDragging(false);
     setHasMoved(false);
-  }, [hasMoved]);
+    // Limpiar cualquier animación pendiente
+    if (animationFrameRef.current) {
+      cancelAnimationFrame(animationFrameRef.current);
+      animationFrameRef.current = null;
+    }
+  }, []);
 
   // Efectos para eventos de arrastre
   useEffect(() => {
@@ -243,6 +311,46 @@ const CourseSelector = memo(({
     }
   }, [handleTouchStart, handleTouchMove, handleTouchEnd]);
 
+  // Efecto para ajustar posición en cambios de tamaño de pantalla (solo en modo flotante)
+  useEffect(() => {
+    if (!isFloatingMode) return;
+    
+    const handleResize = () => {
+      // Throttling para mejorar rendimiento
+      if (resizeTimeoutRef.current) {
+        clearTimeout(resizeTimeoutRef.current);
+      }
+      
+      resizeTimeoutRef.current = setTimeout(() => {
+        try {
+          // Usar la función compartida para calcular límites
+          const { minX, maxX, minY, maxY } = calculateScreenLimits();
+          
+          // Ajustar posición actual si está fuera de los nuevos límites
+          const adjustedPosition = {
+            x: Math.max(minX, Math.min(internalPosition.x, maxX)),
+            y: Math.max(minY, Math.min(internalPosition.y, maxY))
+          };
+          
+          // Solo actualizar si la posición cambió
+          if (adjustedPosition.x !== internalPosition.x || adjustedPosition.y !== internalPosition.y) {
+            setInternalPosition(adjustedPosition);
+          }
+        } catch (error) {
+          console.warn('Error handling resize:', error);
+        }
+      }, 100); // Throttle de 100ms
+    };
+    
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      if (resizeTimeoutRef.current) {
+        clearTimeout(resizeTimeoutRef.current);
+      }
+    };
+  }, [internalPosition, isFloatingMode, calculateScreenLimits]);
+
   useEffect(() => {
     if (isDragging) {
       document.addEventListener('mousemove', handleMouseMove);
@@ -257,6 +365,15 @@ const CourseSelector = memo(({
     }
   }, [isDragging, handleMouseMove, handleMouseUp]);
 
+  // Limpiar animaciones al desmontar el componente
+  useEffect(() => {
+    return () => {
+      if (animationFrameRef.current) {
+        cancelAnimationFrame(animationFrameRef.current);
+      }
+    };
+  }, []);
+
   if (cursos.length === 0) {
     return null;
   }
@@ -265,18 +382,18 @@ const CourseSelector = memo(({
     <div 
       ref={cursosSectionRef}
       className={`course-selector ${isDragging ? 'dragging' : ''}`}
-      style={{
-        left: `${position.x}px`,
-        top: `${position.y}px`,
+      style={isFloatingMode ? {
+        left: `${internalPosition.x}px`,
+        top: `${internalPosition.y}px`,
         right: 'auto'
-      }}
+      } : {}}
       onMouseDown={handleMouseDown}
     >
       <div className="drag-handle" title="Arrastra para mover">
         <span className="drag-icon">⋮⋮</span>
       </div>
       
-      <label onClick={handleToggleList} className="course-selector-label">
+      <div onClick={handleToggleList} className="course-selector-header">
         <div>
           <span>Cursos Disponibles {showCursosList ? '▼' : '▶'}</span>
           <div className="course-count">
@@ -286,7 +403,7 @@ const CourseSelector = memo(({
         {cursosSeleccionados.length > 0 && (
           <span className="selected-count">({cursosSeleccionados.length})</span>
         )}
-      </label>
+      </div>
       
       {loading && (
         <div className="loading-message">

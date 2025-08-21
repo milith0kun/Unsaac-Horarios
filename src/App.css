@@ -74,7 +74,7 @@ html, body {
   max-width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.5rem;
   position: relative;
   z-index: 10;
@@ -150,14 +150,18 @@ html, body {
   }
   
   .selectors-section {
-    padding: 0.5rem 0.8rem;
-    gap: 0.8rem;
-    justify-content: flex-start;
+    padding: 0.4rem 0.6rem;
+    gap: 0.6rem;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
   
   .selector-group {
-    min-width: 180px;
-    max-width: 220px;
+    min-width: 280px;
+    max-width: 350px;
     flex: 1;
   }
   
@@ -166,8 +170,12 @@ html, body {
   }
   
   .selector-group select {
-    padding: 0.4rem 0.6rem;
-    font-size: 11px;
+    padding: 0.6rem 0.8rem;
+    font-size: 14px;
+    border-radius: 6px;
+    /* Mejorar toque en móviles */
+    min-height: 44px;
+    touch-action: manipulation;
   }
 }
 
@@ -186,7 +194,10 @@ html, body {
     padding: 0.4rem 0.6rem;
     gap: 0.6rem;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
   
   .selector-group {

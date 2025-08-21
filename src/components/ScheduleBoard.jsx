@@ -50,15 +50,32 @@ const HourHeader = React.memo(({ hora }) => (
 ));
 
 // Componente para mostrar información del curso
-const CourseInfo = React.memo(({ curso }) => (
-  <div className="curso-celda">
-    <div className="curso-codigo">{curso.codigo}</div>
-    <div className="curso-nombre">{curso.nombre}</div>
-    {curso.aula && (
-      <div className="curso-aula">{curso.aula}</div>
-    )}
-  </div>
-));
+const CourseInfo = React.memo(({ curso, displayMode = 'both' }) => {
+  const renderContent = () => {
+    switch (displayMode) {
+      case 'code':
+        return <div className="curso-codigo">{curso.codigo}</div>;
+      case 'name':
+        return <div className="curso-nombre">{curso.nombre}</div>;
+      case 'both':
+      default:
+        return (
+          <div className="curso-completo">
+            <div className="curso-codigo-nombre">{curso.codigo} - {curso.nombre}</div>
+          </div>
+        );
+    }
+  };
+
+  return (
+    <div className="curso-celda">
+      {renderContent()}
+      {curso.aula && (
+        <div className="curso-aula">{curso.aula}</div>
+      )}
+    </div>
+  );
+});
 
 // Componente para mostrar información de conflicto
 const ConflictInfo = React.memo(({ cursos }) => (
@@ -72,7 +89,7 @@ const ConflictInfo = React.memo(({ cursos }) => (
 ));
 
 // Componente para celdas individuales del horario
-const ScheduleCell = React.memo(({ dia, hora, cursos = [], onCellClick }) => {
+const ScheduleCell = React.memo(({ dia, hora, cursos = [], onCellClick, displayMode }) => {
   const handleClick = () => {
     if (onCellClick) {
       onCellClick(dia, hora, cursos);
@@ -144,13 +161,13 @@ const ScheduleCell = React.memo(({ dia, hora, cursos = [], onCellClick }) => {
       }`}
     >
       {hasConflict && <ConflictInfo cursos={cursos} />}
-      {singleCourse && <CourseInfo curso={cursos[0]} />}
+      {singleCourse && <CourseInfo curso={cursos[0]} displayMode={displayMode} />}
     </div>
   );
 });
 
 // Componente para una fila completa del horario
-const ScheduleRow = React.memo(({ hora, cursos, onCellClick }) => {
+const ScheduleRow = React.memo(({ hora, cursos, onCellClick, displayMode }) => {
   // Memoizar el cálculo de cursos por celda para mejor rendimiento
   const cursosEnCeldas = useMemo(() => {
     const resultado = {};
@@ -204,6 +221,7 @@ const ScheduleRow = React.memo(({ hora, cursos, onCellClick }) => {
               hora={hora}
               cursos={cursosEnCelda}
               onCellClick={onCellClick}
+              displayMode={displayMode}
             />
           );
         })}
@@ -222,7 +240,7 @@ const DayHeaders = React.memo(() => (
 ));
 
 // Componente para todas las filas de horarios
-const ScheduleRows = React.memo(({ cursos, onCellClick }) => (
+const ScheduleRows = React.memo(({ cursos, onCellClick, displayMode }) => (
   <React.Fragment>
     {BOARD_CONFIG.HORAS.map(hora => (
       <ScheduleRow 
@@ -230,13 +248,14 @@ const ScheduleRows = React.memo(({ cursos, onCellClick }) => (
         hora={hora}
         cursos={cursos}
         onCellClick={onCellClick}
+        displayMode={displayMode}
       />
     ))}
   </React.Fragment>
 ));
 
 // Componente principal del tablero de horarios
-const ScheduleBoard = React.memo(({ cursos = [], onCellClick, className = '' }) => {
+const ScheduleBoard = React.memo(({ cursos = [], onCellClick, className = '', displayMode = 'both' }) => {
   // Memoizar los cursos para evitar re-renders innecesarios
   const memoizedCursos = useMemo(() => cursos, [cursos]);
   
@@ -250,7 +269,7 @@ const ScheduleBoard = React.memo(({ cursos = [], onCellClick, className = '' }) 
       <div className="schedule-container">
         <div className="schedule-grid">
           <DayHeaders />
-          <ScheduleRows cursos={memoizedCursos} onCellClick={onCellClick} />
+          <ScheduleRows cursos={memoizedCursos} onCellClick={onCellClick} displayMode={displayMode} />
         </div>
       </div>
     </div>

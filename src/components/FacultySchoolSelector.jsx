@@ -73,9 +73,7 @@ const FacultySchoolSelector = memo(({
 
       {selectedFacultad && (
         <div className="selector-group">
-          <label htmlFor="escuela-select" className="selector-label">
-            Escuela Profesional:
-          </label>
+         
           <div className="selector-wrapper">
             <select 
               id="escuela-select"

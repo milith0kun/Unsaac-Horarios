@@ -34,6 +34,9 @@ const HorarioApp = React.memo(({
   // Estado para pestañas móviles
   const [activeTab, setActiveTab] = useState('cursos');
   const [isMobile, setIsMobile] = useState(false);
+  
+  // Estado para modo de visualización de cursos
+  const [displayMode, setDisplayMode] = useState('both'); // 'code', 'name', 'both'
 
   // Detectar si es dispositivo móvil
   useEffect(() => {
@@ -428,12 +431,38 @@ const HorarioApp = React.memo(({
         </div>
       </div>
 
+      {/* Control de visualización */}
+      <div className="display-controls">
+        <button 
+          className={`btn-display-mode ${displayMode === 'code' ? 'active' : ''}`}
+          onClick={() => setDisplayMode('code')}
+          title="Mostrar solo código"
+        >
+          Código
+        </button>
+        <button 
+          className={`btn-display-mode ${displayMode === 'name' ? 'active' : ''}`}
+          onClick={() => setDisplayMode('name')}
+          title="Mostrar solo nombre"
+        >
+          Nombre
+        </button>
+        <button 
+          className={`btn-display-mode ${displayMode === 'both' ? 'active' : ''}`}
+          onClick={() => setDisplayMode('both')}
+          title="Mostrar código y nombre"
+        >
+          Ambos
+        </button>
+      </div>
+
       {/* Tablero de Horarios */}
       <div className="tablero-horario" ref={tableroRef}>
         <ScheduleBoard 
           cursos={cursosParaTablero}
           onCellClick={handleCellClick}
           loading={loading}
+          displayMode={displayMode}
         />
       </div>
 

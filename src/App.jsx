@@ -62,8 +62,6 @@ const App = React.memo(() => {
     }
   }, [cursosSeleccionados, removerCurso, agregarCurso]);
 
-
-
   return (
     <div className="app">
       <header className="app-header">
@@ -82,18 +80,6 @@ const App = React.memo(() => {
             loading={loading}
             error={error}
           />
-        </div>
-
-        <div className="horario-section">
-          <div className="schedule-board-container">
-            <HorarioApp 
-              cursosSeleccionados={cursosSeleccionados}
-              conflictos={conflictos}
-              onRemoverCurso={removerCurso}
-              onLimpiarSeleccion={limpiarSeleccion}
-              loading={loading}
-            />
-          </div>
           
           {/* Course selector component */}
           {selectedEscuela && cursos && cursos.length > 0 && (
@@ -107,6 +93,18 @@ const App = React.memo(() => {
               error={error}
             />
           )}
+        </div>
+
+        <div className="horario-section">
+          <div className="schedule-board-container">
+            <HorarioApp 
+              cursosSeleccionados={cursosSeleccionados}
+              conflictos={conflictos}
+              onRemoverCurso={removerCurso}
+              onLimpiarSeleccion={limpiarSeleccion}
+              loading={loading}
+            />
+          </div>
         </div>
       </div>
     </div>

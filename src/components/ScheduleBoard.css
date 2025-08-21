@@ -1,148 +1,202 @@
-/* ScheduleBoard.css - Estilos para el tablero de horarios */
+/* ScheduleBoard.css - Estilos optimizados para el tablero de horarios */
 /* Aplicando estilos clásicos del sistema UNSAAC */
 
+/* ===== VARIABLES CSS ===== */
+:root {
+  --color-border: #d8c1d7;
+  --color-bg-white: #FFFFFF;
+  --color-bg-esquina: #939bc6;
+  --color-bg-dia: #939ac6c9;
+  --color-bg-hora: #b99dc4b9;
+  --color-text-dark: #000000;
+  --color-text-gray: #555555;
+  --font-primary: Arial, Helvetica, sans-serif;
+  --font-secondary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-dia: "Lucida Sans Unicode";
+  --transition-fast: 0.1s ease;
+  --shadow-hover: 0 2px 8px rgba(0,0,0,0.15);
+  --scrollbar-bg: #f1f1f1;
+  --scrollbar-thumb: #c1c1c1;
+  --scrollbar-thumb-hover: #a8a8a8;
+}
+
+/* ===== CONTENEDORES PRINCIPALES ===== */
 .schedule-board {
   width: 100%;
-  height: auto;
-  max-height: calc(100vh - 200px); /* Altura máxima basada en viewport */
-  background-color: #FFFFFF;
-  font-family: Arial, Helvetica, sans-serif;
+  height: auto !important;
+  min-height: auto !important;
+  max-height: none !important;
+  background-color: var(--color-bg-white);
+  font-family: var(--font-primary);
   font-size: clamp(10px, 2.5vw, 14px);
-  overflow: hidden; /* Sin scroll en el contenedor principal */
+  overflow: visible !important;
   box-sizing: border-box;
-  margin: 0; /* Márgenes laterales responsivos */
+  margin: 0;
 }
 
 .schedule-container {
   width: 100%;
-  height: 100%;
-  overflow: hidden; /* Eliminar completamente cualquier scroll */
+  height: auto !important;
+  min-height: auto !important;
+  max-height: none !important;
+  overflow-x: auto !important;
+  overflow-y: visible !important;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-bg);
+}
+
+/* Estilos para scrollbar en navegadores webkit */
+.schedule-container::-webkit-scrollbar {
+  height: 12px;
+}
+
+.schedule-container::-webkit-scrollbar-track {
+  background: var(--scrollbar-bg);
+  border-radius: 6px;
+}
+
+.schedule-container::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 6px;
+  border: 2px solid var(--scrollbar-bg);
+}
+
+.schedule-container::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
 }
 
 .schedule-grid {
   display: grid;
-  grid-template-columns: auto repeat(6, 1fr); /* Completamente fluido sin minmax */
-  grid-template-rows: auto repeat(auto-fit, 1fr); /* Filas completamente fluidas */
+  grid-template-columns: auto repeat(6, 1fr);
+  grid-template-rows: auto repeat(auto-fit, auto) !important;
   width: 100%;
-  height: 100%;
-  max-width: 100vw;
+  min-width: 800px;
+  height: auto !important;
+  min-height: auto !important;
+  max-height: none !important;
   gap: 0;
-  background-color: #FFFFFF;
-  border: 1px solid #d8c1d7;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-bg-white);
+  border: 1px solid var(--color-border);
+  font-family: var(--font-primary);
   font-size: clamp(8px, 2vw, 14px);
   text-align: center;
   box-sizing: border-box;
-  overflow: hidden; /* Prevenir cualquier overflow */
+  overflow: visible !important;
 }
 
-/* Celda esquina */
-.celda-esquina {
-  background-color: #939bc6;
-  color: #000;
-  padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-  margin: 0;
-  font-weight: bold;
-  text-align: center;
-  border: thin solid #d8c1d7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(8px, 2vw, 12px); /* Tamaño unificado */
-  height: clamp(20px, 3.5vh, 35px); /* Altura unificada con todas las celdas */
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-/* Encabezados de días */
-.encabezado-dia {
-  background-color: #939ac6c9;
-  color: #000;
-  padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-  margin: 0;
-  font-weight: bold;
-  text-align: center;
-  border: thin solid #d8c1d7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Lucida Sans Unicode";
-  font-size: clamp(8px, 2vw, 12px); /* Tamaño unificado */
-  height: clamp(20px, 3.5vh, 35px); /* Altura unificada con todas las celdas */
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-/* Encabezados de horas */
+/* ===== ENCABEZADOS ===== */
+.celda-esquina,
+.encabezado-dia,
 .encabezado-hora {
-  background-color: #b99dc4b9;
-  padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+  padding: clamp(0.02rem, 0.3vw, 0.15rem);
   margin: 0;
-  font-weight: 500;
+  font-weight: bold;
   text-align: center;
-  border-top: 1px solid #d8c1d7;
-  border-left: 1px solid #d8c1d7;
+  border: thin solid var(--color-border);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(8px, 2vw, 12px); /* Tamaño unificado */
-  color: #000;
-  height: clamp(20px, 3.5vh, 35px); /* Altura unificada */
+  font-size: clamp(8px, 2vw, 12px);
+  min-height: clamp(16px, 2.5vh, 25px);
+  height: auto;
   box-sizing: border-box;
+  line-height: 1.1;
+  color: var(--color-text-dark);
+}
+
+.celda-esquina {
+  background-color: var(--color-bg-esquina);
+  font-family: var(--font-primary);
+  overflow: visible;
+}
+
+.encabezado-dia {
+  background-color: var(--color-bg-dia);
+  font-family: var(--font-dia);
   overflow: hidden;
 }
 
-/* Celdas de horario */
+.encabezado-hora {
+  background-color: var(--color-bg-hora);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  border-top: 1px solid var(--color-border);
+  border-left: 1px solid var(--color-border);
+  overflow: hidden;
+}
+
+/* ===== CELDAS DE HORARIO ===== */
 .celda-horario {
-  background-color: #FFFFFF;
-  border-top: 1px solid #d8c1d7;
-  border-left: 1px solid #d8c1d7;
-  height: clamp(20px, 3.5vh, 35px); /* Misma altura que encabezado-hora */
-  padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Mismo padding que encabezado-hora */
+  background-color: var(--color-bg-white);
+  border-top: 1px solid var(--color-border);
+  border-left: 1px solid var(--color-border);
+  min-height: clamp(12px, 2vh, 18px) !important;
+  height: auto !important;
+  max-height: none !important;
+  padding: clamp(0.02rem, 0.15vw, 0.08rem) !important;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(8px, 2vw, 12px); /* Mismo tamaño que encabezado-hora */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: var(--font-primary);
+  font-size: clamp(8px, 2vw, 12px);
   text-align: center;
   position: relative;
   box-sizing: border-box;
-  transition: opacity 0.1s ease;
+  transition: opacity var(--transition-fast);
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
-  overflow: hidden; /* Prevenir overflow */
+  overflow: visible !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  line-height: 1.0 !important;
 }
 
+/* Variaciones específicas de altura */
+.celda-horario:has(.curso-codigo:only-child),
+.celda-horario:has(.curso-nombre:only-child) {
+  min-height: clamp(12px, 2vh, 18px) !important;
+  padding: clamp(0.15rem, 0.3vw, 0.25rem) !important;
+  height: auto !important;
+}
+
+.celda-horario:has(.curso-codigo-nombre) {
+  min-height: clamp(16px, 3vh, 24px) !important;
+  padding: clamp(0.03rem, 0.2vw, 0.1rem) !important;
+  height: auto !important;
+  max-height: none !important;
+}
+
+/* Estados interactivos */
 .celda-horario:hover {
   opacity: 0.9;
-  /* Eliminado transform para mejor rendimiento */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: var(--shadow-hover);
   z-index: 1;
 }
 
-/* Estilos táctiles para dispositivos móviles */
 .celda-horario:active {
   transform: scale(0.98);
   opacity: 0.8;
-  transition: all 0.1s ease;
+  transition: all var(--transition-fast);
 }
 
-/* Mejoras para dispositivos táctiles */
+.celda-horario.libre {
+  background-color: var(--color-bg-white);
+}
+
+/* ===== ESTILOS TÁCTILES ===== */
 @media (hover: none) and (pointer: coarse) {
   .celda-horario {
-    min-height: 30px; /* Mantener altura consistente */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Mismo padding que encabezado-hora */
-    touch-action: manipulation; /* Optimizar para toque */
+    min-height: 20px;
+    padding: clamp(0.02rem, 0.3vw, 0.08rem);
+    touch-action: manipulation;
   }
   
   .celda-horario:hover {
-    transform: none; /* Desactivar hover en dispositivos táctiles */
+    transform: none;
     opacity: 1;
     box-shadow: none;
   }
@@ -150,226 +204,142 @@
   .celda-horario:active {
     background-color: rgba(147, 155, 198, 0.2);
     transform: scale(0.95);
-    transition: all 0.1s ease;
+    transition: all var(--transition-fast);
   }
 }
 
-/* Estados de celda */
-.celda-horario.libre {
-  background-color: #FFFFFF;
-}
+/* ===== PALETA DE COLORES PARA CURSOS ===== */
+.celda-horario.hor0 { background-color: #E3F2FD; color: #1565C0; border-left: 3px solid #1565C0; }
+.celda-horario.hor1 { background-color: #F3E5F5; color: #7B1FA2; border-left: 3px solid #7B1FA2; }
+.celda-horario.hor2 { background-color: #E8F5E8; color: #2E7D32; border-left: 3px solid #2E7D32; }
+.celda-horario.hor3 { background-color: #FFF3E0; color: #F57C00; border-left: 3px solid #F57C00; }
+.celda-horario.hor4 { background-color: #FCE4EC; color: #C2185B; border-left: 3px solid #C2185B; }
+.celda-horario.hor5 { background-color: #E0F2F1; color: #00695C; border-left: 3px solid #00695C; }
+.celda-horario.hor6 { background-color: #FFF8E1; color: #F9A825; border-left: 3px solid #F9A825; }
+.celda-horario.hor7 { background-color: #F1F8E9; color: #689F38; border-left: 3px solid #689F38; }
+.celda-horario.hor8 { background-color: #E8EAF6; color: #303F9F; border-left: 3px solid #303F9F; }
+.celda-horario.hor9 { background-color: #EFEBE9; color: #5D4037; border-left: 3px solid #5D4037; }
+.celda-horario.hor10 { background-color: #FAFAFA; color: #424242; border-left: 3px solid #424242; }
+.celda-horario.hor11 { background-color: #E1F5FE; color: #0277BD; border-left: 3px solid #0277BD; }
+.celda-horario.hor12 { background-color: #FFF9C4; color: #F57F17; border-left: 3px solid #F57F17; }
+.celda-horario.hor13 { background-color: #F9FBE7; color: #827717; border-left: 3px solid #827717; }
+.celda-horario.hor14 { background-color: #FFF3E0; color: #E65100; border-left: 3px solid #E65100; }
+.celda-horario.hor15 { background-color: #FCE4EC; color: #AD1457; border-left: 3px solid #AD1457; }
+.celda-horario.hor16 { background-color: #E8F5E8; color: #1B5E20; border-left: 3px solid #1B5E20; }
+.celda-horario.hor17 { background-color: #F3E5F5; color: #4A148C; border-left: 3px solid #4A148C; }
+.celda-horario.hor18 { background-color: #E0F7FA; color: #006064; border-left: 3px solid #006064; }
+.celda-horario.hor19 { background-color: #FFF8E1; color: #FF8F00; border-left: 3px solid #FF8F00; }
+.celda-horario.hor20 { background-color: #F1F8E9; color: #33691E; border-left: 3px solid #33691E; }
+.celda-horario.hor21 { background-color: #E8EAF6; color: #1A237E; border-left: 3px solid #1A237E; }
+.celda-horario.hor22 { background-color: #EFEBE9; color: #3E2723; border-left: 3px solid #3E2723; }
+.celda-horario.hor23 { background-color: #FAFAFA; color: #212121; border-left: 3px solid #212121; }
 
-/* Clase ocupada removida para permitir que los colores hor0-hor8 se apliquen */
-
-/* Paleta de colores suaves y distintivos para cursos */
-/* 12 colores únicos para mejor distinción visual */
-
-.celda-horario.hor0 {
-  background-color: #E3F2FD; /* Azul claro */
-  color: #1565C0;
-  border-left: 3px solid #1565C0;
-}
-
-.celda-horario.hor1 {
-  background-color: #F3E5F5; /* Púrpura claro */
-  color: #7B1FA2;
-  border-left: 3px solid #7B1FA2;
-}
-
-.celda-horario.hor2 {
-  background-color: #E8F5E8; /* Verde claro */
-  color: #2E7D32;
-  border-left: 3px solid #2E7D32;
-}
-
-.celda-horario.hor3 {
-  background-color: #FFF3E0; /* Naranja claro */
-  color: #F57C00;
-  border-left: 3px solid #F57C00;
-}
-
-.celda-horario.hor4 {
-  background-color: #FCE4EC; /* Rosa claro */
-  color: #C2185B;
-  border-left: 3px solid #C2185B;
-}
-
-.celda-horario.hor5 {
-  background-color: #E0F2F1; /* Turquesa claro */
-  color: #00695C;
-  border-left: 3px solid #00695C;
-}
-
-.celda-horario.hor6 {
-  background-color: #FFF8E1; /* Amarillo claro */
-  color: #F9A825;
-  border-left: 3px solid #F9A825;
-}
-
-.celda-horario.hor7 {
-  background-color: #F1F8E9; /* Lima claro */
-  color: #689F38;
-  border-left: 3px solid #689F38;
-}
-
-.celda-horario.hor8 {
-  background-color: #E8EAF6; /* Índigo claro */
-  color: #303F9F;
-  border-left: 3px solid #303F9F;
-}
-
-.celda-horario.hor9 {
-  background-color: #EFEBE9; /* Marrón claro */
-  color: #5D4037;
-  border-left: 3px solid #5D4037;
-}
-
-.celda-horario.hor10 {
-  background-color: #FAFAFA; /* Gris claro */
-  color: #424242;
-  border-left: 3px solid #424242;
-}
-
-.celda-horario.hor11 {
-  background-color: #E1F5FE; /* Cian claro */
-  color: #0277BD;
-  border-left: 3px solid #0277BD;
-}
-
-.celda-horario.hor12 {
-  background-color: #FFF9C4; /* Amarillo limón */
-  color: #F57F17;
-  border-left: 3px solid #F57F17;
-}
-
-.celda-horario.hor13 {
-  background-color: #F9FBE7; /* Verde lima claro */
-  color: #827717;
-  border-left: 3px solid #827717;
-}
-
-.celda-horario.hor14 {
-  background-color: #FFF3E0; /* Ámbar claro */
-  color: #E65100;
-  border-left: 3px solid #E65100;
-}
-
-.celda-horario.hor15 {
-  background-color: #FCE4EC; /* Rosa suave */
-  color: #AD1457;
-  border-left: 3px solid #AD1457;
-}
-
-.celda-horario.hor16 {
-  background-color: #E8F5E8; /* Verde menta */
-  color: #1B5E20;
-  border-left: 3px solid #1B5E20;
-}
-
-.celda-horario.hor17 {
-  background-color: #F3E5F5; /* Lavanda */
-  color: #4A148C;
-  border-left: 3px solid #4A148C;
-}
-
-.celda-horario.hor18 {
-  background-color: #E0F7FA; /* Aqua claro */
-  color: #006064;
-  border-left: 3px solid #006064;
-}
-
-.celda-horario.hor19 {
-  background-color: #FFF8E1; /* Crema */
-  color: #FF8F00;
-  border-left: 3px solid #FF8F00;
-}
-
-.celda-horario.hor20 {
-  background-color: #F1F8E9; /* Verde pastel */
-  color: #33691E;
-  border-left: 3px solid #33691E;
-}
-
-.celda-horario.hor21 {
-  background-color: #E8EAF6; /* Azul grisáceo */
-  color: #1A237E;
-  border-left: 3px solid #1A237E;
-}
-
-.celda-horario.hor22 {
-  background-color: #EFEBE9; /* Beige */
-  color: #3E2723;
-  border-left: 3px solid #3E2723;
-}
-
-.celda-horario.hor23 {
-  background-color: #FAFAFA; /* Gris perla */
-  color: #212121;
-  border-left: 3px solid #212121;
-}
-
-/* Contenido del curso en la celda */
+/* ===== CONTENIDO DE CURSOS ===== */
 .curso-celda {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  font-size: clamp(6px, 1.6vw, 10px); /* Tamaño reducido */
-  line-height: 1.0; /* Line-height reducido */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: clamp(0.5px, 0.2vw, 1px); /* Padding muy reducido */
-  margin: 0;
-  box-sizing: border-box;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: fit-content !important;
+  height: auto !important;
+  width: 100% !important;
+  text-align: center !important;
+  font-family: var(--font-secondary);
+  padding: clamp(0.5px, 0.2vw, 1.5px) !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
-  overflow: hidden;
+  position: relative;
+  z-index: 5;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  line-height: 1.0 !important;
+}
+
+.curso-codigo,
+.curso-nombre {
+  margin: 0;
+  color: var(--color-text-dark) !important;
+  font-weight: 600;
+  font-family: var(--font-secondary);
+  line-height: 1.0;
+  max-width: 100%;
+  text-align: center;
+  display: block !important;
+  width: 100%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  z-index: 10;
+  position: relative;
+  padding: 0;
+  border-radius: 2px;
 }
 
 .curso-codigo {
-  font-weight: bold;
-  font-size: clamp(5px, 1.4vw, 9px); /* Tamaño reducido */
-  margin: 0;
-  color: #2c3e50;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: 100%;
-  text-align: center;
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  overflow: hidden;
+  font-size: clamp(10px, 2.2vw, 14px);
 }
 
 .curso-nombre {
-  font-size: clamp(4px, 1.2vw, 8px); /* Tamaño reducido */
-  margin: 0;
-  color: #34495e;
-  font-weight: 500;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.0; /* Line-height reducido */
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: 100%;
-  text-align: center;
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  overflow: hidden;
+  font-size: clamp(8px, 1.6vw, 11px);
+}
+
+/* Estilos específicos para elementos únicos */
+.curso-celda:has(.curso-codigo:only-child) .curso-codigo {
+  font-size: clamp(8px, 1.8vw, 13px);
+  padding: 0px 1px;
+}
+
+.curso-celda:has(.curso-nombre:only-child) .curso-nombre {
+  font-size: clamp(7px, 1.4vw, 10px);
+  padding: 0px 1px;
+}
+
+/* Contenedor para modo completo */
+.curso-completo {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  padding: clamp(1px, 0.3vw, 3px) !important;
+  box-sizing: border-box !important;
+}
+
+/* Código y nombre combinados */
+.curso-codigo-nombre {
+  font-size: clamp(9px, 2.2vw, 15px) !important;
+  font-weight: 600 !important;
+  color: var(--color-text-dark) !important;
+  font-family: var(--font-secondary) !important;
+  line-height: 1.0 !important;
+  max-width: 100% !important;
+  text-align: center !important;
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  hyphens: auto !important;
+  z-index: 10;
+  position: relative;
+  padding: clamp(0.5px, 0.1vw, 1px) !important;
+  border-radius: 2px;
+  margin: 0 !important;
+  height: auto !important;
+  min-height: fit-content !important;
 }
 
 .curso-aula {
-  font-size: clamp(3px, 1vw, 7px); /* Tamaño reducido */
-  color: #7f8c8d;
-  font-weight: 400;
+  font-size: clamp(3px, 1vw, 7px);
+  color: var(--color-text-gray);
+  font-weight: 500;
   font-style: italic;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-secondary);
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 100%;
@@ -381,7 +351,7 @@
   overflow: hidden;
 }
 
-/* Estilos para conflictos de horarios */
+/* ===== CONFLICTOS DE HORARIOS ===== */
 .celda-horario.has-conflict {
   background-color: #ff4444 !important;
   border: 2px solid #cc0000;
@@ -415,306 +385,208 @@
   line-height: 1;
 }
 
-/* ===== DISEÑO RESPONSIVO PARA TABLERO ===== */
+/* ===== DISEÑO RESPONSIVO ===== */
 
 /* Tablets grandes (769px - 1024px) */
 @media (max-width: 1024px) and (min-width: 769px) {
-  .schedule-board {
-    margin: 0 clamp(0.75rem, 2.5vw, 1.5rem); /* Márgenes ajustados para tablets */
+  .schedule-board,
+  .schedule-container {
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    width: 100% !important;
   }
   
   .schedule-grid {
-    grid-template-columns: auto repeat(6, 1fr);
-    width: 100%;
-    font-size: clamp(9px, 2vw, 11px); /* Reducido */
-    overflow: hidden;
+    font-size: clamp(14px, 2.2vw, 16px) !important;
   }
   
-  .celda-esquina {
-    height: clamp(20px, 3.5vh, 35px); /* Altura unificada */
-    font-size: clamp(8px, 1.8vw, 10px); /* Tamaño unificado */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-  }
-  
-  .encabezado-dia {
-    height: clamp(20px, 3.5vh, 35px); /* Altura unificada */
-    font-size: clamp(8px, 1.8vw, 10px); /* Tamaño unificado */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-  }
-  
+  .celda-esquina,
+  .encabezado-dia,
   .encabezado-hora {
-    height: clamp(20px, 3.5vh, 35px); /* Altura unificada */
-    font-size: clamp(8px, 1.8vw, 10px); /* Tamaño unificado */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    min-height: clamp(18px, 3vh, 28px) !important;
+    font-size: clamp(12px, 2vw, 14px) !important;
+    padding: clamp(0.08rem, 0.4vw, 0.25rem) !important;
   }
   
   .celda-horario {
-    height: clamp(20px, 3.5vh, 35px); /* Altura unificada */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
+    min-height: clamp(20px, 3.5vh, 32px) !important;
+    padding: clamp(0.1rem, 0.4vw, 0.3rem) !important;
   }
   
+  .curso-celda {
+    font-size: clamp(13px, 2.5vw, 15px) !important;
+    padding: clamp(1px, 0.3vw, 2px) !important;
+  }
+
   .curso-codigo {
-    font-size: clamp(8px, 1.8vw, 10px); /* Reducido */
+    font-size: clamp(12px, 2.5vw, 14px) !important;
   }
   
   .curso-nombre {
-    font-size: clamp(7px, 1.6vw, 8px); /* Reducido */
+    font-size: clamp(10px, 2vw, 14px) !important;
   }
   
   .curso-aula {
-    font-size: clamp(6px, 1.3vw, 7px); /* Reducido */
+    font-size: clamp(9px, 1.8vw, 11px) !important;
+  }
+  
+  .conflict-code,
+  .curso-codigo-nombre {
+    font-size: clamp(10px, 2vw, 12px) !important;
+  }
+
+  .celda-horario:has(.curso-codigo:only-child),
+  .celda-horario:has(.curso-nombre:only-child) {
+    min-height: clamp(28px, 4vh, 42px) !important;
+    padding: clamp(0.2rem, 0.6vw, 0.45rem) !important;
+  }
+
+  .celda-horario:has(.curso-codigo-nombre) {
+    min-height: clamp(45px, 6.5vh, 65px) !important;
+    padding: clamp(0.3rem, 0.8vw, 0.6rem) !important;
   }
 }
 
-/* Tablets pequeños y móviles grandes (481px - 768px) */
+/* Pantallas muy grandes (1025px+) */
+@media (min-width: 1025px) {
+  .schedule-board,
+  .schedule-container {
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    overflow-x: auto !important;
+    overflow-y: visible !important;
+    width: 100% !important;
+  }
+  
+  .schedule-grid {
+    font-size: clamp(16px, 1.8vw, 18px) !important;
+    min-width: 900px;
+  }
+  
+  .celda-esquina,
+  .encabezado-dia,
+  .encabezado-hora {
+    min-height: clamp(20px, 3vh, 30px) !important;
+    font-size: clamp(14px, 1.5vw, 16px) !important;
+    padding: clamp(0.1rem, 0.4vw, 0.3rem) !important;
+  }
+  
+  .celda-horario {
+    min-height: clamp(22px, 3.5vh, 35px) !important;
+    padding: clamp(0.12rem, 0.4vw, 0.35rem) !important;
+  }
+  
+  .curso-celda {
+    font-size: clamp(15px, 2vw, 17px) !important;
+    padding: clamp(1.5px, 0.3vw, 2.5px) !important;
+  }
+
+  .curso-codigo {
+    font-size: clamp(14px, 2vw, 16px) !important;
+  }
+  
+  .curso-nombre {
+    font-size: clamp(12px, 1.8vw, 15px) !important;
+  }
+  
+  .curso-aula {
+    font-size: clamp(10px, 1.5vw, 12px) !important;
+  }
+  
+  .conflict-code,
+  .curso-codigo-nombre {
+    font-size: clamp(12px, 1.8vw, 14px) !important;
+  }
+
+  .celda-horario:has(.curso-codigo:only-child),
+  .celda-horario:has(.curso-nombre:only-child) {
+    min-height: clamp(30px, 4.5vh, 50px) !important;
+    padding: clamp(0.25rem, 0.7vw, 0.5rem) !important;
+  }
+
+  .celda-horario:has(.curso-codigo-nombre) {
+    min-height: clamp(30px, 4vh, 45px) !important;
+    padding: clamp(0.2rem, 0.5vw, 0.4rem) !important;
+  }
+}
+
+/* Tablets medianos (481px - 768px) */
 @media (max-width: 768px) and (min-width: 481px) {
-  .schedule-board {
-    max-height: calc(70vh - 60px); /* Altura proporcionalmente reducida */
-    overflow: hidden;
-    margin: 0 clamp(0.5rem, 1.5vw, 1rem);
-  }
-  
   .schedule-container {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    padding: 0;
+    overflow-x: auto !important;
+    overflow-y: visible !important;
   }
   
   .schedule-grid {
-    grid-template-columns: auto repeat(6, 1fr);
-    grid-template-rows: auto repeat(auto-fit, 1fr);
-    width: 100%;
-    height: 100%;
-    max-width: 100vw;
-    font-size: clamp(13px, 2.5vw, 15px); /* Tamaño legible para tablets */
-    overflow: hidden;
+    font-size: clamp(12px, 3vw, 14px) !important;
+    min-width: 700px;
   }
   
-  .celda-esquina {
-    height: clamp(18px, 3vh, 30px); /* Altura unificada */
-    font-size: clamp(12px, 2.5vw, 14px); /* Tamaño unificado */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-    overflow: hidden;
-  }
-  
-  .encabezado-dia {
-    height: clamp(18px, 3vh, 30px); /* Altura unificada */
-    font-size: clamp(12px, 2.5vw, 14px); /* Tamaño unificado */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-    overflow: hidden;
-  }
-  
+  .celda-esquina,
+  .encabezado-dia,
   .encabezado-hora {
-    height: clamp(18px, 3vh, 30px); /* Altura unificada */
-    font-size: clamp(12px, 2.5vw, 14px); /* Tamaño unificado */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-    overflow: hidden;
+    min-height: clamp(16px, 3vh, 26px) !important;
+    font-size: clamp(10px, 2.5vw, 12px) !important;
+    padding: clamp(0.06rem, 0.4vw, 0.2rem) !important;
   }
   
   .celda-horario {
-    height: clamp(18px, 3vh, 30px); /* Altura unificada */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-    overflow: hidden;
-    min-height: 18px;
-  }
-  
-  .curso-celda {
-    font-size: clamp(11px, 2.2vw, 13px); /* Tamaño legible */
-    padding: clamp(1.5px, 0.4vw, 2.5px);
-    line-height: 1.2;
-  }
-
-  .curso-codigo {
-    font-size: clamp(10px, 2vw, 12px); /* Tamaño legible */
-    margin-bottom: clamp(0.8px, 0.15vw, 1.2px);
-  }
-
-  .curso-nombre {
-    font-size: clamp(9px, 1.8vw, 11px); /* Tamaño legible */
-    margin-bottom: clamp(0.8px, 0.15vw, 1.2px);
-  }
-
-  .curso-aula {
-    font-size: clamp(8px, 1.6vw, 10px); /* Tamaño legible */
-  }
-
-  .conflict-code {
-    font-size: clamp(9px, 1.8vw, 11px); /* Tamaño legible */
+    min-height: clamp(18px, 3.5vh, 30px) !important;
+    padding: clamp(0.08rem, 0.4vw, 0.25rem) !important;
   }
 }
 
-/* Móviles pequeños (hasta 480px) */
-@media (max-width: 480px) {
-  .schedule-board {
-    max-height: calc(60vh - 50px); /* Altura significativamente reducida */
-    overflow: hidden;
-    margin: 0 clamp(0.25rem, 1vw, 0.75rem);
-  }
-  
+/* Móviles pequeños (320px - 480px) */
+@media (max-width: 480px) and (min-width: 320px) {
   .schedule-container {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    padding: 0;
+    overflow-x: auto !important;
+    overflow-y: visible !important;
   }
   
   .schedule-grid {
-    grid-template-columns: auto repeat(6, 1fr);
-    grid-template-rows: auto repeat(auto-fit, 1fr);
-    width: 100%;
-    height: 100%;
-    max-width: 100vw;
-    font-size: clamp(12px, 3vw, 14px); /* Tamaño mínimo legible */
-    touch-action: manipulation;
-    overflow: hidden;
+    font-size: clamp(10px, 3.5vw, 12px) !important;
+    min-width: 600px;
   }
   
-  .celda-esquina {
-    height: clamp(16px, 2.5vh, 25px); /* Altura unificada */
-    font-size: clamp(11px, 2.8vw, 13px); /* Tamaño unificado */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-    overflow: hidden;
-  }
-  
-  .encabezado-dia {
-    height: clamp(16px, 2.5vh, 25px); /* Altura unificada */
-    font-size: clamp(11px, 2.8vw, 13px); /* Tamaño unificado */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-    overflow: hidden;
-  }
-  
+  .celda-esquina,
+  .encabezado-dia,
   .encabezado-hora {
-    height: clamp(16px, 2.5vh, 25px); /* Altura unificada */
-    font-size: clamp(11px, 2.8vw, 13px); /* Tamaño unificado */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-    overflow: hidden;
+    min-height: clamp(14px, 3vh, 24px) !important;
+    font-size: clamp(8px, 3vw, 10px) !important;
+    padding: clamp(0.04rem, 0.4vw, 0.15rem) !important;
   }
   
   .celda-horario {
-    height: clamp(16px, 2.5vh, 25px); /* Altura unificada */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-    touch-action: manipulation;
-    overflow: hidden;
-    min-height: 16px;
-  }
-  
-  .curso-celda {
-    font-size: clamp(10px, 2.5vw, 12px); /* Tamaño legible */
-    padding: clamp(1px, 0.3vw, 2px);
-    line-height: 1.1;
-    touch-action: manipulation;
-  }
-  
-  .curso-codigo {
-    font-size: clamp(9px, 2.3vw, 11px); /* Tamaño legible */
-    margin-bottom: clamp(0.5px, 0.1vw, 1px);
-  }
-  
-  .curso-nombre {
-    font-size: clamp(8px, 2vw, 10px); /* Tamaño legible */
-    margin-bottom: clamp(0.5px, 0.1vw, 1px);
-  }
-  
-  .curso-aula {
-    font-size: clamp(7px, 1.8vw, 9px); /* Tamaño legible */
-  }
-  
-  .conflict-code {
-    font-size: clamp(8px, 2vw, 10px); /* Tamaño legible */
-  }
-  
-  .conflict-course {
-    font-size: clamp(7px, 1.8vw, 9px); /* Tamaño legible */
+    min-height: clamp(16px, 3.5vh, 28px) !important;
+    padding: clamp(0.06rem, 0.4vw, 0.2rem) !important;
   }
 }
 
-/* Móviles muy pequeños (hasta 360px) */
-@media (max-width: 360px) {
-  .schedule-board {
-    max-height: calc(55vh - 40px); /* Altura muy reducida pero proporcional */
-    overflow: hidden;
-    margin: 0 clamp(0.125rem, 0.5vw, 0.5rem);
-  }
-  
+/* Móviles muy pequeños (menos de 320px) */
+@media (max-width: 319px) {
   .schedule-container {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    padding: 0;
+    overflow-x: auto !important;
+    overflow-y: visible !important;
   }
   
   .schedule-grid {
-    grid-template-columns: auto repeat(6, 1fr);
-    grid-template-rows: auto repeat(auto-fit, 1fr);
-    width: 100%;
-    height: 100%;
-    max-width: 100vw;
-    font-size: clamp(11px, 3.2vw, 13px); /* Tamaño mínimo legible */
-    touch-action: manipulation;
-    overflow: hidden;
+    font-size: clamp(8px, 4vw, 10px) !important;
+    min-width: 500px;
   }
   
-  .celda-esquina {
-    height: clamp(14px, 2.2vh, 22px); /* Altura unificada */
-    font-size: clamp(10px, 2.8vw, 12px); /* Tamaño unificado */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-    overflow: hidden;
-  }
-  
-  .encabezado-dia {
-    height: clamp(14px, 2.2vh, 22px); /* Altura unificada */
-    font-size: clamp(10px, 2.8vw, 12px); /* Tamaño unificado */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-    overflow: hidden;
-  }
-  
+  .celda-esquina,
+  .encabezado-dia,
   .encabezado-hora {
-    height: clamp(14px, 2.2vh, 22px); /* Altura unificada */
-    font-size: clamp(10px, 2.8vw, 12px); /* Tamaño unificado */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-    overflow: hidden;
+    min-height: clamp(12px, 3vh, 22px) !important;
+    font-size: clamp(7px, 3.5vw, 9px) !important;
+    padding: clamp(0.03rem, 0.4vw, 0.12rem) !important;
   }
   
   .celda-horario {
-    height: clamp(14px, 2.2vh, 22px); /* Altura unificada */
-    padding: clamp(0.05rem, 0.5vw, 0.3rem); /* Padding unificado */
-    touch-action: manipulation;
-    overflow: hidden;
-  }
-  
-  .curso-celda {
-    font-size: clamp(9px, 2.8vw, 11px); /* Tamaño legible */
-    padding: clamp(0.8px, 0.25vw, 1.5px);
-    line-height: 1.0;
-    touch-action: manipulation;
-    overflow: hidden;
-  }
-  
-  .curso-codigo {
-    font-size: clamp(8px, 2.5vw, 10px); /* Tamaño legible */
-    margin-bottom: clamp(0.4px, 0.08vw, 0.8px);
-    overflow: hidden;
-  }
-  
-  .curso-nombre {
-    font-size: clamp(7px, 2.2vw, 9px); /* Tamaño legible */
-    margin-bottom: clamp(0.4px, 0.08vw, 0.8px);
-    overflow: hidden;
-  }
-  
-  .curso-aula {
-    font-size: clamp(6px, 1.8vw, 8px); /* Tamaño legible */
-    overflow: hidden;
-  }
-  
-  .conflict-code {
-    font-size: clamp(7px, 2.2vw, 9px); /* Tamaño legible */
-    overflow: hidden;
-  }
-  
-  .conflict-course {
-    font-size: clamp(6px, 1.8vw, 8px); /* Tamaño legible */
-    overflow: hidden;
+    min-height: clamp(14px, 3.5vh, 26px) !important;
+    padding: clamp(0.05rem, 0.4vw, 0.18rem) !important;
   }
 }
